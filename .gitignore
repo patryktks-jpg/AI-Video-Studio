@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# AI Video Studio Storage
+storage/intermediates/*
+storage/outputs/*
+!storage/intermediates/.gitkeep
+!storage/outputs/.gitkeep
+!storage/inputs/.gitkeep
+
+# AI Models & Weights
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+models/
+
+# Local tools & portable binaries
+tools/
+
+
+# Logs & OS artifacts
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/

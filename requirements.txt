@@ -1,0 +1,12 @@
+# AI Video Studio - Zależności projektu
+# Uwaga: Etap 3 (FFmpeg Manager) opiera się wyłącznie na bibliotece standardowej Pythona.
+# Poniższe pakiety zostaną zainstalowane w kolejnych etapach po akceptacji.
+
+# Konfiguracja i parsowanie (Etap 4+)
+# pyyaml>=6.0.1
+
+# Obsługa obrazów i klatek (Etap 4+)
+# Pillow>=10.0.0
+
+# Klient HTTP dla API ComfyUI i Ollama (Etap 4+)
+# requests>=2.31.0
