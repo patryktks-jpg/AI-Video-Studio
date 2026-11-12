@@ -22,7 +22,10 @@ storage/outputs/*
 models/
 
 # Local tools & portable binaries
-tools/
+tools/*
+!tools/morning_briefing/
+tools/morning_briefing/.env
+tools/morning_briefing/*.log
 
 
 # Logs & OS artifacts
