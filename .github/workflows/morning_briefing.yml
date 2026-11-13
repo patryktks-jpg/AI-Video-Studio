@@ -2,9 +2,12 @@ name: Poranny Briefing Biznesowy
 
 on:
   schedule:
-    # 07:00 UTC = 08:00 czasu polskiego (czas zimowy UTC+1)
-    - cron: '0 7 * * *'
-  workflow_dispatch: # Przycisk "Run workflow" w zakładce Actions na GitHubie do ręcznego testu
+    # 06:51 UTC = 07:51 czasu polskiego (czas zimowy UTC+1)
+    # Wybór minuty 51 (zamiast pełnej 00) omija gigantyczny korek darmowych maszyn GitHuba
+    - cron: '51 6 * * *'
+  workflow_dispatch: # Przycisk "Run workflow" w zakładce Actions na GitHubie do testu ręcznego
+  repository_dispatch: # Umożliwia natychmiastowe wywołanie przez zewnętrzny darmowy webhook (np. cron-job.org)
+    types: [morning_briefing]
 
 jobs:
   send-briefing:
