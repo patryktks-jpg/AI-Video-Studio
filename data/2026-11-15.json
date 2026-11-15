@@ -1,15 +1,15 @@
 {
   "date": "2026-11-15",
-  "generated_at": "2026-11-15T15:59:09+01:00",
+  "generated_at": "2026-11-15T16:13:47+01:00",
   "weather": {
     "city": "Brzesko",
     "postal_code": "32-800",
     "status": "ok",
-    "temp_now": 5.3,
-    "apparent_temp": 1.1,
+    "temp_now": 4.9,
+    "apparent_temp": 0.8,
     "temp_min": -0.1,
     "temp_max": 8.1,
-    "wind_speed_kmh": 14.4,
+    "wind_speed_kmh": 14.0,
     "rain_probability_max": 7,
     "condition": "Pochmurno ☁️",
     "practical_tip": "Dzień bez większego ryzyka opadów. Odczuwalnie chłodno — ciepła kurtka niezbędna.",
@@ -172,74 +172,166 @@
       "status_message": "",
       "items": [
         {
-          "id": "kis-719107",
-          "headline": "Sprzedaż nieruchomości po pierwszym zasiedleniu korzysta ze zwolnienia z VAT",
-          "summary": "Dyrektor KIS potwierdził, że planowana przez spółkę cywilną sprzedaż nieruchomości zabudowanej będzie korzystać ze zwolnienia z podatku VAT. Transakcja spełnia warunki określone w art. 43 ust. 1 pkt 10 ustawy o VAT, ponieważ od pierwszego zasiedlenia upłynęło więcej niż 2 lata.",
+          "id": "kis-717914",
+          "headline": "Krótkoterminowy najem prywatny mieszkania a ryczałt",
+          "summary": "Dyrektor KIS potwierdził, że okazjonalny najem prywatnego lokalu mieszkalnego za pośrednictwem platform internetowych może być rozliczany jako najem prywatny, a nie pozarolnicza działalność gospodarcza. Przychód ten może podlegać opodatkowaniu ryczałtem właściwym dla najmu prywatnego. Rozstrzygnięcie dotyczy sytuacji, w której lokal stanowi majątek prywatny i nie jest wykorzystywany w sposób zorganizowany ani komercyjny.",
           "tags": [
-            "VAT"
+            "PIT"
           ],
-          "importance": "medium",
+          "importance": "high",
           "relevance_for_profile": {
             "level": "medium",
-            "reason": "Informacja dotyczy zasad opodatkowania VAT przy sprzedaży nieruchomości przez przedsiębiorców."
+            "reason": "Informacja jest istotna ze względu na profil działalności obejmujący e-commerce oraz rozważane formy opodatkowania dla JDG."
           },
           "details": {
-            "what_happened": "Dyrektor KIS wydał interpretację indywidualną potwierdzającą stanowisko wnioskodawcy, zgodnie z którym planowana w 2026 roku sprzedaż nieruchomości gruntowej zabudowanej na rzecz innego przedsiębiorcy będzie w całości korzystała ze zwolnienia z podatku VAT. Organ uznał, że transakcja spełnia wszystkie przesłanki do zastosowania zwolnienia przewidzianego w art. 43 ust. 1 pkt 10 ustawy o VAT. Nieruchomość nie była ulepszana w sposób przekraczający 30% wartości początkowej, a od pierwszego zasiedlenia upłynęło 35 lat. Spółka nie wykorzystywała również obiektu do czynności zwolnionych z podatku VAT.",
-            "background": "Wspólnici spółki cywilnej nabyli w 2025 roku na własność nieruchomość gruntową zabudowaną, która wcześniej stanowiła własność Skarbu Państwa i znajdowała się w ich użytkowaniu wieczystym. Nabycie nastąpiło na podstawie art. 198g ustawy o gospodarce nieruchomościami. Obiekt stanowi budynek produkcyjno-usługowy z urządzeniami budowlanymi. Wnioskodawca zwrócił się z pytaniem, czy planowana sprzedaż na rzecz innego przedsiębiorcy będzie korzystała ze zwolnienia z VAT na podstawie art. 43 ust. 1 pkt 10 ustawy o VAT.",
-            "what_it_means_for_business": "Rozstrzygnięcie to ma istotne znaczenie dla przedsiębiorców planujących zbycie nieruchomości wykorzystywanych w działalności gospodarczej. Potwierdza ono, że sprzedaż budynków spełniających warunek upływu 2 lat od pierwszego zasiedlenia oraz braku przekroczenia limitu ulepszeń o wartości 30% może być zwolniona z podatku VAT. Daje to jasność co do kalkulacji opłacalności transakcji oraz braku konieczności naliczania podatku należnego przez sprzedającego.",
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej rozpatrzył wniosek i uznał stanowisko wnioskodawczyni za prawidłowe. Potwierdził, że przychody uzyskiwane z okazjonalnego, krótkoterminowego wynajmu lokalu mieszkalnego stanowiącego majątek prywatny, za pośrednictwem platform X oraz Y, mogą być kwalifikowane jako przychody z najmu prywatnego. W konsekwencji mogą być one opodatkowane ryczałtem właściwym dla najmu prywatnego. W rozstrzygnięciu powołano m.in. przepisy art. 10 ust. 1 pkt 6 ustawy o PIT.",
+            "background": "Wnioskodawczyni wskazała, że jest właścicielką lokalu mieszkalnego otrzymanego w drodze darowizny od mamy, który stanowi jej majątek prywatny i dom rodzinny. Lokal nie został nabyty w celu prowadzenia działalności gospodarczej ani jako inwestycja do profesjonalnego wynajmu. Od października 2026 r. planuje okazjonalnie udostępniać lokal na krótkie pobyty za pośrednictwem platform X oraz Y, wyłącznie w okresach, w których sama z niego nie korzysta. Wnioskodawczyni nie planuje nabywania kolejnych lokali, zatrudniania pracowników, prowadzenia recepcji, zapewniania wyżywienia, transportu, wycieczek ani świadczenia innych usług hotelowych, a mieszkanie będzie przygotowywane poprzez zwykłe sprzątanie i wymianę pościeli.",
+            "what_it_means_for_business": "Interpretacja potwierdza zasady kwalifikacji przychodów z najmu lokali mieszkalnych będących w majątku prywatnym. Wskazuje, że okazjonalne udostępnianie mieszkania przez platformy internetowe bez cech zorganizowanej działalności gospodarczej czy hotelarskiej pozwala na zastosowanie opodatkowania ryczałtem od najmu prywatnego. Podatnik musi jednak ściśle kontrolować brak cech działalności gospodarczej, takich jak zatrudnianie pracowników czy świadczenie usług dodatkowych o charakterze hotelarskim.",
             "what_to_do": [
-              "Przeanalizować datę pierwszego zasiedlenia posiadanych nieruchomości przed ich planowaną sprzedażą.",
-              "Sprawdzić wysokość nakładów na ulepszenia w relacji do wartości początkowej budynku."
+              "Zweryfikować charakter planowanego najmu krótkoterminowego pod kątem braku cech zorganizowanej działalności gospodarczej.",
+              "Upewnić się, że udostępniany lokal stanowi wyłącznie majątek prywatny i nie jest wykorzystywany w ramach profesjonalnej struktury biznesowej."
             ],
             "deadlines": [
               {
-                "date": "2026 r.",
-                "description": "planowana sprzedaż nieruchomości"
+                "date": "od października 2026 r.",
+                "description": "planowane rozpoczęcie okazjonalnego udostępniania lokalu"
               }
             ],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Brak dodatkowych zastrzeżeń poza opisanym stanem faktycznym. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/719107",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717914",
               "published": "2026-11-13"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "kis-717786",
-          "headline": "Interpretacja KIS w sprawie skutków podatkowych ugody frankowej",
-          "summary": "Dyrektor KIS potwierdził stanowisko wnioskodawczyni, że nie jest ona zobowiązana do zapłaty podatku w związku z zawartą ugodą sądową z bankiem. Kredyt został przeznaczony na zakup mieszkania, a umorzone kwoty oraz zwrot nadpłaty nie generują obowiązku podatkowego w przedstawionych okolicznościach.",
+          "id": "kis-717420",
+          "headline": "Stawka 8,5% ryczałtu dla usług zarządzania projektami",
+          "summary": "Dyrektor KIS potwierdził, że usługi koordynacji i wsparcia realizacji projektów o PKWiU 70.22.20.0 mogą być opodatkowane ryczałtem 8,5%. Stanowisko Wnioskodawcy uznano za prawidłowe w odniesieniu do lat 2025 i 2026.",
+          "tags": [
+            "PIT",
+            "Ustawy"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Informacja dotyczy ryczałtu i usług doradczych lub zarządczych, co bezpośrednio wpisuje się w rozważane formy opodatkowania dla JDG o profilu usługowym."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS wydał rozstrzygnięcie, w którym uznał stanowisko Wnioskodawcy za prawidłowe. Potwierdzono możliwość zastosowania stawki 8,5% ryczałtu od przychodów ewidencjonowanych. Dotyczy to przychodów uzyskiwanych w roku 2026 oraz latach następnych z tytułu świadczenia usług sklasyfikowanych pod kodem PKWiU 70.22.20.0. Przychody te nie mogą przekraczać limitu 2.000.000 euro.",
+            "background": "Wnioskodawca prowadzi jednoosobową działalność gospodarczą od dnia 2 lipca 2025 r. z przeważającym PKD 70.20.Z. W ramach działalności świadczy usługi koordynacji i wsparcia realizacji projektów sklasyfikowane pod kodem PKWiU 70.22.20.0. Wnioskodawca zapytał, czy przychody te mogą być opodatkowane ryczałtem przy zastosowaniu stawki 8,5%, na co organ wydał pozytywną odpowiedzi.",
+            "what_it_means_for_business": "Przedsiębiorca świadczący usługi zarządzania projektami (PKWiU 70.22.20.0) może korzystać z 8,5% stawki ryczałtu od przychodów ewidencjonowanych, jeśli spełnia ogólne warunki ustawowe. Warunkiem jest nieprzekraczanie limitu przychodów w wysokości 2.000.000 euro oraz brak wykonywania usług wykluczonych z tej stawki, takich jak doradztwo związane z zarządzaniem czy usługi IT. Wskazane przepisy obejmują m.in. art. 6 ust. 4 oraz art. 12 ust. 1 pkt 5 ustawy o zryczałtowanym podatku dochodowym.",
+            "what_to_do": [
+              "Zweryfikować dokładną klasyfikację PKWiU świadczonych usług projektowych.",
+              "Upewnić się, że wysokość osiąganych przychodów nie przekracza limitu 2.000.000 euro.",
+              "Sprawdzić, czy w zakresie wykonywanych prac nie pojawiają się usługi doradztwa strategicznego lub IT."
+            ],
+            "deadlines": [
+              {
+                "date": "2026",
+                "description": "rok podatkowy, którego dotyczy rozstrzygnięcie"
+              },
+              {
+                "date": "2025",
+                "description": "rok rozpoczęcia działalności i uzyskiwania przychodów"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Szczegółowy zakres usług jest każdorazowo potwierdzany przed rozpoczęciem prac ze względu na specyfikę współpracy z kontrahentem. Przychody nie mogą przekraczać limitu 2.000.000 euro. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717420",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-717870",
+          "headline": "Interpretacja KIS: Serwis symulatorów na ryczałcie 8,5%",
+          "summary": "Dyrektor KIS potwierdził, że usługi technicznego utrzymania i serwisu urządzeń do symulacji sklasyfikowane pod PKWiU 62.02.30.0 mogą być opodatkowane ryczałtem według stawki 8,5%. Wnioskodawca wskazał, że czynności te nie obejmują doradztwa ani informatyki, co organ uznał za prawidłowe.",
           "tags": [
             "PIT"
           ],
           "importance": "medium",
           "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja dotyczy majątku prywatnego (kredyt mieszkaniowy) i nie ma bezpośredniego przełożenia na bieżącą działalność gospodarczą B2B."
+            "level": "medium",
+            "reason": "Interpretacja dotyczy opodatkowania ryczałtem specyficznych usług technicznych B2B, co ma znaczenie przy rozważaniu tej formy opodatkowania dla JDG."
           },
           "details": {
-            "what_happened": "Dyrektor KIS uznał za prawidłowe stanowisko wnioskodawczyni, która zapytała, czy jest zobowiązana do zapłaty podatku w związku z zawartą ugodą. 8 maja 2025 r. wnioskodawczyni zawarła ugodę sądową z bankiem X SA w sprawie kredytu mieszkaniowego w frankach szwajcarskich. Na mocy ugody bank w terminie 21 dni umorzył zadłużenie w kwocie 71.725,36 zł (kapitał 71.622,95 zł i odsetki bieżące 102,41 zł) oraz zwrócił 29.500,00 zł stanowiące zwrot nadpłaty rat.",
-            "background": "7 lutego 2008 r. wnioskodawczyni wraz z mamą zawarła umowę o kredyt mieszkaniowy własny kąt hipoteczny we frankach szwajcarskich w kwocie 36.654,73 CHF. W związku z abuzywnymi zapisami wnioskodawczyni złożyła wniosek do Sądu Okręgowego w A o unieważnienie umowy. Od 2019 r. mieszkanie jest wynajmowane z uwagi na sytuację rodzinną. Wnioskodawczyni faktycznie spłacała kredyt przeliczony na złotówki bez zmiany treści umowy.",
-            "what_it_means_for_business": "Rozstrzygnięcie potwierdza brak obowiązku zapłaty podatku z tytułu ugody i umorzenia wierzytelności kredytowych w opisanym stanie faktycznym. Dla przedsiębiorcy prowadzącego JDG informacja ma znaczenie głównie o charakterze porządkowym i interpretacyjnym w zakresie relacji z bankami. Nie wpływa bezpośrednio na rozliczenia z tytułu prowadzonej działalności gospodarczej, ponieważ dotyczy celów mieszkaniowych.",
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0115-KDST2-1.4011.533.2026.1.JP, w której uznał za prawidłowe stanowisko wnioskodawcy dotyczące zastosowania stawki 8,5% ryczałtu od przychodów ewidencjonowanych. Sprawa dotyczyła usług polegających na technicznym utrzymaniu, serwisowaniu, testowaniu i zapewnianiu gotowości operacyjnej urządzeń do symulacji. Czynności te mieszczą się w grupowaniu PKWiU 62.02.30.0. Organ potwierdził, że brak jest podstaw do zastosowania innych stawek ryczałtu, takich jak 12% czy 15%, ponieważ usługi nie obejmują doradztwa informatycznego ani projektowania oprogramowania.",
+            "background": "Wnioskodawca prowadzący jednoosobową działalność gospodarczą wpisaną do CEIDG pod kodem PKD 33.13.Z zawarł umowę B2B na świadczenie usług technicznego utrzymania i serwisu urządzeń do symulacji wykorzystywanych w szkoleniu personelu. W ramach działalności wykonuje testy poprawności systemów, nadzoruje oprogramowanie symulatorów oraz diagnozuje i usuwa usterki sprzętowe bez zatrudniania pracowników. Wnioskodawca wystąpił z zapytaniem, czy jego przychody mogą być opodatkowane stawką 8,5% na podstawie art. 12 ust. 1 pkt 5 lit. a ustawy o zryczałtowanym podatku dochodowym od niektórych przychodów osiąganych przez osoby fizyczne.",
+            "what_it_means_for_business": "Rozstrzygnięcie to stanowi korzystny punkt odniesienia dla przedsiębiorców świadczących specjalistyczne usługi techniczne i serwisowe w relacjach B2B, którzy chcą stosować 8,5% stawkę ryczałtu. Potwierdza ono, że kwalifikacja do grupowania PKWiU 62.02.30.0 niesionej bez elementów doradztwa informatycznego pozwala na uniknięcie wyższych stawek podatkowych. Przedsiębiorca może bezpiecznie stosować wskazaną stawkę, o ile faktycznie wykonywane czynności dokładnie odpowiadają opisanemu w interpretacji stanu faktycznemu.",
             "what_to_do": [
-              "Zapoznać się z treścią interpretacji o sygnaturze 0115-KDWT.4011.390.2026.2.AK.",
-              "Zweryfikować własne umowy kredytowe i ugody pod kątem analogicznych zdarzeń."
+              "Zweryfikować posiadane umowy B2B oraz faktycznie wykonywane czynności pod kątem zgodności z grupowaniem PKWiU 62.02.30.0.",
+              "Upewnić się, że zakres świadczonych usług nie zawiera elementów doradztwa informatycznego lub projektowania oprogramowania, które mogłyby wpłynąć na zmianę stawki ryczałtu."
             ],
             "deadlines": [
               {
-                "date": "w terminie 21 dni od zawarcia ugody",
-                "description": "termin na umorzenie zadłużenia i zwrot kwoty przez bank"
+                "date": "brak danych w źródle",
+                "description": "brak danych w źródle"
               }
             ],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Wnioskodawczyni nie prowadziła działalności gospodarczej w ww. mieszkaniu, nie korzystała z zaniechania poboru podatku od kwot umorzonych wierzytelności z tytułu kredytu mieszkaniowego. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/717786",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717870",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-718158",
+          "headline": "Sprzedaż działki z majątku prywatnego bez VAT",
+          "summary": "Dyrektor KIS potwierdził, że planowana sprzedaż wydzielonej części gruntów rolnych z majątku prywatnego nie podlega opodatkowaniu VAT. Transakcja stanowi racjonalne zarządcze rozporządzanie majątkiem prywatnym, a nie działalność handlową. Uzyskanie decyzji o warunkach zabudowy oraz podział działki nie zmieniają tego charakteru.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Interpretacja dotyczy zasad opodatkowania VAT przy sprzedaży majątku prywatnego, co jest istotne przy analizie transakcji majątkowych przez przedsiębiorców."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej rozpatrzył wniosek i uznał za prawidłowe stanowisko wnioskodawczyni, zgodnie z którym sprzedaż wydzielonej części nieruchomości gruntowej nie będzie podlegała opodatkowaniu podatkiem od towarów i usług (VAT). Nieruchomość została nabyta do majątku wspólnego w lipcu 2020 r. i wykorzystywana wyłącznie rolniczo. Przedmiotem planowanej sprzedaży jest działka o powierzchni ok. 1 ha powstała z fizycznego podziału gruntu. Właściciele nie ponieśli nakładów finansowych ani strukturalnych na grunt.",
+            "background": "Wnioskodawczyni zwróciła się z pytaniem, czy sprzedaż działki powstałej z podziału nieruchomości nabytej 6 lat temu, dla której uzyskano decyzję o warunkach zabudowy, będzie podlegała podatkowi VAT na podstawie art. 15 ust. 1 i ust. 2 ustawy o VAT. Wskazała, że transakcja ma na celu sfinansowanie studiów syna, a ona sama nie prowadzi działalności gospodarczej w zakresie handlu nieruchomościami ani usług deweloperskich oraz w ostatnich 10 latach nie sprzedawała nieruchomości.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza, że rozporządzanie majątkiem prywatnym, nawet po uprzednim podziale geodezyjnym i uzyskaniu decyzji o warunkach zabudowy, nie musi wiązać się z koniecznością naliczenia podatku VAT. Kluczowy jest brak profesjonalnego charakteru działań oraz brak nakładów charakterystycznych dla działalności deweloperskiej czy handlowej. Daje to podatnikom większą pewność prawną przy zbywaniu prywatnych gruntów.",
+            "what_to_do": [
+              "Przeanalizować charakter planowanej transakcji pod kątem cech zarządu majątkiem prywatnym.",
+              "Zweryfikować brak nakładów strukturalnych oraz brak działań o charakterze handlowym lub marketingowym."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-13",
+                "description": "Data powiązana ze sprawą w źródźie"
+              },
+              {
+                "date": "2026-11-03",
+                "description": "Data powiązana ze sprawą w źródźie"
+              },
+              {
+                "date": "11 września 2026 r.",
+                "description": "Data powiązana ze sprawą w źródźie"
+              },
+              {
+                "date": "9 października 2026 r.",
+                "description": "Data powiązana ze sprawą w źródźie"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/718158",
               "published": "2026-11-13"
             }
           ],
@@ -254,77 +346,201 @@
       "status_message": "",
       "items": [
         {
-          "id": "zus-c5e99c9b9e02",
-          "headline": "ZUS umorzy zaległe składki sprzed 1 stycznia 1999 roku",
-          "summary": "ZUS dokona z mocy prawa umorzenia zaległości składkowych powstałych przed dniem 1 stycznia 1999 r., obejmujących również odsetki oraz koszty egzekucyjne. Dłużnicy nie muszą składać żadnych wniosków, a postępowania egzekucyjne zostaną umorzone od 1 maja 2027 r. ZUS poinformuje dłużników o umorzeniu i zajmie się wykreśleniem hipotek oraz zastawów.",
+          "id": "tax-ceb68f2e1f0c",
+          "headline": "Zmiany w PIT to nie wszystko. Rośnie granica dla składek ZUS",
+          "summary": "Tytuł: Zmiany w PIT to nie wszystko. Rośnie granica dla składek ZUS\nŹródło: Interia Biznes - Podatki\nData publikacji: 2026-11-09\nOpis z kanału RSS: \n\nTreść artykułu:\nNa to, ile pracownik dostaje na rękę, wpływają podatki oraz składki ZUS.",
           "tags": [
+            "PIT",
             "ZUS",
             "Ustawy"
           ],
-          "importance": "medium",
+          "importance": "high",
           "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja dotyczy historycznych zaległości sprzed 1 stycznia 1999 r., co nie ma bezpośredniego wpływu na bieżącą działalność jednoosobowej działalności gospodarczej."
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
           },
           "details": {
-            "what_happened": "ZUS z mocy prawa umorzy stare długi składkowe oraz powiązane opłaty, odsetki i koszty egzekucyjne powstałe przed dniem 1 stycznia 1999 r. Dłużnicy nie muszą składać żadnych wniosków, a Zakład Ubezpieczeń Społecznych samodzielnie poinformuje o umorzeniu. Dodatkowo ZUS wyśle dokumenty do wykreślenia hipotek oraz sam wystąpi o wykreślenie zastawów na ruchomościach. Postępowania egzekucyjne dotyczące tych należności zostaną umorzone od 1 maja 2027 r.",
-            "background": "Sprawa opiera się na Ustawie z dnia 18 września 2026 r. o umorzeniu należności dochodzonych przez Zakład Ubezpieczeń Społecznych powstałych przed dniem 1 stycznia 1999 r. (Dz. U. z 2026 r. poz. 1476). Przepisy te mają na celu oczyszczenie starych, niesściągalnych zaległości składkowych zalegających w systemach ZUS.",
-            "what_it_means_for_business": "Przedsiębiorcy posiadający historyczne zadłużenie sprzed 1999 roku zostaną z niego uwolnieni bez konieczności podejmowania działań. Należy jednak pamiętać, że umorzenie długu z tytułu składek na własne ubezpieczenia społeczne skutkuje brakiem uwzględnienia tego okresu przy ustalaniu kapitału początkowego oraz prawa do świadczeń emerytalno-rentowych.",
+            "what_happened": "Tytuł: Zmiany w PIT to nie wszystko.\nRośnie granica dla składek ZUS\nŹródło: Interia Biznes - Podatki\nData publikacji: 2026-11-09\nOpis z kanału RSS: \n\nTreść artykułu:\nNa to, ile pracownik dostaje na rękę, wpływają podatki oraz składki ZUS.\nParlament uchwalił ustawę podatkową, ale jednocześnie jak co roku rośnie limit, powyżej którego nie są odciągane składki społeczne.\nRoczna podstawa wymiaru składek na ubezpieczenia emerytalne i rentowe pracowników czy zleceniobiorców nie może przekraczać rocznie kwoty trzydziestokrotności prognozowanego przeciętnego wynagrodzenia miesięcznego w gospodarce narodowej na dany rok kalendarzowy.",
+            "background": "Materiał pochodzi z publikacji: Interia Biznes - Podatki.",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
             "what_to_do": [
-              "Oczekiwać na zawiadomienie z ZUS, jeśli firma posiada stare zaległości sprzed 1999 roku.",
-              "W razie potrzeby złożenia oświadczenia o odstąpieniu od umorzenia, pamiętać o terminie 30 dni od momentu otrzymania zawiadomienia."
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
             ],
-            "deadlines": [
-              {
-                "date": "1 maja przyszłego roku",
-                "description": "ZUS z mocy prawa umorzy należności składkowe sprzed 1999 r."
-              },
-              {
-                "date": "30 dni",
-                "description": "Czas na złożenie oświadczenia o odstąpieniu od umorzenia od momentu otrzymania zawiadomienia"
-              },
-              {
-                "date": "1 maja 2027 r.",
-                "description": "Z mocy prawa umorzone zostaną postępowania egzekucyjne dotyczące umarzanych należności oraz wygaśnie umowa o rozłożeniu na raty"
-              }
-            ],
-            "caveats": "Umorzenie długu z tytułu składek na własne ubezpieczenia społeczne lub osoby współpracującej powoduje, że ZUS nie uwzględni tego okresu przy ustalaniu kapitału początkowego oraz prawa do emerytury, renty i innych świadczeń uzależnionych od okresów składkowych i nieskładkowych. Okres ten będzie się jednak wliczał do stażu pracy w rozumieniu Kodeksu pracy. Istnieje możliwość rezygnacji z umorzenia w terminie 30 dni od zawiadomienia, przy czym terminu nie można przywrócić, oświadczenie musi obejmować wszystkie należności i nie można go później odwołać ani zmienić. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "deadlines": [],
+            "caveats": "Etap A ekstrakcji AI nie zwrócił poprawnego JSON; użyto streszczenia bazowego."
           },
           "sources": [
             {
-              "name": "ZUS Aktualności (zus.pl)",
-              "url": "https://www.zus.pl/-/zus-skasuje-stare-d%C5%82ugi",
+              "name": "Interia Biznes - Podatki",
+              "url": "https://biznes.interia.pl/podatki/news-zmiany-w-pit-to-nie-wszystko-rosnie-granica-dla-skladek-zus,nId,23570370",
+              "published": "2026-11-09"
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "tax-b907cbcfc93a",
+          "headline": "Postępowanie w przypadku braku płatności faktury przez kontrahenta",
+          "summary": "Przedsiębiorca, którego kontrahent nie opłacił faktury w terminie, może podjąć szereg kroków prawnych i windykacyjnych. Obejmują one weryfikację dokumentacji, kontakt z dłużnikiem, wysłanie wezwania do zapłaty oraz naliczanie odsetek i rekompensat. W razie potrzeby sprawę można skierować na drogę sądową.",
+          "tags": [
+            "Ustawy",
+            "Rynki"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Problem braku płatności od kontrahentów bezpośrednio dotyka stabilności finansowej jednoosobowych działalności gospodarczych świadczących usługi B2B i prowadzących e-commerce."
+          },
+          "details": {
+            "what_happened": "Przedstawiono procedurę postępowania w sytuacji, gdy kontrahent nie opłacił faktury w wyznaczonym terminie. Wskazano na konieczność zebrania dokumentacji oraz możliwość podjęcia działań windykacyjnych i prawnych. Omówiono także kwestie związane z żądaniem rekompensat w wysokości 40, 70 lub 100 euro oraz naliczaniem odsetek za opóźnienie. Zwrócono uwagę na kwestie przedawnienia roszczeń oraz ewentualne skierowanie sprawy do sądu.",
+            "background": "Materiał odnosi się do problemu nieterminowych płatności w relacjach biznesowych. Wskazuje, jakie dokumenty, takie jak umowy, zamówienia, protokoły odbioru czy potwierdzenia dostawy, należy zgromadzić w celu dochodzenia swoich praw. Podkreśla również znaczenie korespondencji mailowej oraz kontaktu z kontrahentem.",
+            "what_it_means_for_business": "Dla przedsiębiorcy brak płatności oznacza zagrożenie dla płynności finansowej, zwłaszcza przy prowadzeniu działalności handlowej i usługowej. Znajomość procedury wezwania do zapłaty oraz uprawnień do żądania rekompensat finansowych i odsetek pozwala na skuteczniejsze odzyskiwanie należności. Konieczne jest także pamiętanie o gromadzeniu dowodów wykonania usługi lub dostawy towaru.",
+            "what_to_do": [
+              "Sprawdź termin płatności i zgromadź kompletną dokumentację, w tym umowy, zamówienia, protokoły odbioru, potwierdzenia dostawy oraz korespondencję mailową.",
+              "Skontaktuj się z kontrahentem w celu wyjaśnienia opóźnienia w płatności.",
+              "Wyślij wezwanie do zapłaty oraz nalicz odsetek za opóźnienie.",
+              "Rozważ żądanie rekompensaty w wysokości 40, 70 lub 100 euro.",
+              "Skieruj sprawę do sądu w przypadku braku reakcji dłużnika, pamiętając o kwestiach przedawnienia i zabezpieczenia firmy."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-12",
+                "description": "Data uwzględniona w źródle odnośnie publikacji lub stanu faktycznego."
+              }
+            ],
+            "caveats": "Wezwanie do zapłaty nie jest obowiązkowe, a jego brak nie zamyka drogi do sądu. Jednak pominięcie tego etapu może wiązać się z konsekwencjami przy rozliczaniu kosztów postępowania lub brakami formalnymi pozwu. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Interia Biznes - Podatki",
+              "url": "https://biznes.interia.pl/jak-to-rozliczyc/news-kontrahent-nie-placi-faktury-co-moze-zrobic-przedsiebiorca,nId,23571822",
               "published": "2026-11-12"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "eli-du-2026-1492",
-          "headline": "Ogłoszenie jednolitego tekstu ustawy o Krajowej Administracji Skarbowej",
-          "summary": "Marszałek Sejmu ogłosił jednolity tekst ustawy o Krajowej Administracji Skarbowej. Publikacja nastąpiła w Dzienniku Ustaw pod pozycją 1492. Informacja ma charakter oficjalnego obwieszczenia instytucjonalnego.",
+          "id": "zus-c66205dcb563",
+          "headline": "Samodzielne generowanie elektronicznych zaświadczeń z ZUS",
+          "summary": "Klienci ZUS mogą samodzielnie i bez składania wniosku generować elektroniczne dokumenty z danymi ze swojego konta za pośrednictwem portalu eZUS lub aplikacji mobilnych. Dokumenty te powstają w kilka minut i mają moc zrównaną z tradycyjnymi zaświadczeniami z ZUS. Rozwiązanie to eliminuje konieczność wizyt w placówkach czy oczekiwania na urzędową odpowiedź.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ułatwia przedsiębiorcy szybkie uzyskiwanie dokumentów o stanie rozliczeń z ZUS bez konieczności składania wniosków."
+          },
+          "details": {
+            "what_happened": "ZUS umożliwił ubezpieczonym, płatnikom składek i świadczeniobiorcom samodzielne tworzenie elektronicznych dokumentów zawierających wybrane dane z konta w ZUS. Dotyczy to m.in. zaświadczeń z informacją o saldzie na koncie płatnika składek, o stanie rozliczeń za ostatnie 12 miesięcy, o liczbie ubezpieczonych czy o wysokości podstawy wymiaru składek. Dokumenty te generuje się za pośrednictwem portalu eZUS lub aplikacji mZUS i mZUS dla Płatnika. Cały proces trwa zaledwie kilka minut.",
+            "background": "Wprowadzenie tej funkcji stanowi odpowiedź na potrzebę cyfryzacji i usprawnienia dostępu do danych urzędowych bez angażowania pracowników ZUS w ręczne rozpatrywanie wniosków o zaświadczenia. Z danych wynika, że klienci chętnie korzystają z tej formy, generując setki tysięcy dokumentów i korzystając z nich w relacjach m.in. z bankami czy urzędami. Dokumenty posiadają moc zrównaną z tradycyjnymi zaświadczeniami wydawanymi przez Zakład Ubezpieczeń Społecznych.",
+            "what_it_means_for_business": "Przedsiębiorca prowadzący jednoosobową działalność gospodarczą może w każdej chwili, bez wychodzenia z firmy i składania sformalizowanych wniosków, pobrać potrzebne zaświadczenia o rozliczeniach z ZUS. Oszczędza to czas przy ubieganiu się np. o kredyty, leasingi czy dotacje, gdzie wymagane jest potwierdzenie braku zaległości. Dokument jest gotowy w kilka minut i jest honorowany przez instytucje zewnętrzne.",
+            "what_to_do": [
+              "Zaloguj się do portalu eZUS lub skorzystaj z aplikacji mZUS dla Płatnika, aby sprawdzić dostępne dokumenty.",
+              "Wygeneruj potrzebne zaświadczenie o stanie rozliczeń lub saldzie bez składania wniosku.",
+              "Przekaż wygenerowany dokument (lub plik zaszyfrowany hasłem) do instytucji wymagającej potwierdzenia."
+            ],
+            "deadlines": [
+              {
+                "date": "w ciągu kilku minut",
+                "description": "czas przygotowania dokumentu"
+              }
+            ],
+            "caveats": "Dokument jest opatrzony kwalifikowaną pieczęcią elektroniczną ZUS, a załącznik wysyłany mailem jest zaszyfrowany hasłem. Pracownik banku lub urzędu może sprawdzić autentyczność dokumentu w wyszukiwarce na stronie zus.pl, podając unikalny numer i datę utworzenia. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "ZUS Aktualności (zus.pl)",
+              "url": "https://www.zus.pl/-/za%C5%9Bwiadczenie-z-zus-po-kilku-klikni%C4%99ciach",
+              "published": "2026-10-29"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1494",
+          "headline": "Nowe rozporządzenie ws. deklaracji importowej VAT od 18 listopada 2026",
+          "summary": "Minister Finansów i Gospodarki wydał rozporządzenie w sprawie deklaracji importowej o podatku od towarów i usług. Nowe przepisy opublikowane pod sygnaturą Dz.U. 2026 poz. 1494 wchodzą w życie 18 listopada 2026 r.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Rozporządzenie dotyczy deklaracji importowej VAT, co ma bezpośrednie znaczenie dla czynnego podatnika VAT prowadzącego handel i usługi."
+          },
+          "details": {
+            "what_happened": "Wydano rozporządzenie Ministra Finansów i Gospodarki w sprawie deklaracji importowej o podatku od towarów i usług. Akt prawny został opublikowany pod numerem Dz.U. 2026 poz. 1494 w dniu 9 listopada 2026 r. Wejście w życie rozporządzenia zaplanowano na 18 listopada 2026 r. Na ten moment brak danych w źródle na temat szczegółowych stawek oraz konkretnych przepisów prawnych.",
+            "background": "Wydanie aktu nastąpiło w oparciu o decyzję Ministra Finansów i Gospodarki z dnia 9 listopada 2026 r. W dostarczonych faktach brak danych dotyczących pytań wnioskodawców oraz szerszego kontekstu przepisów. Sprawa dotyczy bezpośrednio regulacji związanych z deklaracją importową o podatku od towarów i usług.",
+            "what_it_means_for_business": "Przedsiębiorcy dokonujący importu muszą uwzględnić wejście w życie nowych regulacji od 18 listopada 2026 r. Zmiany te wiążą się z kwestiami formalnymi dotyczącymi deklaracji importowej o podatku od towarów i usług. Brak danych w źródle nie pozwala na precyzyjne określenie dodatkowych skutków finansowych dla firmy.",
+            "what_to_do": [
+              "Śledzić ogłoszenia i komunikaty administracji skarbowej związane z wejściem w życie rozporządzenia z dnia 9 listopada 2026 r.",
+              "Dostosować procedury wewnętrzne firmy do wymogów wynikających z nowego rozporządzenia w sprawie deklaracji importowej VAT przed 18 listopada 2026 r."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-09",
+                "description": "wydanie rozporządzenia Ministra Finansów i Gospodarki"
+              },
+              {
+                "date": "2026-11-12",
+                "description": "data wspomniana w faktach"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "wejście w życie rozporządzenia (Dz.U. 2026 poz. 1494)"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1494/ogl",
+              "published": "2026-11-12"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1493",
+          "headline": "Zmiana właściwości organów ws. podatku od wydobycia kopalin",
+          "summary": "Wydano rozporządzenie Ministra Finansów i Gospodarki zmieniające przepisy o właściwości urzędów skarbowych i izb administracji skarbowej. Regulacja dotyczy podatku od wydobycia niektórych kopalin. Akt weszło w życie z dniem 27 listopada 2026 r.",
           "tags": [
             "Ustawy"
           ],
           "importance": "low",
           "relevance_for_profile": {
             "level": "low",
-            "reason": "Publikacja jednolitego tekstu ustawy o KAS nie zmienia bezpośrednio zasad rozliczeń podatkowych ani obowiązków bieżących dla jednoosobowej działalności."
+            "reason": "Informacja dotyczy podatku od wydobycia kopalin i nie ma bezpośredniego związku z profilem działalności usługowej, e-commerce i handlowej."
           },
           "details": {
-            "what_happened": "Marszałek Sejmu Rzeczypospolitej Polskiej dokonał ogłoszenia jednolitego tekstu ustawy o Krajowej Administracji Skarbowej. Dokument został opublikowany pod sygnaturą Dz.U. 2026 poz. 1492. Opracowanie to zbiera dotychczasowe zmiany w jednym akcie prawnym. Wydarzenie to jest standardową procedurą legislacyjną porządkującą przepisy.",
-            "background": "Kontekst sprawy opiera się na ogłoszeniu jednolitej treści przepisów regulujących funkcjonowanie Krajowej Administracji Skarbowej. W źródła nie wskazano dodatkowego pytania wnioskodawcy ani szczegółowego tła sporu. Działanie wynika z wymogów publikacji ujednoliconych aktów prawnych.",
-            "what_it_means_for_business": "Dla prowadzącego działalność gospodarczą ogłoszenie jednolitego tekstu oznacza dostęp do aktualnej, oficjalnej wersji ustawy o KAS w jednym dokumencie. Nie wprowadza to jednak nowych stawek, podatków ani bezpośrednich zmian w obowiązkach rozliczeniowych. Przedsiębiorca może korzystać z ujednoliconego aktu przy weryfikacji przepisów kompetencyjnych organów skarbowych.",
+            "what_happened": "Minister Finansów i Gospodarki wydał rozporządzenie zmieniające dotychczasowe przepisy w sprawie właściwości urzędów skarbowych i izb administracji skarbowej w zakresie podatku od wydobycia niektórych kopalin. Akt prawny został opublikowany pod pozycją Dz.U. 2026 poz. 1493. Dokument podpisano 6 listopada 2026 r., a jego ogłoszenie nastąpiło 12 listopada 2026 r. Przepisy weszły w życie 27 listopada 2026 r.",
+            "background": "Sprawa dotyczy organizacji pracy organów podatkowych oraz właściwości miejscowej i rzeczowej urzędów skarbowych oraz izb administracji skarbowej w odniesieniu do specyficznej należności publicznoprawnej, jaką jest podatek od wydobycia niektórych kopalin. Kontekst wynika z konieczności aktualizacji przepisów wykonawczych w tym obszarze administracji skarbowej.",
+            "what_it_means_for_business": "Dla przedsiębiorców prowadzących działalność w branży usług B2B, e-commerce i handlu detalicznego zmiany te nie mają bezpośredniego przełożenia na codzienne rozliczenia podatkowe, obowiązki w zakresie VAT, PIT czy ZUS. Przepisy adresowane są wyłącznie do podmiotów podlegających pod specyficzny podatek od wydobycia kopalin.",
             "what_to_do": [
-              "brak danych w źródle"
+              "Brak konieczności podejmowania jakichkolwiek działań przez firmę."
             ],
-            "deadlines": [],
+            "deadlines": [
+              {
+                "date": "2026-11-06",
+                "description": "Data wydania/podpisania"
+              },
+              {
+                "date": "2026-11-12",
+                "description": "Data ogłoszenia (promulgacji)"
+              },
+              {
+                "date": "2026-11-27",
+                "description": "Data wejścia w życie"
+              }
+            ],
             "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "Dziennik Ustaw (ELI Sejm)",
-              "url": "https://eli.gov.pl/eli/DU/2026/1492/ogl",
+              "url": "https://eli.gov.pl/eli/DU/2026/1493/ogl",
               "published": "2026-11-12"
             }
           ],
@@ -339,59 +555,59 @@
       "status_message": "",
       "items": [
         {
-          "id": "eco-0d025f94ca8d",
-          "headline": "Incydent w Wilnie: Zbezczeszczenie miejsca kultu religijnego",
-          "summary": "W nocy z 11 na 12 listopada w Wilnie doszło do zniszczenia figury Jezusa przed sanktuarium. Policja ustaliła tożsamość podejrzanego, przesłuchała go i zastosowała środek zapobiegawczy.",
+          "id": "eco-8669f7c565ff",
+          "headline": "Polska wyprzedziła kraje UE we wskaźniku jakości życia AROPE",
+          "summary": "Polska zajmuje wysokie miejsce pod względem wskaźnika ryzyka ubóstwa i wykluczenia społecznego AROPE, osiągając wynik 15 proc. Wyprzedzamy pod tym względem m.in. Niemcy, Holandię, Belgię czy Hiszpanię, plasując się zaraz za Czechami.",
           "tags": [
             "Rynki"
           ],
           "importance": "low",
           "relevance_for_profile": {
             "level": "low",
-            "reason": "Informacja o charakterze kryminalnym niemająca żadnego wpływu na prowadzenie działalności gospodarczej, podatki czy finanse firmy."
+            "reason": "Informacja ma charakter makroekonomiczny i społeczny, nie wpływa bezpośrednio na bieżące rozliczenia podatkowe czy operacyjne JDG."
           },
           "details": {
-            "what_happened": "W nocy z 11 na 12 listopada przed kościołem przy ulicy Dominikańskiej w Wilnie mężczyzna zdjął figurę Jezusa z drewnianego krzyża i rozbił ją na ulicy. Zdarzenie zostało zarejestrowane przez kamery, a nagranie opublikowano w mediach społecznościowych. Policja ustaliła tożsamość podejrzanego, przesłuchała go i postawiła mu zarzuty związane ze zbezczeszczeniem miejsca kultu religijnego.",
-            "background": "Sprawa wyszła na jaw dzięki nagraniu udostępnionemu przez księdza Elijasza Anatolijusa Markauskasa, na którym słychać m.in. śmiech i wulgaryzmy w języku angielskim. Podejrzany w momencie zdarzenia prawdopodobnie był pod wpływem alkoholu, a tożsamość pozostałych osób z nagrania nie została ujawniona.",
-            "what_it_means_for_business": "Brak danych w źródle. Zdarzenie nie ma żadnego przełożenia na sytuację biznesową, podatkową ani operacyjną przedsiębiorcy.",
+            "what_happened": "Polska wyprzedziła wiele krajów starej Unii we wskaźniku jakości życia dotyczącym odsetka osób, które nie mogą sobie pozwolić na pokrycie niespodziewanego wydatku. Według wskaźnika AROPE w Polsce odsetek takich osób wynosi 15 proc. Oznacza to, że pod tym względem Polska plasuje się zaraz za Czechami i wyprzedza m.in. Niemcy, Holandię, Belgię, Finlandię, Szwecję, Danię, Litwę, Bułgarię, Grecję oraz Hiszpanię.",
+            "background": "Wskaźnik AROPE mierzy ryzyko ubóstwa i wykluczenia społecznego. Wymaga on spełnienia przynajmniej jednego z trzech kryteriów: kłopoty z pracą (gospodarstwa domowe, gdzie dorośli przepracowują mniej niż 20 proc. uśrednionego etatu w ciągu ostatniego roku), niski dochód (nie więcej niż 60 proc. mediany dochodu gospodarstw domowych) lub niemożność pozwolenia sobie na 7 z listy 13 podstawowych dóbr i usług.",
+            "what_it_means_for_business": "Informacja stanowi ogólny kontekst makroekonomiczny dotyczący sytuacji społeczno-gospodarczej w kraju. Brak danych w źródle o bezpośrednim przełożeniu na rozliczenia podatkowe, składki ZUS czy obowiązki dokumentacyjne przedsiębiorcy.",
             "what_to_do": [
-              "Brak danych w źródle - brak działań wymaganych od przedsiębiorcy."
+              "brak danych w źródle"
             ],
             "deadlines": [],
-            "caveats": "Podejrzany w momencie zdarzenia prawdopodobnie był pod wpływem alkoholu, a tożsamość osób z nagrania nie została ujawniona. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Wskaźnik AROPE wymaga spełnienia przynajmniej jednego z trzech kryteriów: kłopoty z pracą (gospodarstwa domowe, gdzie dorośli przepracowują mniej niż 20 proc. uśrednionego etatu w ciągu ostatniego roku), niski dochód (nie więcej niż 60 proc. mediany dochodu gospodarstw domowych) lub niemożność pozwolenia sobie na 7 z listy 13 podstawowych dóbr i usług. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
-              "name": "TVN24 Najnowsze",
-              "url": "https://tvn24.pl/swiat/wilno-mezczyzna-zdjal-z-krzyza-figure-jezusa-i-rozbil-ja-na-ulicy-nagranie-st9340212?source=rss",
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/finanse/stalismy-sie-jednym-ze-swiatowych-liderow-dobre-zycie-w-polsce-opinia-7351197490325536a.html",
               "published": "2026-11-15"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "eco-90a374f0539e",
-          "headline": "Szczyt COP31: Cel 35x35 i oszczędności firm dzięki OZE",
-          "summary": "Trwający szczyt klimatyczny COP31 w Antalyi przynosi propozycję zwiększenia udziału energii elektrycznej do 35 proc. do 2035 roku. Jednocześnie firma Avionic deklaruje roczne oszczędności na rachunkach o 35 proc. dzięki przejściu na OZE. Plany te spotykają się z krytyką aktywistów z powodu silnego oparcia Turcji i Australii na paliwach kopalnych.",
+          "id": "eco-9eea646709bc",
+          "headline": "Serbia rozwiązuje umowę z firmą zięcia Donalda Trumpa",
+          "summary": "Rząd Serbii rozwiązał umowę z firmą Jareda Kushnera dotyczącą budowy kompleksu 'Trump Towers' w Belgradzie. Decyzja zapadła po protestach społecznych i zmianach politycznych wynikających z przedterminowych wyborów.",
           "tags": [
             "Rynki"
           ],
           "importance": "low",
           "relevance_for_profile": {
             "level": "low",
-            "reason": "Informacja ma charakter ogólnogospodarczy i międzynarodowy, nie wpływając bezpośrednio na bieżące rozliczenia podatkowe ani obowiązki JDG."
+            "reason": "Informacja o charakterze międzynarodowym i rynkowym, nie wpływa bezpośrednio na bieżące rozliczenia podatkowe ani operacje firmy w Polsce."
           },
           "details": {
-            "what_happened": "Podczas szczytu klimatycznego ONZ COP31 w tureckiej Antalyi gospodarz dąży do przyjęcia globalnego celu '35x35'. Zakłada on wzrost udziału energii elektrycznej w końcowym zapotrzebowaniu na energię z ok. 20 proc. do 35 proc. do 2035 r. Cel ten zyskał poparcie Międzynarodowej Agencji Energetycznej. Z kolei firma Avionic poinformowała o osiągnięciu 35-proc. oszczędności na rachunkach w skali roku dzięki inwestycji w odnawialne źródła energii.",
-            "background": "Inicjatywa Turcji ma zostać włączona do końcowego porozumienia szczytu COP31. Spotyka się ona jednak z krytyką ze strony aktywistów klimatycznych. Zarzucają oni brak odniesień do odnawialnych lub niskoemisyjnych źródeł energii w krajach takich jak Turcja i Australia, które wciąż w dużym stopniu opierają się na paliwach kopalnych.",
-            "what_it_means_for_business": "Globalne trendy transformacji energetycznej oraz przykłady firm takich jak Avionic pokazują, że inwestycje w OZE mogą przynieść wymierne oszczędności w kosztach prowadzenia działalności. Informacja nie niesie jednak za sobą bezpośrednich skutków podatkowych ani nowych obowiązków prawnych dla polskiego przedsiębiorcy. Konkretne przełożenie na koszty zależy od indywidualnych decyzji biznesowych i cen energii.",
+            "what_happened": "Minister budownictwa Serbii Aleksandra Sofronijević ogłosiła rozwiązanie umowy z firmą Jareda Kushnera, zięcia prezydenta USA Donalda Trumpa. Umowa dotyczyła budowy luksusowego kompleksu komercyjno-mieszkalnego 'Trump Towers' wraz z kasynem w miejscu dawnego budynku Sztabu Generalnego w Belgradzie. Rząd Serbii oficjalnie wycofał się z tego projektu po wcześniejszych protestach ekspertów i mieszkańców oraz zmianie sytuacji politycznej.",
+            "background": "Projekt budowy w miejscu dawnego budynku Sztabu Generalnego w Belgradzie wiązał się z wcześniejszym zniesieniem ochrony konserwatorskiej przez poprzedni rząd. Wywołało to postępowanie sądowe przeciwko ministrowi kultury Nikoli Selakoviciowi i innym urzędnikom oskarżonym o nadużycie władzy. Sprawa doprowadziła do masowych protestów, a obóz rządzący przegrał przedterminowe wybory parlamentarne 25 października z Listą Studencką.",
+            "what_it_means_for_business": "Wydarzenie to ma charakter głównie polityczno-gospodarczy na rynku zagranicznym i nie wywołuje bezpośrednich skutków finansowych, podatkowych ani operacyjnych dla polskiego przedsiębiorcy prowadzącego działalność B2B czy e-commerce.",
             "what_to_do": [
-              "brak danych w źródle"
+              "Brak konieczności podejmowania jakichkolwiek kroków lub działań dostosowawczych przez firmę."
             ],
             "deadlines": [
               {
-                "date": "2035 r.",
-                "description": "zwiększenie udziału energii elektrycznej w końcowym zapotrzebowaniu na energię na świecie do 35 proc."
+                "date": "2026-11-15",
+                "description": "Data wskazana w źródłowych faktach bez powiązania z konkretnym wydarzeniem biznesowym."
               }
             ],
             "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
@@ -399,7 +615,123 @@
           "sources": [
             {
               "name": "Money.pl Wiadomości",
-              "url": "https://www.money.pl/gospodarka/aleksandra-majda/oszczedzamy-na-rachunkach-polska-firma-mowi-o-przejsciu-na-oze-7351235448072192a.html",
+              "url": "https://www.money.pl/gospodarka/trump-towers-nie-bedzie-serbia-zrywa-umowe-z-pierwszym-zieciem-ameryki-7351179346171936a.html",
+              "published": "2026-11-15"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-1de09df3bb7b",
+          "headline": "Sztuka w biznesie a innowacje i oferta kulturalna miast",
+          "summary": "Podczas wydarzenia Made in Wrocław omawiano rolę sztuki w innowacjach technologicznych i biznesie. Wskazano, że kultura pomaga wyłamywać się ze schematów, a inwestorzy zwracają uwagę na ofertę kulturalną miast. Opisano także program wprowadzania dzieł sztuki do przestrzeni korporacyjnych.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter ogólny o relacjach biznesu ze sztuką i nie wpływa bezpośrednio na rozliczenia podatkowe ani obowiązki firmy."
+          },
+          "details": {
+            "what_happened": "Podczas wydarzenia Made in Wrocław w studiu Bankier.pl omawiano relację między biznesem a sztuką oraz rolę kultury w innowacjach technologicznych. Wskazano, że artyści pomagają wyłamywać się z utartych schematów w działalności rynkowej. Opisano również program wprowadzania dzieł sztuki do przestrzeni korporacyjnych biur w celu ich humanizacji. Wydarzenie miało miejsce 2026-11-15.",
+            "background": "Temat poruszono w kontekście tego, jak międzynarodowi inwestorzy zwracają uwagę na ofertę kulturalną miast przy podejmowaniu decyzji o lokalizacji biznesu. Kwestia ta dotyczy szerszego otoczenia społeczno-gospodarczego firm.",
+            "what_it_means_for_business": "Informacja nie niesie ze sobą bezpośrednich skutków finansowych, podatkowych ani prawnych dla jednoosobowej działalności gospodarczej. Pokazuje jedynie ogólne trendy związane z rozwojem przestrzeni biurowych i otoczenia biznesowego.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-15",
+                "description": "Data wydarzenia Made in Wrocław"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Sztuka-jako-katalizator-innowacji-Dlaczego-biznes-technologiczny-potrzebuje-artystow-9226864.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-15"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-dcd35a8b2c9e",
+          "headline": "Rekordowe aukcje dzieł sztuki w Nowym Jorku",
+          "summary": "W Nowym Jorku odbędą się aukcje dzieł sztuki w domach aukcyjnych Sotheby's, Christie's i Phillips. Ich łączna wartość może przekroczyć 2 miliardy dolarów, a na rynek trafią m.in. prace Vincenta van Gogha i Paula Cezanne'a.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ze świata sztuki i rynków globalnych nie ma bezpośredniego wpływu na działalność usługowo-handlową JDG."
+          },
+          "details": {
+            "what_happened": "W Nowym Jorku zaplanowano aukcje dzieł sztuki w domach aukcyjnych Sotheby's, Christie's i Phillips. Łączna wartość wydarzenia może przekroczyć 2 miliardy dolarów, a według szacunków ArtTactic wynieść około 2,4 mld dolarów. Na aukcjach pojawią się kolekcje dzieł niedostępnych publicznie od pół wieku, w tym pejzaż Vincenta van Gogha 'Chataigniers en fleurs' wyceniany na 180 mln dolarów.",
+            "background": "Na rynek trafiają unikalne kolekcje dzieł sztuki, w tym prace Vincenta van Gogha i Paula Cezanne'a. Sotheby's spodziewa się sprzedaży powyżej 1,1 mld dolarów, z czego sama kolekcja Blaquier-Arrieta wyceniana jest na około 450 mln dolarów. Wydarzenie to może pobić rekordy aukcyjne dla poszczególnych artystów.",
+            "what_it_means_for_business": "Brak danych w źródle na temat bezpośredniego przełożenia tych wydarzeń na rozliczenia podatkowe lub działalność operacyjną polskiego przedsiębiorcy. Informacja ma charakter rynkowy i ciekawostkowy dla sektora globalnych inwestycji alternatywnych.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "18 listopada",
+                "description": "Zaplanowana aukcja dzieł sztuki w Sotheby's"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/biznes/pieniadze/kwitnace-kasztanowce-van-gogha-na-sprzedaz-sotheby-s-liczy-na-nowy-rekord-aukcyjny-st9340269?source=rss",
+              "published": "2026-11-15"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-d0b6a191d20c",
+          "headline": "Wybuch pieca węglowego w Rozalinie",
+          "summary": "W dniu 2026-11-15 w miejscowości Rozalin doszło do wybuchu pieca węglowego w domu jednorodzinnym. Poszkodowany został jeden mężczyzna, który obsługiwał urządzenie. Na miejsce zadysponowano służby ratunkowe oraz śmigłowiec LPR.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o incydencie losowym nie ma bezpośredniego wpływu na działalność biznesową ani rozliczenia podatkowe."
+          },
+          "details": {
+            "what_happened": "W dniu 2026-11-15 w miejscowości Rozalin (województwo mazowieckie) przy ulicy Grzybowej w domu jednorodzinnym doszło do wybuchu pieca węglowego w czasie jego obsługi. Służby ratunkowe otrzymały zgłoszenie o godzinie 13:35. Poszkodowany został jeden mężczyzna obsługujący piec, który był przytomny i odniósł powierzchowne rany niezagrożące życiu. Pożar się nie rozwinął, a budynek nie ucierpiał.",
+            "background": "brak danych w źródle",
+            "what_it_means_for_business": "brak danych w źródle",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "13.35",
+                "description": "godzina otrzymania zgłoszenia przez służby"
+              },
+              {
+                "date": "około godziny 14",
+                "description": "lądowanie śmigłowiec Lotniczego Pogotowia Ratunkowego na działce obok"
+              },
+              {
+                "date": "po blisko 40 minutach",
+                "description": "odlot helikoptera LPR"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/tvnwarszawa/okolice/rozalin-wybuch-pieca-w-domu-ranny-mezczyzn-st9340248?source=rss",
               "published": "2026-11-15"
             }
           ],
@@ -410,8 +742,8 @@
   ],
   "meta": {
     "ai_model": "gemini-3.5-flash-lite",
-    "ai_calls": 12,
-    "estimated_tokens": 30146,
+    "ai_calls": 27,
+    "estimated_tokens": 66399,
     "rejected_count": 0,
     "low_confidence_count": 0,
     "sources_status": {
@@ -419,7 +751,7 @@
       "markets": "ok",
       "eureka_kis": "ok",
       "legislation": "ok",
-      "zus_gov": "ok",
+      "zus_gov": "partial",
       "economy_world": "ok"
     },
     "run_mode": "production"
