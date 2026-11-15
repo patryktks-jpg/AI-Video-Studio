@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1120" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Pigułka" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+  <link rel="apple-touch-icon" href="./icon.svg" />
+  <title>Poranna Pigułka Przedsiębiorcy</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="offline-banner" class="offline-banner hidden" role="status">
+    Tryb offline — wyświetlam ostatnią zapisaną pigułkę.
+  </div>
+
+  <!-- EKRAN GŁÓWNY (LISTA) -->
+  <div id="home-view" class="app-shell">
+    <header class="top-header">
+      <div class="header-row">
+        <div>
+          <p class="eyebrow">PORANNA PIGUŁKA</p>
+          <h1 id="pill-date-title">Ładowanie...</h1>
+        </div>
+        <div class="header-actions">
+          <button id="share-day-btn" class="btn btn-primary" type="button" aria-label="Udostępnij cały dzień">
+            Udostępnij dzień
+          </button>
+        </div>
+      </div>
+
+      <div class="controls-bar">
+        <label class="select-wrap" aria-label="Wybierz dzień z archiwum">
+          <select id="archive-select" class="input-control"></select>
+        </label>
+        <input
+          id="search-input"
+          class="input-control search-input"
+          type="search"
+          placeholder="Szukaj w pigułkach (np. VAT, ZUS, sygnatura)..."
+          aria-label="Szukaj w treści"
+        />
+      </div>
+
+      <div id="tag-filters" class="tag-filters" role="tablist" aria-label="Filtry tematyczne"></div>
+    </header>
+
+    <main class="main-content">
+      <!-- Karta Pogody (Brzesko 32-800) -->
+      <section id="weather-card" class="info-card weather-card" aria-label="Pogoda dla Brzeska"></section>
+
+      <!-- Karta Kursów NBP i Stóp -->
+      <section id="markets-card" class="info-card markets-card" aria-label="Kursy walut i stopy NBP"></section>
+
+      <!-- Najbliższe terminy podatkowe i ZUS -->
+      <section id="deadlines-card" class="info-card deadlines-card" aria-label="Najbliższe terminy podatkowe"></section>
+
+      <!-- Najważniejsze dla profilu firmy -->
+      <section id="recommended-section" class="section-block hidden">
+        <div class="section-header">
+          <h2>⭐ Najważniejsze dla Ciebie</h2>
+          <span class="section-badge">Dopasowane do profilu</span>
+        </div>
+        <div id="recommended-list" class="cards-grid"></div>
+      </section>
+
+      <!-- Pozostałe sekcje (Interpretacje, Podatki i ZUS, Świat i Gospodarka) -->
+      <div id="sections-container"></div>
+
+      <!-- Widok zapisanych pozycji (IndexedDB) -->
+      <section id="saved-section" class="section-block hidden">
+        <div class="section-header">
+          <h2>⭐ Zapisane pozycje (Offline)</h2>
+        </div>
+        <div id="saved-list" class="cards-grid"></div>
+      </section>
+    </main>
+
+    <footer class="legal-footer">
+      <p>
+        <strong>Zastrzeżenie prawne:</strong> Materiał ma charakter wyłącznie informacyjny i edukacyjny.
+        Nie stanowi porady prawnej, podatkowej ani księgowej w rozumieniu przepisów prawa.
+        Decyzje biznesowe skonsultuj z doradcą podatkowym lub księgowym.
+      </p>
+      <p id="meta-info" class="meta-line"></p>
+    </footer>
+  </div>
+
+  <!-- PEŁNOEKRANOWY WIDOK SZCZEGÓŁÓW POZYCJI -->
+  <div id="detail-view" class="detail-view hidden" role="dialog" aria-modal="true" aria-labelledby="detail-headline">
+    <header class="detail-header">
+      <button id="detail-back-btn" class="btn btn-secondary" type="button">← Wstecz</button>
+      <div class="detail-header-actions">
+        <button id="detail-save-btn" class="btn btn-icon" type="button" aria-label="Zapisz pozycję">☆</button>
+        <button id="detail-share-btn" class="btn btn-primary" type="button">Udostępnij</button>
+      </div>
+    </header>
+    <article id="detail-body" class="detail-body"></article>
+    <footer class="legal-footer detail-footer">
+      <p>Materiał informacyjny — nie stanowi porady prawnej ani podatkowej.</p>
+    </footer>
+  </div>
+
+  <!-- MODAL WYBORU WERSJI UDOSTĘPNIANIA (KRÓTKA / PEŁNA) -->
+  <div id="share-modal" class="share-modal hidden" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+    <div class="share-sheet">
+      <div class="share-sheet-header">
+        <h3 id="share-modal-title">Udostępnij notatkę</h3>
+        <button id="share-close-btn" class="btn btn-icon" type="button" aria-label="Zamknij">✕</button>
+      </div>
+      <div class="share-variant-tabs">
+        <button id="variant-short-btn" class="chip active" type="button">Krótka (SMS / WhatsApp)</button>
+        <button id="variant-full-btn" class="chip" type="button">Pełna (E-mail / Notatki)</button>
+      </div>
+      <textarea id="share-preview" class="share-preview" readonly rows="10"></textarea>
+      <div class="share-actions">
+        <button id="share-native-btn" class="btn btn-primary" type="button">Wyślij (Arkusz iOS / System)</button>
+        <button id="share-copy-btn" class="btn btn-secondary" type="button">Kopiuj do schowka</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

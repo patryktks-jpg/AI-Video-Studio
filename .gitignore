@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.env
 *.env
 .venv/
 env/
@@ -22,11 +23,7 @@ storage/outputs/*
 models/
 
 # Local tools & portable binaries
-tools/*
-!tools/morning_briefing/
-tools/morning_briefing/.env
-tools/morning_briefing/*.log
-
+tools/
 
 # Logs & OS artifacts
 *.log

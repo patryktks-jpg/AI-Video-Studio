@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "note": "Anonimowy profil firmy do oceny istotnosci informacji przez AI. Nie zawiera danych identyfikujacych (NIP, nazwy, adresu).",
+  "legal_form": "jednoosobowa działalność gospodarcza (JDG)",
+  "taxation_form": "skala podatkowa / ryczałt (rozważane formy dla JDG)",
+  "vat_payer": true,
+  "vat_settlement": "miesięczny (JPK_V7M)",
+  "zus_scheme": "pełny ZUS przedsiębiorcy (lub Mały ZUS Plus / preferencyjny w zależności od stażu)",
+  "has_employees": false,
+  "industry": "usługi B2B, e-commerce i handel detaliczny",
+  "foreign_trade": {
+    "eu_services_or_goods": true,
+    "non_eu_import_export": false
+  },
+  "priority_tags": ["VAT", "PIT", "ZUS", "KSeF", "JPK", "ryczałt", "e-commerce"]
+}

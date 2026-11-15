@@ -1,31 +1,78 @@
-name: Poranny Briefing Biznesowy
+name: Poranna Pigulka - Generowanie i Publikacja PWA
 
 on:
   schedule:
-    # 06:51 UTC = 07:51 czasu polskiego (czas zimowy UTC+1)
-    # Wybór minuty 51 (zamiast pełnej 00) omija gigantyczny korek darmowych maszyn GitHuba
-    - cron: '51 6 * * *'
-  workflow_dispatch: # Przycisk "Run workflow" w zakładce Actions na GitHubie do testu ręcznego
-  repository_dispatch: # Umożliwia natychmiastowe wywołanie przez zewnętrzny darmowy webhook (np. cron-job.org)
+    # Podwójny harmonogram dla czasu letniego (CEST = UTC+2 -> 07:35)
+    # oraz zimowego (CET = UTC+1 -> 07:35).
+    # Strażnik strefy czasowej w scripts/main.py pilnuje pojedynczego wykonania ok. 07:35-08:00 w Polsce.
+    - cron: '35 5 * * *'
+    - cron: '35 6 * * *'
+  workflow_dispatch:
+  repository_dispatch:
     types: [morning_briefing]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages-and-pill'
+  cancel-in-progress: false
+
 jobs:
-  send-briefing:
+  build-and-publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Pobierz repozytorium
         uses: actions/checkout@v4
 
-      - name: Konfiguracja Pythona
+      - name: Konfiguracja Pythona 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Uruchomienie Porannego Briefingu
+      - name: Uruchomienie generatora Porannej Pigułki
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python scripts/main.py
+
+      - name: Zapisz wygenerowane dane pigułki w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ app/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(pill): aktualizacja porannej pigułki [skip ci]"
+            git push
+          else
+            echo "Brak nowych zmian w data/ lub app/data/."
+          fi
+
+      - name: Konfiguracja GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Spakowanie artefaktu PWA (/app)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+      - name: Publikacja PWA na GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Powiadomienie o awarii pipeline'u (Zadanie 11)
+        if: failure()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          CITY: "Brzesko"
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
-          python tools/morning_briefing/main.py
+          python scripts/notifier.py --failure --reason "Błąd workflowu Poranna Pigułka w GitHub Actions."

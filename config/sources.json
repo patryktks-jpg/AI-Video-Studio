@@ -1,0 +1,103 @@
+{
+  "ai_model": "gemini-3.5-flash-lite",
+  "ai_fallback_models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-flash-latest"
+  ],
+  "ai_delay_seconds": 2.0,
+  "ai_max_retries": 3,
+  "max_items_per_section": 5,
+  "max_source_chars_per_item": 6000,
+  "selection_criteria": {
+    "description": "Wybieraj pozycje o największym wpływie na JDG i MŚP w Polsce: zmiany w stawkach/limitach, nowe obowiązki lub ulgi podatkowe/ZUS, bliskie terminy lub wysokie ryzyko kar.",
+    "priority_keywords": [
+      "vat", "pit", "cit", "zus", "składk", "ryczałt", "ksef", "jpk",
+      "ulga", "zwolnien", "termin", "przedsiębior", "faktur", "podat",
+      "interpretac", "kontrola", "kara", "korekta", "limit", "rozporządzen",
+      "ustaw", "sejm", "dziennik ustaw"
+    ]
+  },
+  "weather": {
+    "enabled": true,
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "lat": 49.9691,
+    "lon": 20.6061
+  },
+  "markets": {
+    "enabled": true,
+    "currencies": ["EUR", "USD", "CHF", "GBP"],
+    "nbp_table_a_url": "https://api.nbp.pl/api/exchangerates/tables/A/?format=json",
+    "nbp_rates_xml_url": "https://static.nbp.pl/dane/stopy/stopy_procentowe.xml"
+  },
+  "eureka_kis": {
+    "enabled": true,
+    "search_url": "https://eureka.mf.gov.pl/api/public/v1/wyszukiwarka/informacje",
+    "detail_url_template": "https://eureka.mf.gov.pl/api/public/v1/informacje/{id}",
+    "public_url_template": "https://eureka.mf.gov.pl/informacje/podglad/{id}",
+    "fetch_size": 10,
+    "max_items": 4,
+    "request_delay_seconds": 0.6
+  },
+  "legislation": {
+    "enabled": true,
+    "sejm_prints_url": "https://api.sejm.gov.pl/sejm/term10/prints?limit=20",
+    "eli_du_url_template": "https://api.sejm.gov.pl/eli/acts/DU/{year}",
+    "max_items": 4
+  },
+  "zus_gov": {
+    "enabled": true,
+    "max_items": 4,
+    "sources": [
+      {
+        "id": "mf_gov",
+        "name": "Ministerstwo Finansów (gov.pl)",
+        "type": "gov_html",
+        "url": "https://www.gov.pl/web/finanse/wiadomosci",
+        "base_url": "https://www.gov.pl"
+      },
+      {
+        "id": "zus_pl",
+        "name": "ZUS Aktualności (zus.pl)",
+        "type": "zus_html",
+        "url": "https://www.zus.pl/o-zus/aktualnosci",
+        "base_url": "https://www.zus.pl"
+      },
+      {
+        "id": "interia_podatki",
+        "name": "Interia Biznes - Podatki",
+        "type": "rss",
+        "url": "https://biznes.interia.pl/podatki/feed"
+      }
+    ]
+  },
+  "economy_world": {
+    "enabled": true,
+    "max_items": 4,
+    "sources": [
+      {
+        "id": "money_pl",
+        "name": "Money.pl Wiadomości",
+        "type": "rss",
+        "url": "https://www.money.pl/rss/wiadomosci.xml"
+      },
+      {
+        "id": "bankier_pl",
+        "name": "Bankier.pl Biznes",
+        "type": "rss",
+        "url": "https://www.bankier.pl/rss/wiadomosci.xml"
+      },
+      {
+        "id": "tvn24_swiat",
+        "name": "TVN24 Najnowsze",
+        "type": "rss",
+        "url": "https://tvn24.pl/najnowsze.xml"
+      }
+    ]
+  },
+  "notifications": {
+    "app_url": "https://patryktks-jpg.github.io/AI-Video-Studio/",
+    "ntfy_topic": ""
+  }
+}

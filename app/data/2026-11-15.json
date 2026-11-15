@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T15:59:09+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "ok",
+    "temp_now": 5.3,
+    "apparent_temp": 1.1,
+    "temp_min": -0.1,
+    "temp_max": 8.1,
+    "wind_speed_kmh": 14.4,
+    "rain_probability_max": 7,
+    "condition": "Pochmurno ☁️",
+    "practical_tip": "Dzień bez większego ryzyka opadów. Odczuwalnie chłodno — ciepła kurtka niezbędna.",
+    "hourly_forecast": [
+      {
+        "hour": "07:00",
+        "temp": 0.6,
+        "rain_prob": 0
+      },
+      {
+        "hour": "08:00",
+        "temp": 1.4,
+        "rain_prob": 0
+      },
+      {
+        "hour": "09:00",
+        "temp": 2.9,
+        "rain_prob": 0
+      },
+      {
+        "hour": "10:00",
+        "temp": 4.6,
+        "rain_prob": 0
+      },
+      {
+        "hour": "11:00",
+        "temp": 5.8,
+        "rain_prob": 0
+      },
+      {
+        "hour": "12:00",
+        "temp": 6.8,
+        "rain_prob": 0
+      },
+      {
+        "hour": "13:00",
+        "temp": 8.1,
+        "rain_prob": 0
+      },
+      {
+        "hour": "14:00",
+        "temp": 7.8,
+        "rain_prob": 0
+      },
+      {
+        "hour": "15:00",
+        "temp": 6.6,
+        "rain_prob": 0
+      },
+      {
+        "hour": "16:00",
+        "temp": 4.9,
+        "rain_prob": 0
+      },
+      {
+        "hour": "17:00",
+        "temp": 3.6,
+        "rain_prob": 0
+      },
+      {
+        "hour": "18:00",
+        "temp": 3.2,
+        "rain_prob": 0
+      },
+      {
+        "hour": "19:00",
+        "temp": 3.3,
+        "rain_prob": 0
+      },
+      {
+        "hour": "20:00",
+        "temp": 3.1,
+        "rain_prob": 2
+      },
+      {
+        "hour": "21:00",
+        "temp": 3.1,
+        "rain_prob": 4
+      }
+    ]
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "221/A/NBP/2026",
+    "effective_date": "2026-11-13",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.407
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 3.9852
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.7618
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.2737
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "zus-osoby-prawne-2026-11-16",
+      "date": "2026-11-16",
+      "original_day": 15,
+      "shifted": true,
+      "days_remaining": 1,
+      "title": "Składki ZUS (spółki z o.o., akcyjne, stowarzyszenia, fundacje)",
+      "description": "Rozliczenie i opłacenie składek ZUS za miesiąc poprzedni przez płatników posiadających osobowość prawną.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "zus-jdg-pozostali-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 5,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 5,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": [
+        "PIT",
+        "CIT",
+        "ryczałt"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-719107",
+          "headline": "Sprzedaż nieruchomości po pierwszym zasiedleniu korzysta ze zwolnienia z VAT",
+          "summary": "Dyrektor KIS potwierdził, że planowana przez spółkę cywilną sprzedaż nieruchomości zabudowanej będzie korzystać ze zwolnienia z podatku VAT. Transakcja spełnia warunki określone w art. 43 ust. 1 pkt 10 ustawy o VAT, ponieważ od pierwszego zasiedlenia upłynęło więcej niż 2 lata.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Informacja dotyczy zasad opodatkowania VAT przy sprzedaży nieruchomości przez przedsiębiorców."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS wydał interpretację indywidualną potwierdzającą stanowisko wnioskodawcy, zgodnie z którym planowana w 2026 roku sprzedaż nieruchomości gruntowej zabudowanej na rzecz innego przedsiębiorcy będzie w całości korzystała ze zwolnienia z podatku VAT. Organ uznał, że transakcja spełnia wszystkie przesłanki do zastosowania zwolnienia przewidzianego w art. 43 ust. 1 pkt 10 ustawy o VAT. Nieruchomość nie była ulepszana w sposób przekraczający 30% wartości początkowej, a od pierwszego zasiedlenia upłynęło 35 lat. Spółka nie wykorzystywała również obiektu do czynności zwolnionych z podatku VAT.",
+            "background": "Wspólnici spółki cywilnej nabyli w 2025 roku na własność nieruchomość gruntową zabudowaną, która wcześniej stanowiła własność Skarbu Państwa i znajdowała się w ich użytkowaniu wieczystym. Nabycie nastąpiło na podstawie art. 198g ustawy o gospodarce nieruchomościami. Obiekt stanowi budynek produkcyjno-usługowy z urządzeniami budowlanymi. Wnioskodawca zwrócił się z pytaniem, czy planowana sprzedaż na rzecz innego przedsiębiorcy będzie korzystała ze zwolnienia z VAT na podstawie art. 43 ust. 1 pkt 10 ustawy o VAT.",
+            "what_it_means_for_business": "Rozstrzygnięcie to ma istotne znaczenie dla przedsiębiorców planujących zbycie nieruchomości wykorzystywanych w działalności gospodarczej. Potwierdza ono, że sprzedaż budynków spełniających warunek upływu 2 lat od pierwszego zasiedlenia oraz braku przekroczenia limitu ulepszeń o wartości 30% może być zwolniona z podatku VAT. Daje to jasność co do kalkulacji opłacalności transakcji oraz braku konieczności naliczania podatku należnego przez sprzedającego.",
+            "what_to_do": [
+              "Przeanalizować datę pierwszego zasiedlenia posiadanych nieruchomości przed ich planowaną sprzedażą.",
+              "Sprawdzić wysokość nakładów na ulepszenia w relacji do wartości początkowej budynku."
+            ],
+            "deadlines": [
+              {
+                "date": "2026 r.",
+                "description": "planowana sprzedaż nieruchomości"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719107",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-717786",
+          "headline": "Interpretacja KIS w sprawie skutków podatkowych ugody frankowej",
+          "summary": "Dyrektor KIS potwierdził stanowisko wnioskodawczyni, że nie jest ona zobowiązana do zapłaty podatku w związku z zawartą ugodą sądową z bankiem. Kredyt został przeznaczony na zakup mieszkania, a umorzone kwoty oraz zwrot nadpłaty nie generują obowiązku podatkowego w przedstawionych okolicznościach.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy majątku prywatnego (kredyt mieszkaniowy) i nie ma bezpośredniego przełożenia na bieżącą działalność gospodarczą B2B."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS uznał za prawidłowe stanowisko wnioskodawczyni, która zapytała, czy jest zobowiązana do zapłaty podatku w związku z zawartą ugodą. 8 maja 2025 r. wnioskodawczyni zawarła ugodę sądową z bankiem X SA w sprawie kredytu mieszkaniowego w frankach szwajcarskich. Na mocy ugody bank w terminie 21 dni umorzył zadłużenie w kwocie 71.725,36 zł (kapitał 71.622,95 zł i odsetki bieżące 102,41 zł) oraz zwrócił 29.500,00 zł stanowiące zwrot nadpłaty rat.",
+            "background": "7 lutego 2008 r. wnioskodawczyni wraz z mamą zawarła umowę o kredyt mieszkaniowy własny kąt hipoteczny we frankach szwajcarskich w kwocie 36.654,73 CHF. W związku z abuzywnymi zapisami wnioskodawczyni złożyła wniosek do Sądu Okręgowego w A o unieważnienie umowy. Od 2019 r. mieszkanie jest wynajmowane z uwagi na sytuację rodzinną. Wnioskodawczyni faktycznie spłacała kredyt przeliczony na złotówki bez zmiany treści umowy.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza brak obowiązku zapłaty podatku z tytułu ugody i umorzenia wierzytelności kredytowych w opisanym stanie faktycznym. Dla przedsiębiorcy prowadzącego JDG informacja ma znaczenie głównie o charakterze porządkowym i interpretacyjnym w zakresie relacji z bankami. Nie wpływa bezpośrednio na rozliczenia z tytułu prowadzonej działalności gospodarczej, ponieważ dotyczy celów mieszkaniowych.",
+            "what_to_do": [
+              "Zapoznać się z treścią interpretacji o sygnaturze 0115-KDWT.4011.390.2026.2.AK.",
+              "Zweryfikować własne umowy kredytowe i ugody pod kątem analogicznych zdarzeń."
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie 21 dni od zawarcia ugody",
+                "description": "termin na umorzenie zadłużenia i zwrot kwoty przez bank"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Wnioskodawczyni nie prowadziła działalności gospodarczej w ww. mieszkaniu, nie korzystała z zaniechania poboru podatku od kwot umorzonych wierzytelności z tytułu kredytu mieszkaniowego. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717786",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "zus-c5e99c9b9e02",
+          "headline": "ZUS umorzy zaległe składki sprzed 1 stycznia 1999 roku",
+          "summary": "ZUS dokona z mocy prawa umorzenia zaległości składkowych powstałych przed dniem 1 stycznia 1999 r., obejmujących również odsetki oraz koszty egzekucyjne. Dłużnicy nie muszą składać żadnych wniosków, a postępowania egzekucyjne zostaną umorzone od 1 maja 2027 r. ZUS poinformuje dłużników o umorzeniu i zajmie się wykreśleniem hipotek oraz zastawów.",
+          "tags": [
+            "ZUS",
+            "Ustawy"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy historycznych zaległości sprzed 1 stycznia 1999 r., co nie ma bezpośredniego wpływu na bieżącą działalność jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "ZUS z mocy prawa umorzy stare długi składkowe oraz powiązane opłaty, odsetki i koszty egzekucyjne powstałe przed dniem 1 stycznia 1999 r. Dłużnicy nie muszą składać żadnych wniosków, a Zakład Ubezpieczeń Społecznych samodzielnie poinformuje o umorzeniu. Dodatkowo ZUS wyśle dokumenty do wykreślenia hipotek oraz sam wystąpi o wykreślenie zastawów na ruchomościach. Postępowania egzekucyjne dotyczące tych należności zostaną umorzone od 1 maja 2027 r.",
+            "background": "Sprawa opiera się na Ustawie z dnia 18 września 2026 r. o umorzeniu należności dochodzonych przez Zakład Ubezpieczeń Społecznych powstałych przed dniem 1 stycznia 1999 r. (Dz. U. z 2026 r. poz. 1476). Przepisy te mają na celu oczyszczenie starych, niesściągalnych zaległości składkowych zalegających w systemach ZUS.",
+            "what_it_means_for_business": "Przedsiębiorcy posiadający historyczne zadłużenie sprzed 1999 roku zostaną z niego uwolnieni bez konieczności podejmowania działań. Należy jednak pamiętać, że umorzenie długu z tytułu składek na własne ubezpieczenia społeczne skutkuje brakiem uwzględnienia tego okresu przy ustalaniu kapitału początkowego oraz prawa do świadczeń emerytalno-rentowych.",
+            "what_to_do": [
+              "Oczekiwać na zawiadomienie z ZUS, jeśli firma posiada stare zaległości sprzed 1999 roku.",
+              "W razie potrzeby złożenia oświadczenia o odstąpieniu od umorzenia, pamiętać o terminie 30 dni od momentu otrzymania zawiadomienia."
+            ],
+            "deadlines": [
+              {
+                "date": "1 maja przyszłego roku",
+                "description": "ZUS z mocy prawa umorzy należności składkowe sprzed 1999 r."
+              },
+              {
+                "date": "30 dni",
+                "description": "Czas na złożenie oświadczenia o odstąpieniu od umorzenia od momentu otrzymania zawiadomienia"
+              },
+              {
+                "date": "1 maja 2027 r.",
+                "description": "Z mocy prawa umorzone zostaną postępowania egzekucyjne dotyczące umarzanych należności oraz wygaśnie umowa o rozłożeniu na raty"
+              }
+            ],
+            "caveats": "Umorzenie długu z tytułu składek na własne ubezpieczenia społeczne lub osoby współpracującej powoduje, że ZUS nie uwzględni tego okresu przy ustalaniu kapitału początkowego oraz prawa do emerytury, renty i innych świadczeń uzależnionych od okresów składkowych i nieskładkowych. Okres ten będzie się jednak wliczał do stażu pracy w rozumieniu Kodeksu pracy. Istnieje możliwość rezygnacji z umorzenia w terminie 30 dni od zawiadomienia, przy czym terminu nie można przywrócić, oświadczenie musi obejmować wszystkie należności i nie można go później odwołać ani zmienić. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "ZUS Aktualności (zus.pl)",
+              "url": "https://www.zus.pl/-/zus-skasuje-stare-d%C5%82ugi",
+              "published": "2026-11-12"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1492",
+          "headline": "Ogłoszenie jednolitego tekstu ustawy o Krajowej Administracji Skarbowej",
+          "summary": "Marszałek Sejmu ogłosił jednolity tekst ustawy o Krajowej Administracji Skarbowej. Publikacja nastąpiła w Dzienniku Ustaw pod pozycją 1492. Informacja ma charakter oficjalnego obwieszczenia instytucjonalnego.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Publikacja jednolitego tekstu ustawy o KAS nie zmienia bezpośrednio zasad rozliczeń podatkowych ani obowiązków bieżących dla jednoosobowej działalności."
+          },
+          "details": {
+            "what_happened": "Marszałek Sejmu Rzeczypospolitej Polskiej dokonał ogłoszenia jednolitego tekstu ustawy o Krajowej Administracji Skarbowej. Dokument został opublikowany pod sygnaturą Dz.U. 2026 poz. 1492. Opracowanie to zbiera dotychczasowe zmiany w jednym akcie prawnym. Wydarzenie to jest standardową procedurą legislacyjną porządkującą przepisy.",
+            "background": "Kontekst sprawy opiera się na ogłoszeniu jednolitej treści przepisów regulujących funkcjonowanie Krajowej Administracji Skarbowej. W źródła nie wskazano dodatkowego pytania wnioskodawcy ani szczegółowego tła sporu. Działanie wynika z wymogów publikacji ujednoliconych aktów prawnych.",
+            "what_it_means_for_business": "Dla prowadzącego działalność gospodarczą ogłoszenie jednolitego tekstu oznacza dostęp do aktualnej, oficjalnej wersji ustawy o KAS w jednym dokumencie. Nie wprowadza to jednak nowych stawek, podatków ani bezpośrednich zmian w obowiązkach rozliczeniowych. Przedsiębiorca może korzystać z ujednoliconego aktu przy weryfikacji przepisów kompetencyjnych organów skarbowych.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1492/ogl",
+              "published": "2026-11-12"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-0d025f94ca8d",
+          "headline": "Incydent w Wilnie: Zbezczeszczenie miejsca kultu religijnego",
+          "summary": "W nocy z 11 na 12 listopada w Wilnie doszło do zniszczenia figury Jezusa przed sanktuarium. Policja ustaliła tożsamość podejrzanego, przesłuchała go i zastosowała środek zapobiegawczy.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o charakterze kryminalnym niemająca żadnego wpływu na prowadzenie działalności gospodarczej, podatki czy finanse firmy."
+          },
+          "details": {
+            "what_happened": "W nocy z 11 na 12 listopada przed kościołem przy ulicy Dominikańskiej w Wilnie mężczyzna zdjął figurę Jezusa z drewnianego krzyża i rozbił ją na ulicy. Zdarzenie zostało zarejestrowane przez kamery, a nagranie opublikowano w mediach społecznościowych. Policja ustaliła tożsamość podejrzanego, przesłuchała go i postawiła mu zarzuty związane ze zbezczeszczeniem miejsca kultu religijnego.",
+            "background": "Sprawa wyszła na jaw dzięki nagraniu udostępnionemu przez księdza Elijasza Anatolijusa Markauskasa, na którym słychać m.in. śmiech i wulgaryzmy w języku angielskim. Podejrzany w momencie zdarzenia prawdopodobnie był pod wpływem alkoholu, a tożsamość pozostałych osób z nagrania nie została ujawniona.",
+            "what_it_means_for_business": "Brak danych w źródle. Zdarzenie nie ma żadnego przełożenia na sytuację biznesową, podatkową ani operacyjną przedsiębiorcy.",
+            "what_to_do": [
+              "Brak danych w źródle - brak działań wymaganych od przedsiębiorcy."
+            ],
+            "deadlines": [],
+            "caveats": "Podejrzany w momencie zdarzenia prawdopodobnie był pod wpływem alkoholu, a tożsamość osób z nagrania nie została ujawniona. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/swiat/wilno-mezczyzna-zdjal-z-krzyza-figure-jezusa-i-rozbil-ja-na-ulicy-nagranie-st9340212?source=rss",
+              "published": "2026-11-15"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-90a374f0539e",
+          "headline": "Szczyt COP31: Cel 35x35 i oszczędności firm dzięki OZE",
+          "summary": "Trwający szczyt klimatyczny COP31 w Antalyi przynosi propozycję zwiększenia udziału energii elektrycznej do 35 proc. do 2035 roku. Jednocześnie firma Avionic deklaruje roczne oszczędności na rachunkach o 35 proc. dzięki przejściu na OZE. Plany te spotykają się z krytyką aktywistów z powodu silnego oparcia Turcji i Australii na paliwach kopalnych.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter ogólnogospodarczy i międzynarodowy, nie wpływając bezpośrednio na bieżące rozliczenia podatkowe ani obowiązki JDG."
+          },
+          "details": {
+            "what_happened": "Podczas szczytu klimatycznego ONZ COP31 w tureckiej Antalyi gospodarz dąży do przyjęcia globalnego celu '35x35'. Zakłada on wzrost udziału energii elektrycznej w końcowym zapotrzebowaniu na energię z ok. 20 proc. do 35 proc. do 2035 r. Cel ten zyskał poparcie Międzynarodowej Agencji Energetycznej. Z kolei firma Avionic poinformowała o osiągnięciu 35-proc. oszczędności na rachunkach w skali roku dzięki inwestycji w odnawialne źródła energii.",
+            "background": "Inicjatywa Turcji ma zostać włączona do końcowego porozumienia szczytu COP31. Spotyka się ona jednak z krytyką ze strony aktywistów klimatycznych. Zarzucają oni brak odniesień do odnawialnych lub niskoemisyjnych źródeł energii w krajach takich jak Turcja i Australia, które wciąż w dużym stopniu opierają się na paliwach kopalnych.",
+            "what_it_means_for_business": "Globalne trendy transformacji energetycznej oraz przykłady firm takich jak Avionic pokazują, że inwestycje w OZE mogą przynieść wymierne oszczędności w kosztach prowadzenia działalności. Informacja nie niesie jednak za sobą bezpośrednich skutków podatkowych ani nowych obowiązków prawnych dla polskiego przedsiębiorcy. Konkretne przełożenie na koszty zależy od indywidualnych decyzji biznesowych i cen energii.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "2035 r.",
+                "description": "zwiększenie udziału energii elektrycznej w końcowym zapotrzebowaniu na energię na świecie do 35 proc."
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/gospodarka/aleksandra-majda/oszczedzamy-na-rachunkach-polska-firma-mowi-o-przejsciu-na-oze-7351235448072192a.html",
+              "published": "2026-11-15"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 12,
+    "estimated_tokens": 30146,
+    "rejected_count": 0,
+    "low_confidence_count": 0,
+    "sources_status": {
+      "weather": "ok",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "ok",
+      "economy_world": "ok"
+    },
+    "run_mode": "production"
+  }
+}

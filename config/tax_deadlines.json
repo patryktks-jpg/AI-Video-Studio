@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "disclaimer": "Kalendarz zawiera standardowe cykliczne terminy podatkowe i ZUS w Polsce. Zależą one od wybranej formy opodatkowania i przesuwają się przy dniach wolnych od pracy. Zawsze potwierdź ostateczny termin u swojego księgowego.",
+  "recurring_monthly": [
+    {
+      "id": "karta-podatkowa",
+      "day": 7,
+      "title": "Zapłata zryczałtowanego podatku (karta podatkowa)",
+      "description": "Termin zapłaty podatku w formie karty podatkowej za miesiąc poprzedni.",
+      "tags": ["PIT"],
+      "applies_to": ["karta podatkowa"],
+      "shift_holiday": true
+    },
+    {
+      "id": "zus-osoby-prawne",
+      "day": 15,
+      "title": "Składki ZUS (spółki z o.o., akcyjne, stowarzyszenia, fundacje)",
+      "description": "Rozliczenie i opłacenie składek ZUS za miesiąc poprzedni przez płatników posiadających osobowość prawną.",
+      "tags": ["ZUS"],
+      "applies_to": ["sp. z o.o.", "osoby prawne"],
+      "shift_holiday": true
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt",
+      "day": 20,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": ["PIT", "CIT", "ryczałt"],
+      "applies_to": ["JDG", "skala", "liniowy", "ryczałt", "CIT"],
+      "shift_holiday": true
+    },
+    {
+      "id": "zus-jdg-pozostali",
+      "day": 20,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": ["ZUS"],
+      "applies_to": ["JDG", "osoby fizyczne"],
+      "shift_holiday": true
+    },
+    {
+      "id": "vat-jpk-v7m",
+      "day": 25,
+      "title": "JPK_V7M / JPK_V7K oraz zapłata podatku VAT",
+      "description": "Złożenie jednolitego pliku kontrolnego VAT (JPK_V7M, część ewidencyjna JPK_V7K) oraz zapłata podatku VAT za miesiąc poprzedni. Termin dotyczy również informacji podsumowującej VAT-UE.",
+      "tags": ["VAT", "JPK"],
+      "applies_to": ["płatnik VAT"],
+      "shift_holiday": true
+    }
+  ],
+  "annual_special": [
+    {
+      "id": "zus-i-drap-roczne",
+      "month": 5,
+      "day": 20,
+      "title": "Roczne rozliczenie składki zdrowotnej w ZUS",
+      "description": "Termin złożenia rocznego rozliczenia składki zdrowotnej za rok poprzedni (w deklaracji ZUS DRA/RCA za kwiecień).",
+      "tags": ["ZUS"],
+      "shift_holiday": true
+    },
+    {
+      "id": "pit-roczny",
+      "month": 4,
+      "day": 30,
+      "title": "Zeznanie roczne PIT (PIT-36, PIT-36L, PIT-28, PIT-37)",
+      "description": "Ostateczny termin złożenia rocznego zeznania PIT za rok poprzedni i dopłaty podatku.",
+      "tags": ["PIT"],
+      "shift_holiday": true
+    },
+    {
+      "id": "cit-roczny",
+      "month": 3,
+      "day": 31,
+      "title": "Zeznanie roczne CIT-8 (przy roku kalendarzowym)",
+      "description": "Złożenie zeznania rocznego CIT-8 oraz zapłata ewentualnego podatku za rok poprzedni.",
+      "tags": ["CIT"],
+      "shift_holiday": true
+    }
+  ]
+}
