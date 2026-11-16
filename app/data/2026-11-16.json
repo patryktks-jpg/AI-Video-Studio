@@ -1,0 +1,467 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T21:35:29+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "ok",
+    "temp_now": 5.9,
+    "apparent_temp": 3.0,
+    "temp_min": 1.7,
+    "temp_max": 10.1,
+    "wind_speed_kmh": 10.4,
+    "rain_probability_max": 20,
+    "condition": "Pochmurno ☁️",
+    "practical_tip": "Dzień bez większego ryzyka opadów. Odczuwalnie chłodno — ciepła kurtka niezbędna.",
+    "hourly_forecast": [
+      {
+        "hour": "07:00",
+        "temp": 1.8,
+        "rain_prob": 0
+      },
+      {
+        "hour": "08:00",
+        "temp": 3.1,
+        "rain_prob": 0
+      },
+      {
+        "hour": "09:00",
+        "temp": 5.3,
+        "rain_prob": 0
+      },
+      {
+        "hour": "10:00",
+        "temp": 7.1,
+        "rain_prob": 0
+      },
+      {
+        "hour": "11:00",
+        "temp": 8.5,
+        "rain_prob": 0
+      },
+      {
+        "hour": "12:00",
+        "temp": 9.6,
+        "rain_prob": 0
+      },
+      {
+        "hour": "13:00",
+        "temp": 10.1,
+        "rain_prob": 0
+      },
+      {
+        "hour": "14:00",
+        "temp": 9.2,
+        "rain_prob": 0
+      },
+      {
+        "hour": "15:00",
+        "temp": 8.2,
+        "rain_prob": 0
+      },
+      {
+        "hour": "16:00",
+        "temp": 7.3,
+        "rain_prob": 2
+      },
+      {
+        "hour": "17:00",
+        "temp": 6.8,
+        "rain_prob": 8
+      },
+      {
+        "hour": "18:00",
+        "temp": 6.6,
+        "rain_prob": 16
+      },
+      {
+        "hour": "19:00",
+        "temp": 6.2,
+        "rain_prob": 20
+      },
+      {
+        "hour": "20:00",
+        "temp": 5.9,
+        "rain_prob": 17
+      },
+      {
+        "hour": "21:00",
+        "temp": 5.8,
+        "rain_prob": 11
+      }
+    ]
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "222/A/NBP/2026",
+    "effective_date": "2026-11-16",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.4048
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 4.0007
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.7607
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.2768
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "zus-osoby-prawne-2026-11-16",
+      "date": "2026-11-16",
+      "original_day": 15,
+      "shifted": true,
+      "days_remaining": 0,
+      "title": "Składki ZUS (spółki z o.o., akcyjne, stowarzyszenia, fundacje)",
+      "description": "Rozliczenie i opłacenie składek ZUS za miesiąc poprzedni przez płatników posiadających osobowość prawną.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "zus-jdg-pozostali-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 4,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 4,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": [
+        "PIT",
+        "CIT",
+        "ryczałt"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-717988",
+          "headline": "Ryczałt 8,5% dla usług Digital Media Account Managera",
+          "summary": "Dyrektor KIS potwierdził, że usługi zarządzania projektami i koordynacji kampanii mediowych pod PKWiU 70.22.20.0 mogą być opodatkowane ryczałtem 8,5%. Dotyczy to sytuacji, gdy przedsiębiorca nie tworzy strategii marketingowych ani nie świadczy usług doradczych.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Interpretacja dotyczy usług B2B i ryczałtu, które są kluczowe dla rozważanych form opodatkowania w profilu JDG."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną potwierdzającą prawidłowość stanowiska wnioskodawczyni. Uznano, że przychody z usług Digital Media Account Managera sklasyfikowanych pod symbolem PKWiU 70.22.20.0 mogą być opodatkowane stawką 8,5%. Warunkiem jest brak udziału w tworzeniu strategii i braku doradztwa marketingowego.",
+            "background": "Wnioskodawczyni prowadząca jednoosobową działalność gospodarczą zadała pytanie, czy usługi polegające na onboardingu klientów, przygotowywaniu briefów, harmonogramów, budżetów i nadzorze nad realizacją strategii kampanii mieszczą się w stawce 8,5% ryczałtu. Wskazała, że strategie są przygotowywane odgórnie przez klienta, a wynagrodzenie kalkulowane jest godzinowo.",
+            "what_it_means_for_business": "Przedsiębiorcy świadczący usługi zarządzania projektami (PKWiU 70.22.20.0) mogą stosować 8,5% ryczałtu, o ile ich zakres obowiązków nie obejmuje doradztwa ani tworzenia strategii. Daje to jasność co do kwalifikacji podatkowej tego rodzaju usług B2B.",
+            "what_to_do": [
+              "Zweryfikować posiadany symbol PKWiU dla świadczonych usług zarządzania projektami.",
+              "Upewnić się, że zakres wykonywanych czynności nie zawiera elementów doradztwa lub tworzenia strategii."
+            ],
+            "deadlines": [],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717988",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-717884",
+          "headline": "Zwrot kosztów wybudowania sieci wodociągowej i kanalizacyjnej a VAT",
+          "summary": "Dyrektor KIS potwierdził prawidłowość stanowiska w sprawie opodatkowania podatkiem VAT zwrotu kosztów poniesionych przez przedsiębiorcę na wybudowanie sieci wodociągowej i kanalizacyjnej. Gmina przejmie odpłatnie sieć wybudowaną w latach 2020-2022 na podstawie umowy, a kwotę zwrotu ustalono na 120 576,30 zł. Sprawa dotyczy także prawa do odliczenia podatku naliczonego z faktur dokumentujących poniesione wydatki.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Informacja dotyczy rozliczeń podatku VAT przy odpłatnym przekazywaniu infrastruktury wodociągowo-kanalizacyjnej przez czynnego podatnika VAT."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0114-KDIP4-3.4012.492.2026.2.APR. Rozstrzygnięto w niej kwestię opodatkowania podatkiem od towarów i usług zwrotu kosztów faktycznie poniesionych przez przedsiębiorcę z tytułu wybudowania odcinka kanalizacji sanitarnej i sieci wodociągowej bez przyłączy. Gmina przejmie odpłatnie tę infrastrukturę na podstawie umowy, a sieć zostanie przyjęta na stan majątku Gminy. Użytkownikiem sieci będzie Zakład Gospodarki Komunalnej w A.",
+            "background": "Wniosek dotyczył opodatkowania podatkiem od towarów i usług zwrotu kosztów poniesionych przez przedsiębiorcę (Pan A.A., czynny podatnik VAT) oraz prawa do odliczenia podatku naliczonego wynikającego z faktury dokumentującej nabycie infrastruktury. Sieć wybudowano w latach 2020-2022 na 10 działkach o różnych formach własności lub użytkowania wieczystego, a oddano ją do użytkowania 15 lutego 2022 r. Wysokość kwoty zwrotu kosztów ustalono na 120 576,30 zł. Stanowisko wnioskodawcy uznano za prawidłowe w całości.",
+            "what_it_means_for_business": "Przedsiębiorca będący czynnym podatnikiem VAT, który dokonał odliczenia podatku VAT z faktur dokumentujących wydatki na budowę sieci, uzyskuje potwierdzenie prawidłowości swoich rozliczeń w związku z odpłatnym przejęciem infrastruktury przez gminę. Opracowanie odnosi się do przepisów takich jak art. 86 ust. 1 ustawy o VAT oraz powołanych artykułów ustawy (m.in. art. 15, art. 114, art. 119 ust. 4, art. 120 ust. 17 i 19, art. 124). Wysokość zwrotu kosztów określono na kwotę 120 576,30 zł.",
+            "what_to_do": [
+              "Przeanalizować posiadaną dokumentację dotyczącą budowy sieci wodociągowej i kanalizacyjnej w odniesieniu do zawarcia umowy z gminą",
+              "Zweryfikować poprawność rozliczeń podatku VAT przy odpłatnym przekazaniu infrastruktury",
+              "Skonsultować ewentualne analogiczne transakcje przekazywania sieci gminom pod kątem spójności z wydaną interpretacją"
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-16",
+                "description": "data powiązana z dokumentacją sprawy w systemie"
+              },
+              {
+                "date": "2026-11-04",
+                "description": "data powiązana z dokumentacją sprawy w systemie"
+              },
+              {
+                "date": "31 lipca 2026 r.",
+                "description": "data wskazana w faktach źródłowych"
+              },
+              {
+                "date": "7 września 2026 r.",
+                "description": "data wskazana w faktach źródłowych"
+              },
+              {
+                "date": "15 lutego 2022 r.",
+                "description": "data oddania sieci do użytkowania"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/717884",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "gov-beb4fa8e02c1",
+          "headline": "Szacunkowe wykonanie budżetu państwa za okres styczeń-październik 2026 r.",
+          "summary": "Ministerstwo Finansów przedstawiło szacunkowe wykonanie budżetu państwa za okres styczeń-październik 2026 r. Dochody wyniosły 501,7 mld zł, wydatki 696,9 mld zł, a deficyt zamknął się kwotą 195,2 mld zł. W danych uwzględniono m.in. strukturę podatków takich jak VAT, PIT i CIT oraz kwestie związane z KSeF.",
+          "tags": [
+            "VAT",
+            "PIT",
+            "CIT",
+            "KSeF"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Informacje dotyczą kluczowych wskaźników makroekonomicznych, podatków (VAT, CIT, PIT) oraz KSeF, które bezpośrednio wpływają na otoczenie prawne i rozliczenia jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Przedstawiono szacunkowe wykonanie budżetu państwa w okresie styczeń-październik 2026 r. w stosunku do ustawy budżetowej na 2026 r. Dochody państwa wyniosły 501,7 mld zł (co stanowi 77,5%), wydatki osiągnęły poziom 696,9 mld zł (75,8%), a deficyt zamknął się kwotą 195,2 mld zł (71,8%). Opisano szczegółowo strukturę dochodów podatkowych i niepodatkowych, w tym VAT, akcyzę, PIT i CIT, a także wpływ reformy dochodów JST, dane o produkcji sprzedanej przemysłu oraz sprzedaży detalicznej.",
+            "background": "Publikacja stanowi podsumowanie realizacji budżetu państwa za okres styczeń-październik 2026 r. w odniesieniu do ustawy budżetowej na 2026 r. W materiale uwzględniono również odniesienia do analogicznego okresu 2025 r., w tym dane dotyczące wykonania dochodów z CIT oraz zmiany stawek podatkowych.",
+            "what_it_means_for_business": "Przedsiębiorcy prowadzący rozliczenia podatkowe powinni śledzić zmiany makroekonomiczne oraz zapowiedzi legislacyjne i systemowe, takie jak kwestie związane z KSeF. Wraz z wejściem w życie KSeF przewidziano skrócenie domyślnego terminu zwrotu VAT z 60 dni na 40 dni. Zmiany te rzutują na płynność finansową oraz bieżące obowiązki formalno-prawne w firmie.",
+            "what_to_do": [
+              "Śledzić komunikaty Ministerstwa Finansów dotyczące wdrażania KSeF oraz zmian w terminach zwrotu VAT.",
+              "Monitorować wpływ zmian makroekonomicznych na branżę usług B2B i e-commerce."
+            ],
+            "deadlines": [
+              {
+                "date": "60 dni na 40 dni",
+                "description": "skrócenie domyślnego terminu zwrotu VAT wraz z wejściem w życie KSeF"
+              },
+              {
+                "date": "2026-11-16",
+                "description": "data dotycząca okresu sprawozdawczego / publikacji danych"
+              }
+            ],
+            "caveats": "Porównując dane o wykonaniu dochodów budżetu państwa w zakresie CIT do wykonania z 2025 r., należy pamiętać, że od 2026 r. podwyższona została stawka podatku CIT dla banków. Dochody z VAT za październik dotyczą deklaracji za wrzesień, zatem nie uwzględniają efektu wprowadzenia rządowego programu CPN, gdyż we wrześniu program CPN nie obowiązywał. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Ministerstwo Finansów (gov.pl)",
+              "url": "https://www.gov.pl/web/finanse/szacunkowe-wykonanie-budzetu-panstwa-w-okresie-styczen-pazdziernik-2026-r",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "zus-b6b369a1d899",
+          "headline": "Nowe płatności elektroniczne i kreator składek w eZUS oraz mZUS",
+          "summary": "W portalu eZUS i aplikacji mZUS dla Płatnika udostępniono możliwość opłacania składek elektronicznie. Nowy kreator płatności pozwala ustalić kwotę, doliczyć odsetki oraz uwzględnić deklaracje, a obsługę realizuje Krajowa Izba Rozliczeniowa S.A.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Funkcjonalność bezpośrednio dotyczy rozliczeń ZUS prowadzonych przez jednoosobową działalność gospodarczą."
+          },
+          "details": {
+            "what_happened": "W portalu eZUS oraz w aplikacji mobilnej mZUS dla Płatnika udostępniono możliwość opłacania składek drogą elektroniczną. Pojawiła się nowa funkcja w postaci kreatora płatności, który pozwala m.in. ustalić kwotę do wpłaty, doliczyć odsetki, uwzględnić płatności i deklaracje w drodze oraz wprowadzić dowolną kwotę. Obsługę płatności realizuje Krajowa Izba Rozliczeniowa S.A. Koszt usługi dla klienta wynosi 0,55 zł za przelew.",
+            "background": "Zmiana wynika z wdrożenia nowych funkcji przez ZUS w systemach elektronicznych eZUS i mZUS dla Płatnika. W sprawach powołano się m.in. na art. 173 ust. 3 ustawy Prawo telekomunikacyjne. Lista banków obsługujących płatności online ma się rozszerzać, a w przyszłości planowane jest także opłacanie składek BLIK-iem.",
+            "what_it_means_for_business": "Przedsiębiorca zyskał narzędzie ułatwiające uregulowanie składek bezpośrednio w systemach ZUS z poziomu kreatora płatności. Każdy przelew wiąże się jednak z kosztem usługi wynoszącym 0,55 zł. Zaktualizowane saldo na koncie płatnika staje się widoczne do 2 dni roboczych od wykonania płatności.",
+            "what_to_do": [
+              "Skorzystać z portalu eZUS lub aplikacji mZUS dla Płatnika w celu zapoznania się z nowym kreatorem płatności",
+              "Uwzględnić koszt 0,55 zł za realizację pojedynczego przelewu przez Krajową Izbę Rozliczeniową S.A.",
+              "Pamiętać o uwzględnieniu czasu do 2 dni roboczych potrzebnego na zaktualizowanie salda w ZUS"
+            ],
+            "deadlines": [
+              {
+                "date": "do 2 dni roboczych",
+                "description": "zaktualizowane saldo widoczne po wykonaniu płatności w zależności od dnia i godziny wpłaty oraz czasu jej przekazania przez bank"
+              },
+              {
+                "date": "2026-11-16",
+                "description": "data wymieniona w źródle"
+              },
+              {
+                "date": "1 października 2026 r.",
+                "description": "data wymieniona w źródle"
+              }
+            ],
+            "caveats": "Zaktualizowane saldo jest widoczne do 2 dni roboczych od wykonania płatności w zależności od dnia i godziny wpłaty oraz czasu jej przekazania przez bank na rachunek ZUS. Koszt usługi wynosi 0,55 zł za przelew. Lista banków obsługujących płatności online będzie się rozszerzać, a w przyszłości planowane jest opłacanie składek BLIK-iem. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "ZUS Aktualności (zus.pl)",
+              "url": "https://www.zus.pl/-/p%C5%82atno%C5%9Bci-elektroniczne-w-portalu-ezus",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-7abc2f115916",
+          "headline": "Wykonanie budżetu państwa po dziesięciu miesiącach 2026 r",
+          "summary": "Ministerstwo Finansów opublikowało dane o wykonaniu budżetu państwa po dziesięciu miesiącach 2026 r. Dochody państwa wyniosły prawie 501,7 mld zł, wydatki sięgnęły niemal 696,9 mld zł, a deficyt przekroczył 195,2 mld zł. Dochodów podatkowych do końca października odnotowano ponad 445,8 mld zł.",
+          "tags": [
+            "Ustawy",
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy makroekonomicznych danych o wykonaniu budżetu państwa i nie ma bezpośredniego wpływu na codzienne rozliczenia podatkowe JDG."
+          },
+          "details": {
+            "what_happened": "Ministerstwo Finansów opublikowało nowe dane dotyczące wykonania budżetu państwa po dziesięciu miesiącach 2026 r. Dochody budżetu państwa wyniosły prawie 501,7 mld zł, natomiast wydatki sięgnęły niemal 696,9 mld zł. Powstały w tym okresie deficyt przekroczył 195,2 mld zł, co stanowi wykonanie 71,8 proc. limitu zapisanego w ustawie budżetowej. Dochodów podatkowych do końca października wyniosły ponad 445,8 mld zł.",
+            "background": "Dane zostały opublikowane w ramach bieżącej sprawozdawczości Ministerstwa Finansów dotyczącej realizacji ustawy budżetowej. Obejmują one okres po dziesięciu miesiącach 2026 r. i pokazują relację faktycznych wpływów i wydatków do limitów rocznych.",
+            "what_it_means_for_business": "Informacja ma charakter ogólnoinformacyjny i statystyczny dla działalności gospodarczej. Brak danych w źródle wskazuje na brak bezpośrednich zmian w stawkach podatkowych lub obowiązkach rozliczeniowych dla przedsiębiorcy wynikających z tego komunikatu.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "po dziesięciu miesiącach 2026 r.",
+                "description": "Okres, dla którego podano dane o dochodach, wydatkach i deficycie budżetu państwa"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/gospodarka/dziura-budzetowa-sie-poglebia-sa-nowe-dane-mf-blisko-200-mld-zl-na-minusie-7351696011872288a.html",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-8b631f68c1d3",
+          "headline": "Nowe limity dorabiania do emerytur i rent od grudnia 2026",
+          "summary": "ZUS ogłosił nowe limity dorabiania do emerytur i rent obowiązujące od 1 grudnia 2026 r. do końca lutego 2027 r. Próg 70 proc. przeciętnego wynagrodzenia wynosi 6 522,00 zł brutto, a próg 130 proc. to 12 112,20 zł brutto.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy limitów dorabiania do świadczeń emerytalno-rentowych i nie ma bezpośredniego wpływu na bieżące rozliczenia B2B jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "ZUS wprowadził nowe, wyższe limity dorabiania do emerytury i renty dla emerytów, którzy nie osiągnęli wieku emerytalnego, oraz dla rencistów. Nowe limity obowiązują od 1 grudnia 2026 r. do końca lutego 2027 r. Określono nowe progi na poziomie 70 proc. (6 522,00 zł brutto) oraz 130 proc. (12 112,20 zł brutto) przeciętnego wynagrodzenia. Przekroczenie pierwszego progu skutkuje zmniejszeniem świadczenia o kwotę przekroczenia, nie więcej niż o kwotę maksymalnego zmniejszenia wynoszącą 989,41 zł, natomiast przekroczenie drugiego progu powoduje całkowite zawieszenie wypłaty świadczenia przez ZUS.",
+            "background": "Wprowadzenie nowych limitów jest powiązane z ogłoszeniem przez GUS przeciętnego miesięcznego wynagrodzenia w trzecim kwartale 2026 r., które wyniosło 9 317,01 zł (w drugim kwartale 2026 r. wynosiło 9 233,13 zł). Wcześniejsze limity obowiązywały do końca listopada 2026 r. Poprzednio obowiązywały kwoty 6 463,20 zł brutto oraz 12 003,10 zł brutto.",
+            "what_it_means_for_business": "Dla przedsiębiorcy prowadzącego jednoosobową działalność gospodarczą informacja ta ma charakter informacyjny. Dotyczy ona bezpośrednio osób pobierających wcześniejsze emerytury lub renty i dorabiających do nich, na przykład w ramach prowadzonej działalności. Należy monitorować te progi w przypadku zatrudniania lub współpracy z takimi osobami lub jeśli sam przedsiębiorca pobiera takie świadczenie.",
+            "what_to_do": [
+              "Zweryfikować, czy pobierane jest świadczenie emerytalne lub renta przed osiągnięciem wieku emerytalnego w przypadku osiągania dodatkowych przychodów.",
+              "Monitorować kwoty przychodów w okresie od 1 grudnia 2026 r. do końca lutego 2027 r. pod kątem nepřekroczenia progów 6 522,00 zł brutto oraz 12 112,20 zł brutto."
+            ],
+            "deadlines": [
+              {
+                "date": "od 1 grudnia 2026 r. do końca lutego 2027 r.",
+                "description": "obowiązywanie nowych limitów dorabiania do emerytury i renty"
+              },
+              {
+                "date": "do końca listopada 2026 r.",
+                "description": "obowiązywanie poprzednich limitów dorabiania"
+              },
+              {
+                "date": "9 listopada",
+                "description": "publikacja komunikatu GUS dotyczącego przeciętnego miesięcznego wynagrodzenia w trzecim kwartale 2026 r."
+              }
+            ],
+            "caveats": "Zmiany dotyczą emerytów, którzy nie osiągnęli jeszcze wieku emerytalnego, oraz rencistów dorabiających do pobieranych świadczeń. Przekroczenie kwoty 70 proc. przeciętnego wynagrodzenia (6 522,00 zł brutto) skutkuje zmniejszeniem świadczenia o kwotę przekroczenia, nie więcej niż o 989,41 zł, zaś przekroczenie kwoty 130 proc. (12 112,20 zł brutto) powoduje całkowite zawieszenie wypłaty świadczenia przez ZUS. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/finanse/oskar-sobolewski/zmiana-dla-czesci-emerytow-i-emerytek-tyle-bedzie-mozna-zarobic-bez-potracenia-7351711068870688a.html",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 12,
+    "estimated_tokens": 34734,
+    "rejected_count": 0,
+    "low_confidence_count": 0,
+    "sources_status": {
+      "weather": "ok",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "ok",
+      "economy_world": "ok"
+    },
+    "run_mode": "production"
+  }
+}

@@ -53,18 +53,27 @@ class TestScheduleAndTimezone(unittest.TestCase):
         self.assertEqual(summer_pl.utcoffset(), datetime.timedelta(hours=2))
 
     def test_schedule_guard_window_and_force_time(self) -> None:
+        early_night = datetime.datetime(2026, 11, 15, 5, 45, tzinfo=datetime.timezone(datetime.timedelta(hours=1)))
         morning = datetime.datetime(2026, 11, 15, 7, 45, tzinfo=datetime.timezone(datetime.timedelta(hours=1)))
-        afternoon = datetime.datetime(2026, 11, 15, 15, 59, tzinfo=datetime.timezone(datetime.timedelta(hours=1)))
+        delayed_afternoon = datetime.datetime(2026, 11, 15, 14, 55, tzinfo=datetime.timezone(datetime.timedelta(hours=1)))
+        late_night = datetime.datetime(2026, 11, 15, 22, 30, tzinfo=datetime.timezone(datetime.timedelta(hours=1)))
 
         with mock.patch.dict(os.environ, {"GITHUB_EVENT_NAME": "schedule"}):
+            ok_early, reason_early = check_schedule_guard("2099-01-01", early_night, force_time=False)
+            self.assertFalse(ok_early)
+            self.assertIn("06:30", reason_early)
+
             ok_morning, _ = check_schedule_guard("2099-01-01", morning, force_time=False)
             self.assertTrue(ok_morning)
 
-            ok_late, reason = check_schedule_guard("2099-01-01", afternoon, force_time=False)
-            self.assertFalse(ok_late)
-            self.assertIn("06:30–08:59", reason)
+            ok_delayed, _ = check_schedule_guard("2099-01-01", delayed_afternoon, force_time=False)
+            self.assertTrue(ok_delayed)
 
-            ok_forced, _ = check_schedule_guard("2099-01-01", afternoon, force_time=True)
+            ok_late, reason_late = check_schedule_guard("2099-01-01", late_night, force_time=False)
+            self.assertFalse(ok_late)
+            self.assertIn("06:30–21:59", reason_late)
+
+            ok_forced, _ = check_schedule_guard("2099-01-01", late_night, force_time=True)
             self.assertTrue(ok_forced)
 
 

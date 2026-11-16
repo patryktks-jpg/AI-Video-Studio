@@ -56,10 +56,22 @@ def get_warsaw_now(utc_now: Optional[datetime.datetime] = None) -> datetime.date
     return now_utc.astimezone(warsaw_tz)
 
 
+def _set_github_output(key: str, value: str) -> None:
+    """Zapisuje zmienną wyjściową kroku dla GitHub Actions ($GITHUB_OUTPUT)."""
+    output_path = os.environ.get("GITHUB_OUTPUT", "").strip()
+    if not output_path:
+        return
+    try:
+        with open(output_path, "a", encoding="utf-8") as f:
+            f.write(f"{key}={value}\n")
+    except Exception:
+        pass
+
+
 def check_schedule_guard(today_str: str, warsaw_now: datetime.datetime, force_time: bool) -> Tuple[bool, str]:
     """
-    Strażnik dla podwójnego harmonogramu cron w GitHub Actions (czas letni / zimowy).
-    Zapobiega podwójnemu uruchomieniu tego samego dnia oraz wysyłce spóźnionej po awarii kolejki.
+    Strażnik dla harmonogramu cron w GitHub Actions (czas letni / zimowy + kolejka GitHub).
+    Zapobiega uruchomieniu przed 06:30 PL oraz podwójnemu uruchomieniu tego samego dnia.
     """
     if force_time:
         return True, "Tryb --force-time: pominięto ograniczenie okna."
@@ -70,14 +82,14 @@ def check_schedule_guard(today_str: str, warsaw_now: datetime.datetime, force_ti
 
     today_file = DATA_DIR / f"{today_str}.json"
     if today_file.exists():
-        return False, f"Pigułka na {today_str} już istnieje (prawdopodobnie wygenerowana przez drugi cron UTC)."
+        return False, f"Pigułka na {today_str} już istnieje (wygenerowana przez wcześniejszy slot cron)."
 
-    if warsaw_now.hour < 6 or (warsaw_now.hour == 6 and warsaw_now.minute < 30) or warsaw_now.hour >= 9:
+    if warsaw_now.hour < 6 or (warsaw_now.hour == 6 and warsaw_now.minute < 30) or warsaw_now.hour >= 22:
         return False, (
-            f"Poza porannym oknem (Europe/Warsaw: {warsaw_now.strftime('%H:%M')}). "
-            "Oczekiwane okno to 06:30–08:59."
+            f"Poza dozwolonym oknem dziennym (Europe/Warsaw: {warsaw_now.strftime('%H:%M')}). "
+            "Dozwolone okno przy opóźnieniach kolejki to 06:30–21:59."
         )
-    return True, "Okno poranne potwierdzone."
+    return True, "Okno dzienne potwierdzone."
 
 
 def load_json_file(path: Path) -> Dict[str, Any]:
@@ -308,6 +320,7 @@ def main() -> int:
 
     allowed, reason = check_schedule_guard(today_str, warsaw_now, force_time=args.force_time)
     if not allowed:
+        _set_github_output("pill_generated", "false")
         print(f"[Harmonogram] Pominięto wykonanie: {reason}")
         return 0
 
@@ -327,6 +340,7 @@ def main() -> int:
 
     is_valid, val_errors = validate_pill_document(pill_doc)
     if not is_valid:
+        _set_github_output("pill_generated", "false")
         print("BŁĄD WALIDACJI SCHEMATU JSON:", file=sys.stderr)
         for err in val_errors:
             print(f" - {err}", file=sys.stderr)
@@ -340,6 +354,7 @@ def main() -> int:
     )
 
     if args.dry_run:
+        _set_github_output("pill_generated", "false")
         total_items = sum(len(s["items"]) for s in pill_doc["sections"])
         print(f"[DRY-RUN] Walidacja OK. Wygenerowano {total_items} pozycji. Nic nie zapisano ani nie wysłano.")
         return 0
@@ -354,6 +369,7 @@ def main() -> int:
     save_seen_ids(seen_path, seen_ids, new_ids)
     update_archive_index(DATA_DIR)
     sync_data_to_app(DATA_DIR, APP_DATA_DIR)
+    _set_github_output("pill_generated", "true")
     print(f"Zapisano pigułkę do {out_file} oraz zsynchronizowano z {APP_DATA_DIR}.")
 
     if not args.no_notify:

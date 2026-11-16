@@ -2,11 +2,10 @@ name: Poranna Pigulka - Generowanie i Publikacja PWA
 
 on:
   schedule:
-    # Podwójny harmonogram dla czasu letniego (CEST = UTC+2 -> 07:35)
-    # oraz zimowego (CET = UTC+1 -> 07:35).
-    # Strażnik strefy czasowej w scripts/main.py pilnuje pojedynczego wykonania ok. 07:35-08:00 w Polsce.
-    - cron: '35 5 * * *'
-    - cron: '35 6 * * *'
+    # Siatka slotów cron z zapasem na wielogodzinne kolejkowanie darmowego GitHub Actions (~7-8h lag):
+    # w dni bez kolejki sloty nocne są odrzucane w 1s przez strażnika (< 06:30 PL),
+    # a przy opóźnieniu kolejki pierwszy slot po 06:30 PL generuje pigułkę; kolejne wykryją istniejący plik i zakończą się bez zmian.
+    - cron: '35 21,22,23,0,1,2,3,4,5,6,7 * * *'
   workflow_dispatch:
   repository_dispatch:
     types: [morning_briefing]
@@ -36,6 +35,7 @@ jobs:
           python-version: '3.11'
 
       - name: Uruchomienie generatora Porannej Pigułki
+        id: generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -45,26 +45,31 @@ jobs:
           python scripts/main.py
 
       - name: Zapisz wygenerowane dane pigułki w repozytorium
+        if: steps.generator.outputs.pill_generated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ app/data/
           if ! git diff --staged --quiet; then
             git commit -m "chore(pill): aktualizacja porannej pigułki [skip ci]"
+            git pull --rebase origin main
             git push
           else
             echo "Brak nowych zmian w data/ lub app/data/."
           fi
 
       - name: Konfiguracja GitHub Pages
+        if: steps.generator.outputs.pill_generated == 'true'
         uses: actions/configure-pages@v5
 
       - name: Spakowanie artefaktu PWA (/app)
+        if: steps.generator.outputs.pill_generated == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: app
 
       - name: Publikacja PWA na GitHub Pages
+        if: steps.generator.outputs.pill_generated == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
 
