@@ -1,20 +1,29 @@
-name: Poranna Pigulka - Generowanie i Publikacja PWA
+name: 1. Generowanie Porannej Pigulki i Publikacja PWA
 
 on:
+  schedule:
+    # 04:17 UTC = 05:17 CET (zima) / 06:17 CEST (lato)
+    - cron: '17 3 * * *'
+    # 05:17 UTC = 06:17 CET (zima) / 07:17 CEST (lato)
+    - cron: '17 4 * * *'
   push:
     branches:
       - main
     paths:
       - 'app/**'
-      - '.github/workflows/morning_briefing.yml'
-  schedule:
-    # Siatka slotów cron z zapasem na wielogodzinne kolejkowanie darmowego GitHub Actions (~7-8h lag):
-    # w dni bez kolejki sloty nocne są odrzucane w 1s przez strażnika (< 06:30 PL),
-    # a przy opóźnieniu kolejki pierwszy slot po 06:30 PL generuje pigułkę; kolejne wykryją istniejący plik i zakończą się bez zmian.
-    - cron: '35 21,22,23,0,1,2,3,4,5,6,7 * * *'
+      - 'scripts/**'
+      - 'config/**'
+      - 'prompts/**'
+      - '.github/workflows/generate_pill.yml'
   workflow_dispatch:
+    inputs:
+      force_time:
+        description: 'Wymuś generowanie pomijając ograniczenia okna godzinowego'
+        required: false
+        type: boolean
+        default: true
   repository_dispatch:
-    types: [morning_briefing]
+    types: [generate_pill]
 
 permissions:
   contents: write
@@ -28,6 +37,7 @@ concurrency:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -49,7 +59,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
-          python scripts/main.py
+          FLAGS="--no-notify"
+          if [ "${{ github.event.inputs.force_time }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            FLAGS="$FLAGS --force-time"
+          fi
+          python scripts/main.py $FLAGS
 
       - name: Zapisz wygenerowane dane pigułki w repozytorium
         if: steps.generator.outputs.pill_generated == 'true'
@@ -80,11 +94,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Powiadomienie o awarii pipeline'u (Zadanie 11)
+      - name: Powiadomienie o awarii generowania (Zadanie 11)
         if: failure()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
-          python scripts/notifier.py --failure --reason "Błąd workflowu Poranna Pigułka w GitHub Actions."
+          python scripts/notifier.py --failure --reason "Błąd podczas generowania pigułki w zadaniu GitHub Actions."

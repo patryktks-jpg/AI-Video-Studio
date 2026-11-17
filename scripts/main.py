@@ -10,6 +10,7 @@ import json
 import os
 import shutil
 import sys
+import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -70,26 +71,26 @@ def _set_github_output(key: str, value: str) -> None:
 
 def check_schedule_guard(today_str: str, warsaw_now: datetime.datetime, force_time: bool) -> Tuple[bool, str]:
     """
-    Strażnik dla harmonogramu cron w GitHub Actions (czas letni / zimowy + kolejka GitHub).
-    Zapobiega uruchomieniu przed 06:30 PL oraz podwójnemu uruchomieniu tego samego dnia.
+    Strażnik harmonogramu w GitHub Actions (Krok 2 i 3).
+    Zapobiega generowaniu duplikatów tego samego dnia oraz blokuje uruchomienia w środku nocy (< 04:30 PL).
     """
     if force_time:
         return True, "Tryb --force-time: pominięto ograniczenie okna."
 
     event_name = os.environ.get("GITHUB_EVENT_NAME", "")
-    if event_name != "schedule":
-        return True, "Uruchomienie ręczne lub testowe."
+    if event_name not in ("schedule", ""):
+        return True, f"Zdarzenie '{event_name}': pominięto ograniczenie godzin."
 
     today_file = DATA_DIR / f"{today_str}.json"
     if today_file.exists():
-        return False, f"Pigułka na {today_str} już istnieje (wygenerowana przez wcześniejszy slot cron)."
+        return False, f"Pigułka na {today_str} już istnieje w repozytorium (została wygenerowana wcześniej)."
 
-    if warsaw_now.hour < 6 or (warsaw_now.hour == 6 and warsaw_now.minute < 30) or warsaw_now.hour >= 22:
+    if warsaw_now.hour < 4 or (warsaw_now.hour == 4 and warsaw_now.minute < 30) or warsaw_now.hour >= 23:
         return False, (
-            f"Poza dozwolonym oknem dziennym (Europe/Warsaw: {warsaw_now.strftime('%H:%M')}). "
-            "Dozwolone okno przy opóźnieniach kolejki to 06:30–21:59."
+            f"Poza dozwolonym oknem generowania (Europe/Warsaw: {warsaw_now.strftime('%H:%M')}). "
+            "Dozwolone okno operacyjne to 04:30–22:59."
         )
-    return True, "Okno dzienne potwierdzone."
+    return True, "Okno generowania potwierdzone."
 
 
 def load_json_file(path: Path) -> Dict[str, Any]:
@@ -150,6 +151,9 @@ def build_daily_pill(
 
     sources_status: Dict[str, str] = {}
 
+    print(f"[{warsaw_now.strftime('%H:%M:%S')}] Rozpoczynam pobieranie źródeł...")
+    t_sources_start = time.time()
+
     # 1. Pogoda i rynki (liczby bezpośrednio z API, bez udziału AI)
     weather_data = (
         fetch_weather(sources_cfg.get("weather", {}))
@@ -201,6 +205,9 @@ def build_daily_pill(
     )
     sources_status["economy_world"] = economy_res.get("status", "unavailable")
 
+    t_sources_elapsed = time.time() - t_sources_start
+    print(f"[{get_warsaw_now().strftime('%H:%M:%S')}] Pobieranie źródeł ukończone w {t_sources_elapsed:.1f}s.")
+
     # 4. Wybór i deduplikacja kandydatów na sekcję
     section_configs = [
         {
@@ -242,6 +249,9 @@ def build_daily_pill(
     published_new_ids: List[str] = []
     rejected_count = 0
     low_confidence_count = 0
+
+    print(f"[{get_warsaw_now().strftime('%H:%M:%S')}] Rozpoczynam selekcję i dwuetapowe przetwarzanie AI...")
+    t_ai_start = time.time()
 
     for sec_cfg in section_configs:
         selected = select_top_candidates(
@@ -285,6 +295,9 @@ def build_daily_pill(
             "status_message": status_msg,
             "items": processed_items,
         })
+
+    t_ai_elapsed = time.time() - t_ai_start
+    print(f"[{get_warsaw_now().strftime('%H:%M:%S')}] Przetwarzanie AI ukończone w {t_ai_elapsed:.1f}s.")
 
     pill_doc: Dict[str, Any] = {
         "date": today_str,

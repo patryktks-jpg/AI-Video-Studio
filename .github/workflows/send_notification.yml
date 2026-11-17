@@ -1,0 +1,72 @@
+name: 2. Wysylka Porannej Pigulki o 8:00 (Telegram)
+
+on:
+  schedule:
+    # 05:55 UTC = 07:55 CEST (lato UTC+2)
+    - cron: '55 5 * * *'
+    # 06:55 UTC = 07:55 CET (zima UTC+1)
+    - cron: '55 6 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Wymuś wysłanie nawet jeśli dziś już wysłano'
+        required: false
+        type: boolean
+        default: true
+  repository_dispatch:
+    types: [send_briefing, morning_briefing]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: 'send-morning-briefing'
+  cancel-in-progress: false
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Pythona 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Wysłanie powiadomienia o 8:00
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          FLAGS="--send-daily"
+          if [ "${{ github.event.inputs.force }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            FLAGS="$FLAGS --force"
+          fi
+          python scripts/notifier.py $FLAGS
+
+      - name: Zapisz rejestr wysłanych powiadomień w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sent_log.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(notif): aktualizacja rejestru wysylki powiadomien [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Brak nowych wpisów w sent_log.json."
+          fi
+
+      - name: Powiadomienie o awarii wysyłki (Zadanie 11)
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python scripts/notifier.py --failure --reason "Błąd w zadaniu wysyłki powiadomienia o 8:00 w GitHub Actions."

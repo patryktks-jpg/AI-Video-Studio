@@ -33,7 +33,8 @@ Zgodnie z wymaganiami projektowymi przed implementacją podjęto i zweryfikowano
 ## 2. Architektura i przepływ danych
 
 ```text
-GitHub Actions (cron 05:35 & 06:35 UTC + strażnik strefy CET/CEST)
+ETAP 1: GENEROWANIE I PUBLIKACJA PWA (noc / wczesny poranek 05:00-06:30 PL)
+GitHub Actions: generate_pill.yml
   ├──► Pobieranie źródeł (pełne teksty i API, bez AI):
   │      ├── Pogoda Brzesko 32-800 (Open-Meteo API)
   │      ├── Kursy walut i stopa referencyjna (NBP API / XML)
@@ -47,8 +48,14 @@ GitHub Actions (cron 05:35 & 06:35 UTC + strażnik strefy CET/CEST)
   ├──► AI Etap B: Redakcja 3-poziomowa PL (prompts/stage_b_write_synthesis.txt)
   ├──► Walidacja schematem JSON (config/pill_schema.json) + kontrola liczb/dat/sygnatur
   ├──► Zapis data/RRRR-MM-DD.json, data/index.json oraz synchronizacja do app/data/
-  ├──► Wdrożenie statycznego PWA (/app) na GitHub Pages
-  └──► Powiadomienie na Telegram / ntfy.sh (lub alert awaryjny w razie błędu)
+  └──► Wdrożenie statycznego PWA (/app) na GitHub Pages
+
+ETAP 2: PUNKTUALNA WYSYŁKA O 08:00 (Telegram Bot API)
+GitHub Actions: send_notification.yml (trwa 2-5 sekund)
+  ├──► Sprawdzenie czy istnieje data/RRRR-MM-DD.json:
+  │      ├── TAK ──► Wysyłka porannej pigułki (pogoda, terminy, nagłówki, link) na Telegram
+  │      └── NIE ──► Próba awaryjnej generacji na żywo LUB natychmiastowy alert o awarii o 08:00
+  └──► Zapis w data/sent_log.json (ochrona przed duplikatami)
 ```
 
 Kluczowa zasada: **dane są całkowicie oddzielone od warstwy prezentacji**. Backend produkuje ustrukturyzowany plik `data/RRRR-MM-DD.json` (z 3 poziomami: `headline`, `summary`, `details`), a statyczna aplikacja PWA w `/app` wyłącznie go odczytuje i renderuje.
@@ -76,10 +83,12 @@ Kluczowa zasada: **dane są całkowicie oddzielone od warstwy prezentacji**. Bac
   └── sources/                      # Niezależne moduły źródeł (każdy uruchamialny osobno):
       ├── http_utils.py, rss_utils.py
       ├── weather.py, markets.py, eureka_kis.py, legislation.py, zus_gov.py, economy_world.py
-/data                               # Wygenerowane pigułki dzienne RRRR-MM-DD.json, index.json, seen_ids.json
+/data                               # Wygenerowane pigułki dzienne RRRR-MM-DD.json, index.json, seen_ids.json, sent_log.json
 /app                                # Aplikacja PWA (tryb ciemny, iOS, offline SW, IndexedDB, Web Share)
 /tests                              # Testy jednostkowe (unittest)
-/.github/workflows/morning_briefing.yml
+/.github/workflows/
+  ├── generate_pill.yml             # 1. Generowanie pigułki i publikacja PWA (noc / wczesny poranek)
+  └── send_notification.yml         # 2. Wysyłka o 8:00 na Telegram (z automatycznym alertem w razie awarii)
 ```
 
 ---
