@@ -1,0 +1,708 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T14:45:38+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "ok",
+    "temp_now": 4.9,
+    "apparent_temp": 2.8,
+    "temp_min": 4.6,
+    "temp_max": 9.1,
+    "wind_speed_kmh": 5.4,
+    "rain_probability_max": 100,
+    "condition": "Lekka mżawka 🌦️",
+    "practical_tip": "Parasol wskazany od rana (szansa opadów do 100%). Odczuwalnie chłodno — ciepła kurtka niezbędna.",
+    "hourly_forecast": [
+      {
+        "hour": "07:00",
+        "temp": 5.5,
+        "rain_prob": 78
+      },
+      {
+        "hour": "08:00",
+        "temp": 5.2,
+        "rain_prob": 90
+      },
+      {
+        "hour": "09:00",
+        "temp": 4.7,
+        "rain_prob": 95
+      },
+      {
+        "hour": "10:00",
+        "temp": 4.9,
+        "rain_prob": 98
+      },
+      {
+        "hour": "11:00",
+        "temp": 4.8,
+        "rain_prob": 100
+      },
+      {
+        "hour": "12:00",
+        "temp": 4.6,
+        "rain_prob": 100
+      },
+      {
+        "hour": "13:00",
+        "temp": 4.7,
+        "rain_prob": 92
+      },
+      {
+        "hour": "14:00",
+        "temp": 4.8,
+        "rain_prob": 61
+      },
+      {
+        "hour": "15:00",
+        "temp": 5.0,
+        "rain_prob": 21
+      },
+      {
+        "hour": "16:00",
+        "temp": 5.2,
+        "rain_prob": 2
+      },
+      {
+        "hour": "17:00",
+        "temp": 5.7,
+        "rain_prob": 24
+      },
+      {
+        "hour": "18:00",
+        "temp": 5.9,
+        "rain_prob": 68
+      },
+      {
+        "hour": "19:00",
+        "temp": 5.7,
+        "rain_prob": 100
+      },
+      {
+        "hour": "20:00",
+        "temp": 5.7,
+        "rain_prob": 100
+      },
+      {
+        "hour": "21:00",
+        "temp": 6.0,
+        "rain_prob": 100
+      }
+    ]
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "223/A/NBP/2026",
+    "effective_date": "2026-11-17",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.4032
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 4.0022
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.7749
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.2821
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "zus-jdg-pozostali-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 3,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 3,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": [
+        "PIT",
+        "CIT",
+        "ryczałt"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-719511",
+          "headline": "Nieodpłatna pomoc prawna a VAT w interpretacji KIS",
+          "summary": "Dyrektor KIS potwierdził stanowisko radcy prawnego, że świadczenie nieodpłatnej pomocy prawnej na podstawie umowy z zakresu administracji rządowej nie podlega opodatkowaniu podatkiem VAT. Wnioskodawca otrzymuje stałe miesięczne wynagrodzenie dokumentowane fakturą w KSeF, a jego stanowisko uznano za prawidłowe.",
+          "tags": [
+            "VAT",
+            "KSeF"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy specyficznej działalności radcy prawnego realizującego zadania z zakresu administracji rządowej, co nie przekłada się bezpośrednio na profil usług B2B i e-commerce."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0113-KDIPT1-1.4012.865.2026.2.KKO, w której uznał stanowisko wnioskodawcy za prawidłowe. Wniosek dotyczył niepodlegania opodatkowaniu podatkiem VAT świadczenia nieodpłatnej pomocy prawnej. Zadania te są realizowane na podstawie umowy zawartej ze Zleceniodawcą zgodnie z ustawą o nieodpłatnej pomocy prawnej, nieodpłatnym poradnictwie obywatelskim oraz edukacji prawnej.",
+            "background": "Wnioskodawca jest radcą prawnym, czynnym podatnikiem VAT i prowadzi jednoosobową działalność gospodarczą. Świadczy nieodpłatną pomoc prawną stanowiącą zadanie zlecone z zakresu administracji rządowej realizowane przez powiat. Zleceniobiorca otrzymuje stałe miesięczne wynagrodzenie niezależne od liczby udzielonych porad, które jest dokumentowane fakturą w Krajowym Systemie e-Faktur.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza, że określone usługi publiczne wykonywane w ramach zleceń rządowych i samorządowych mogą nie podlegać opodatkowaniu podatkiem VAT. Wpływy z tego tytułu nie generują obowiązku naliczania podatku od towarów i usług, mimo wystawiania faktur w systemie KSeF. Dla przedsiębiorców wykonujących tożsame zadania oznacza to brak konieczności odprowadzania VAT od tego typu wynagrodzeń.",
+            "what_to_do": [
+              "Zweryfikować status podatkowy realizowanych umów z zakresu administracji rządowej lub samorządowej.",
+              "Sprawdzić prawidłowość dokumentowania świadczonych usług zgodnie z wymogami KSeF."
+            ],
+            "deadlines": [
+              {
+                "date": "10 września 2026 r.",
+                "description": "Wpływ wniosku o wydanie interpretacji indywidualnej"
+              },
+              {
+                "date": "14 października 2025 r.",
+                "description": "Data wpływu uzupełnienia wniosku"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719511",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-718145",
+          "headline": "Możliwość opodatkowania usług związanych z przygotowaniem uroczystości prywatnych (w sz...",
+          "summary": "Rodzaj dokumentu: Interpretacja indywidualna\nSygnatura: 0115-KDST2-1.4011.535.2026.1.MR\nData wydania: 2026-11-04\nData publikacji w EUREKA: 2026-11-17\nTeza: Możliwość opodatkowania usług związanych z przygotowaniem uroczystości prywatnych (w szczególności ślubów i przyjęć weselnych) sklasyfikowanych do PKWiU 2015 96.09.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
+          },
+          "details": {
+            "what_happened": "Rodzaj dokumentu: Interpretacja indywidualna\nSygnatura: 0115-KDST2-1.4011.535.2026.1.MR\nData wydania: 2026-11-04\nData publikacji w EUREKA: 2026-11-17\nTeza: Możliwość opodatkowania usług związanych z przygotowaniem uroczystości prywatnych (w szczególności ślubów i przyjęć weselnych) sklasyfikowanych do PKWiU 2015 96.09.19.0, stawką ryczałtu w wysokości 8,5%.\nSłowa kluczowe: działalność-działalność gospodarcza-jednoosobowa działalność gospodarcza, podatek-podatek dochodowy-zryczałtowany podatek dochodowy, ryczałt-ryczałt ewidencjonowany, stawka-stawki ryczałtu, usługi-usługi kompleksowej organizacji przyjęć okolicznościowych\n\nTreść interpretacji:\nInterpretacja indywidualna\n– stanowisko prawidłowe\nSzanowna Pani,\nstwierdzam, że Pani stanowisko w sprawie oceny skutków podatkowych\nopisanego stanu faktycznego w zryczałtowanym podatku dochodowym od niektórych przychodów\nosiąganych przez osoby fi",
+            "background": "Materiał pochodzi z publikacji: EUREKA MF (KIS).",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
+            "what_to_do": [
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
+            ],
+            "deadlines": [],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Etap A ekstrakcji AI nie zwrócił poprawnego JSON; użyto streszczenia bazowego."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/718145",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "kis-719462",
+          "headline": "Nieodpłatna praca skazanych a przychód CIT",
+          "summary": "Dyrektor KIS potwierdził, że nieodpłatna praca osób skazanych na karę ograniczenia wolności wykonywana na rzecz spółki nie stanowi dla niej przychodu podatkowego. Spółka nie musi wyceniać ani doliczać do przychodów wartości takiego świadczenia.",
+          "tags": [
+            "CIT",
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy podatku CIT oraz spółek z o.o., podczas gdy profil firmy to jednoosobowa działalność gospodarcza rozliczana na skali podatkowej lub ryczałcie."
+          },
+          "details": {
+            "what_happened": "Wnioskodawca będący spółką z ograniczoną odpowiedzialnością otrzymał interpretację indywidualną Dyrektora KIS, w której organ uznał jego stanowisko za prawidłowe. Potwierdzono, że nieodpłatna praca osób pozbawionych wolności nie rodzi obowiązku wyceny według należnego wynagrodzenia i zaliczenia jej do przychodów podatkowych spółki. Spółka realizuje zadania użyteczności publicznej i przyjmuje skazane osoby na podstawie skierowań sądowych. Nie zawiera z nimi umów cywilnoprawnych ani umów o pracę oraz nie wypłaca im wynagrodzenia.",
+            "background": "Sprawa dotyczyła pytania, czy nieodpłatna praca osób pozbawionych wolności na rzecz Wnioskodawcy jest nieodpłatnym świadczeniem w rozumieniu przepisów ustawy o podatku dochodowym od osób prawnych. Wnioskodawca wskazał, że taka praca nie stanowi przychodu podatkowego. Organ podatkowy zgodził się z tym stanowiskiem w całości.",
+            "what_it_means_for_business": "Rozstrzygnięcie to ma znaczenie dla podmiotów współpracujących przy wykonywaniu kary ograniczenia wolności i pracy społecznie użytecznej. Potwierdza ono brak obciążeń podatkowych w CIT z tytułu zaangażowania osób skazanych w ramach ustawowych limitów czasowych. Przedsiębiorcy spełniający kryteria mogą organizować stanowiska pracy bez obaw o konieczność wykazywania sztucznego przychodu z tego tytułu.",
+            "what_to_do": [
+              "Przeanalizować dokumentację sądową i zarządzenia właściwych organów, jeśli firma angażuje osoby skazane.",
+              "Monitorować wymiar czasu pracy osób skazanych, aby nie przekraczać limitów określonych w przepisach kodeksu karnego wykonawczego."
+            ],
+            "deadlines": [],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Zgodnie z art. 123a § 1 Kkw za prace porządkowe oraz pomocnicze wykonywane m.in. na rzecz podmiotów, dla których organ gminy, powiatu lub województwa jest organem założycielskim, państwowych lub samorządowych jednostek organizacyjnych, spółek prawa handlowego z wyłącznym udziałem Skarbu Państwa lub gminy, powiatu lub województwa - w wymiarze nieprzekraczającym 90 godzin miesięcznie, skazanemu nie przysługuje wynagrodzenie. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719462",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-719539",
+          "headline": "Interpretacja KIS w sprawie opodatkowania dochodów pracowników",
+          "summary": "Dyrektor Krajowej Informacji Skarbowej uwzględnił wyrok Naczelnego Sądu Administracyjnego w zakresie podatku dochodowego od osób fizycznych. Sprawa dotyczy zasad opodatkowania pracowników oddelegowanych za granicę w ramach przeniesienia służbowego. Organ uznał stanowisko wnioskodawcy za prawidłowe.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Fakty dotyczą zatrudniania pracowników i ich oddelegowania, podczas gdy profil firmy wskazuje na brak pracowników."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał rozstrzygnięcie uwzględniające wyrok Naczelnego Sądu Administracyjnego z 15 lipca 2026 r. sygn. akt II FSK 289/26. Organ uznał stanowisko wnioskodawcy w sprawie oceny skutków podatkowych w podatku dochodowym od osób fizycznych za prawidłowe. Informacja została opublikowana w ramach interpretacji indywidualnej o sygnaturze 0113-KDIPT2-3.4011.240.2025.11.MS. Wnioski w sprawie wpłynęły 13 marca 2025 r. oraz zostały uzupełnione 16 maja 2025 r.",
+            "background": "Spółka prawa handlowego zarejestrowana w Polsce świadczy usługi w różnych lokalizacjach na świecie, głównie w państwach członkowskich UE. W celu wykonywania usług spółka zatrudnia w Polsce pracowników, dla których stałym miejscem pracy jest miejsce wykonywania działalności przez spółkę. Pracownicy wykonują pracę w ramach przeniesienia służbowego na podstawie porozumień lub aneksów do umów o pracę na okres nieprzekraczający kilku miesięcy. Z uwagi na zapotrzebowanie kontrahentów, pracownicy są często oddelegowywani dalej przed zakończeniem pierwotnych porozumień, a akceptacja tej mobilności jest warunkiem koniecznym przyjęcia do pracy.",
+            "what_it_means_for_business": "Rozstrzygnięcie dotyczy zasad opodatkowania podatkiem dochodowym od osób fizycznych pracowników wykonujących pracę w ramach czasowej zmiany miejsca wykonywania pracy. Wskazuje ono na warunki, w jakich pracownicy podlegają opodatkowaniu na terenie kraju wykonywania usługi bądź w Polsce. Kontekst ten obejmuje czasookresy trwania kontraktów oraz długość pobytu pracowników za granicą.",
+            "what_to_do": [
+              "Przeanalizować czas trwania oddelegowań pracowników oraz długość ich pobytu za granicą w kontekście limitów czasowych.",
+              "Sprawdzić poprawność stosowania przepisów dotyczących podatku dochodowego od osób fizycznych przy zagranicznych wyjazdach pracowników."
+            ],
+            "deadlines": [
+              {
+                "date": "13 marca 2025",
+                "description": "wpłynięcie wniosku o wydanie interpretacji indywidualnej"
+              },
+              {
+                "date": "16 maja 2025",
+                "description": "wpłynięcie uzupełnienia wniosku"
+              },
+              {
+                "date": "15 lipca 2026",
+                "description": "data wyroku Naczelnego Sądu Administracyjnego sygn. akt II FSK 289/26"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. W przypadku gdy roboty są przewidziane na czas dłuższy niż 6 miesięcy, spółka opodatkowuje pracowników na terenie kraju wykonywania usługi. Jeżeli kontrakty są krótsze, a czas pobytu pracownika w danym kraju nie przekracza 182 dni, płaci on podatki w Polsce. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719539",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "zus-33e6cef2e1f0",
+          "headline": "Program Dobry Start: wnioski do ZUS o 300 zł na wyprawkę",
+          "summary": "Rodzice i opiekunowie mogą składać elektroniczne wnioski o świadczenie Dobry Start w wysokości 300 zł na wyprawkę szkolną. Nabór wniosków prowadzony jest od 1 lipca do 30 listopada wyłącznie drogą elektroniczną przez ZUS. Świadczenie przysługuje na dzieci do 20 roku życia lub do 24 lat w przypadku niepełnosprawności.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy świadczenia rodzinnego dla osób fizycznych (rodziców), a nie bezpośrednich rozliczeń jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "ZUS przypomina o możliwości składania wniosków o wypłatę świadczenia z programu Dobry Start na wyprawkę szkolną. Wsparcie wynosi 300 zł na każde uczące się dziecko w wieku do 20 lat lub do 24 lat w przypadku dzieci z niepełnosprawnościami. Wnioski można składać wyłącznie w formie elektronicznej, a wypłaty realizowane są na wskazany rachunek bankowy.",
+            "background": "Program Dobry Start wspiera rodziców i opiekunów w ponoszeniu wydatków związanych z rozpoczęciem roku szkolnego. Zasady przyznawania wsparcia oraz terminy jego rozpatrywania i wypłaty przez ZUS są uregulowane urzędowo.",
+            "what_it_means_for_business": "Informacja ma charakter ogólnoinformacyjny dla osób fizycznych będących rodzicami i nie wpływa bezpośrednio na prowadzoną działalność gospodarczą, podatki przedsiębiorcy ani jego rozliczenia z ZUS z tytułu prowadzenia firmy.",
+            "what_to_do": [
+              "Złożyć wniosek drogą elektroniczną w terminie od 1 lipca do 30 listopada, jeśli jesteś uprawnionym rodzicem lub opiekunem."
+            ],
+            "deadlines": [
+              {
+                "date": "od 1 lipca do 30 listopada",
+                "description": "okres, w którym zainteresowani mogą wysyłać wnioski na nowy okres świadczeniowy"
+              },
+              {
+                "date": "do końca listopada",
+                "description": "składanie wniosków o wypłatę świadczenia z programu Dobry Start"
+              }
+            ],
+            "caveats": "Świadczenie nie przysługuje dzieciom uczącym się w zerówkach ani studentom. Wiek 20 i 24 lata liczy się rocznikowo. Cudzoziemiec mieszka z dzieckiem w Polsce musi być aktywny zawodowo w miesiącu poprzedzającym złożenie wniosku. Cudzoziemcy spoza UE/EFTA/Wielkiej Brytanii oraz obywatele Ukrainy ze statusem UKR muszą wskazać dokument przekroczenia granicy i dokument legalnego pobytu. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "ZUS Aktualności (zus.pl)",
+              "url": "https://www.zus.pl/-/do-ko%C5%84ca-listopada-mo%C5%BCna-sk%C5%82ada%C4%87-wnioski-o-wyprawk%C4%99-szkoln%C4%85",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "zus-4bd417eaefb1",
+          "headline": "ZUS ostrzega przed oszustami podszywającymi się pod pracowników",
+          "summary": "Zakład Ubezpieczeń Społecznych ostrzega przed oszustami próbującymi wyłudzić dane i pieniądze. Oszuści podszywają się pod pracowników instytucji, oferując rzekome programy emerytalne lub dodatkowe środki z Unii Europejskiej. Urzędnicy apelują o czujność i przypominają zasady bezpiecznego kontaktu.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Komunikat dotyczy ogólnych ostrzeżeń przed oszustwami wymierzonymi głównie w seniorów i nie wpływa bezpośrednio na rozliczenia podatkowe ani operacje firmy B2B."
+          },
+          "details": {
+            "what_happened": "Zakład Ubezpieczeń Społecznych wydał oficjalne ostrzeżenie przed oszustami, którzy podają się za pracowników tej instytucji. Przestępcy próbują wyłudzić od seniorów dane dostępowe do kont bankowych oraz oferują płatne, rzekome programy emerytalne. Oszuści stosują także metodę wizyt domowych pod pretekstem załatwienia dodatkowych pieniędzy z Unii Europejskiej. Wskazano właściwe kanały kontaktu z ZUS, takie jak Centrum Kontaktu Klientów pod numerem 22 560 16 00, adres e-mail cot@zus.pl oraz konieczność zgłaszania przestępstw na policję.",
+            "background": "Akcja informacyjna ZUS ma na celu przeciwdziałanie oszustwom i wyłudzeniom, w ramach której przypomniano o metodach działania przestępców. W faktach wspomniano m.in. o liczbach takich jak dwadzieścia tysięcy, 800 zł oraz zagrożeniu karą od 6 miesięcy do 8 lat.",
+            "what_it_means_for_business": "Informacja ma charakter czysto ostrzegawczy i edukacyjny, nie wywołując bezpośrednich skutków podatkowych ani księgowych dla działalności gospodarczej. Przedsiębiorca prowadzący JDG powinien jednak zachować ogólne środki ostrożności w relacjach z instytucjami oraz weryfikować kanały komunikacji. Komunikat może być również przydatny w celu edukacji członków rodzin, w tym seniorów.",
+            "what_to_do": [
+              "Weryfikuj tożsamość osób podających się za pracowników ZUS i pamiętaj, że urzędnicy nie pukają do drzwi w celach ofertowych.",
+              "W sprawach urzędowych korzystaj wyłącznie z oficjalnych kanałów kontaktu, takich jak Centrum Kontaktu Klientów ZUS.",
+              "W przypadku podejrzenia oszustwa niezwłocznie poinformuj policję."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-10",
+                "description": "Data uwzględniona w komunikacie źródłowym"
+              }
+            ],
+            "caveats": "Urzędnicy ZUS nie pukają do drzwi w celach ofertowych, a elektronicznie lub przez SMS ZUS kontaktuje się jedynie z osobami, które mają konto na profilu eZUS i wybrały taki sposób komunikacji. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "ZUS Aktualności (zus.pl)",
+              "url": "https://www.zus.pl/-/tego-zus-nigdy-nie-robi-ostrze%C5%BC-babci%C4%99-ostrze%C5%BC-dziadka-",
+              "published": "2026-11-10"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1486",
+          "headline": "Nowe rozporządzenie Rady Ministrów ws. danych telekomunikacyjnych",
+          "summary": "Rada Ministrów wydała rozporządzenie dotyczące warunków dostępu, utrwalania i udostępniania danych przez przedsiębiorcę telekomunikacyjnego. Akt prawny opublikowano jako Dz.U. 2026 poz. 1486. Przepisy wchodzą w życie 2026-11-11.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o charakterze ogólnym dotycząca przedsiębiorców telekomunikacyjnych, bez bezpośredniego wpływu na rozliczenia podatkowe JDG."
+          },
+          "details": {
+            "what_happened": "Wydano rozporządzenie Rady Ministrów, które określa kwestie związane z zapewnieniem przez przedsiębiorcę telekomunikacyjnego warunków dostępu i utrwalania oraz przygotowania technicznych i organizacyjnych warunków udostępniania danych. Dokument został ogłoszony w Dzienniku Ustaw pod pozycją Dz.U. 2026 poz. 1486. Data ogłoszenia lub powiązana to 2026-11-09, a wejście w życie zaplanowano na 2026-11-11. Brak danych w źródle na temat szczegółowych artykułów ustawowych oraz dodatkowych liczb i stawek.",
+            "background": "Sprawa wynika z działań Rady Ministrów w zakresie regulacji obowiązków przedsiębiorców telekomunikacyjnych dotyczących technicznych i organizacyjnych warunków udostępniania oraz utrwalania danych. W źródle brak danych w zakresie szczegółowego pytania wnioskodawcy lub szerszego kontekstu przepisów.",
+            "what_it_means_for_business": "Przełożenie na działalność firmy jest neutralne, o ile przedsiębiorca nie prowadzi działalności telekomunikacyjnej objętej nowymi wymogami technicznymi i organizacyjnymi. Przepisy adresowane są do przedsiębiorców telekomunikacyjnych w zakresie udostępniania i utrwalania danych. Brak danych w źródle wskazuje na brak bezpośrednich konsekwencji finansowych czy podatkowych dla standardowych usług B2B i e-commerce.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-11",
+                "description": "Wejście w życie rozporządzenia"
+              }
+            ],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1486/ogl",
+              "published": "2026-11-10"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "tax-e08ca584370b",
+          "headline": "Zaniechanie poboru podatku od spadków i darowizn po zamachu w Krakowie",
+          "summary": "Minister finansów zaproponował zaniechanie poboru podatku od spadków i darowizn dla osób poszkodowanych i ich rodzin w wyniku zamachu z 7 listopada 2026 r. Projekt przewiduje zwolnienie z podatku dla darowizn przekazanych od 7 listopada 2026 r. do 31 grudnia 2027 r. Wydłużono również termin na złożenie zeznania podatkowego z 1 miesiąca do 12 miesięcy.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy szczególnych regulacji o charakterze humanitarnym i odszkodowawczym dla ofiar zamachu, niemających bezpośredniego wpływu na standardową działalność B2B i e-commerce."
+          },
+          "details": {
+            "what_happened": "Minister finansów zaproponował zaniechanie poboru podatku od spadków i darowizn dla osób, które odniosły obrażenia ciała w wyniku działań terrorystycznych z 7 listopada 2026 r. w Krakowie, a także dla małżonków, zstępnych lub wstępnych osób, które poniosły śmierć w wyniku tych działań oraz w Ostrowcu Świętokrzyskim. Projektowane rozporządzenia przewidują zaniechanie poboru podatku od darowizn przekazanych od 7 listopada 2026 r. do 31 grudnia 2027 r. Ponadto wydłużono termin do składania zeznania podatkowego o nabyciu rzeczy lub praw majątkowych z 1 miesiąca do 12 miesięcy od dnia powstania obowiązku podatkowego.",
+            "background": "Do ataku doszło w sobotę na Rynku Głównym w Krakowie, gdzie sprawca wjechał samochodem na płytę rynku i otworzył ogień, powodując śmierć sześciu osób i raniąc piętnaście kolejnych. W mieszkaniu zamachowca w Ostrowcu Świętokrzyskim ujawniono ciała jego ojca, matki i siostry, a sprawca zmarł w szpitalu w poniedziałek. Propozycja stanowi odpowiedź ministerstwa finansów na tę tragiczną sytuację poprzez ulgi podatkowe dla dotkniętych nią osób.",
+            "what_it_means_for_business": "Przepisy mają charakter celowy i nadzwyczajny, skierowany wyłącznie do osób poszkodowanych w konkretnych zdarzeniach terrorystycznych z listopada 2026 r. i ich rodzin. Dla standardowego przedsiębiorcy prowadzącego jednoosobową działalność gospodarczą w zakresie usług B2B i e-commerce zmiany te nie mają bezpośredniego wpływu na bieżące rozliczenia podatkowe, fakturowanie, składki ZUS czy obowiązki w zakresie VAT.",
+            "what_to_do": [
+              "Brak konkretnych działań wymaganych od przedsiębiorcy w ramach prowadzonej działalności gospodarczej."
+            ],
+            "deadlines": [
+              {
+                "date": "7 listopada 2026 r.",
+                "description": "początek okresu, od którego darowizny będą objęte zaniechaniem poboru podatku oraz data działań o charakterze terrorystycznym"
+              },
+              {
+                "date": "31 grudnia 2027 r.",
+                "description": "koniec okresu, do którego darowizny będą objęte zaniechaniem poboru podatku"
+              },
+              {
+                "date": "12 miesięcy",
+                "description": "wydłużony termin do składania zeznania podatkowego o nabyciu rzeczy lub praw majątkowych"
+              }
+            ],
+            "caveats": "Obdarowani, którzy otrzymają darowiznę, której wartość doliczona do wartości majątku otrzymanego w ciągu 5 lat od tej samej osoby przekracza kwotę wolną od podatku, będą zobowiązani do złożenia właściwemu naczelnikowi urzędu skarbowego zeznania podatkowego, ale nie będą zobowiązani do zapłaty podatku ustalonego w drodze decyzji organu podatkowego. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Interia Biznes - Podatki",
+              "url": "https://biznes.interia.pl/podatki/news-wazne-wsparcie-dla-poszkodowanych-w-krakowie-podatku-od-daro,nId,23573345",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "gov-4ff8e1525947",
+          "headline": "Ministerstwo Finansów podało dane o zadłużeniu zagranicznym",
+          "summary": "W październiku 2026 roku dokonano płatności z tytułu kapitału i odsetek w ramach obsługi zadłużenia zagranicznego Skarbu Państwa. Stan środków walutowych na rachunkach budżetowych na koniec tego miesiąca wyniósł łącznie 12 383,0 mln EUR.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy makroekonomii i obsługi długu publicznego, nie wpływając bezpośrednio na bieżące rozliczenia podatkowe JDG."
+          },
+          "details": {
+            "what_happened": "Ministerstwo Finansów opublikowało dane dotyczące obsługi zadłużenia zagranicznego Skarbu Państwa w październiku 2026 roku. Wskazano kwoty dokonanych płatności w walutach obcych z tytułu kapitału oraz odsetek. Podano również łączny stan środków walutowych zgromadzonych na rachunkach budżetowych na koniec października 2026 roku.",
+            "background": "Komunikat stanowi ogłoszenie danych o stanie środków walutowych i realizacji płatności zagranicznych przez Ministerstwo Finansów. W faktach brak danych dotyczących pytań wnioskodawców czy konkretnych aktów prawnych.",
+            "what_it_means_for_business": "Informacja ma charakter czysto statystyczny i informacyjny dla sektora publicznego oraz rynków finansowych. Brak danych w źródle wskazuje na brak bezpośredniego przełożenia na codzienne rozliczenia podatkowe lub obowiązki przedsiębiorcy.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "październik 2026 roku",
+                "description": "dokonanie płatności w walutach obcych z tytułu kapitału i odsetek oraz stan środków walutowych na rachunkach budżetowych na koniec miesiąca"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Ministerstwo Finansów (gov.pl)",
+              "url": "https://www.gov.pl/web/finanse/stan-srodkow-walutowych-w-pazdzierniku-2026-roku",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-c64aa3f81659",
+          "headline": "KGHM liderem produkcji srebra na świecie w 2026 roku",
+          "summary": "KGHM Polska Miedź obronił pozycję największego producenta srebra na świecie w trzecim kwartale 2026 roku. W ujęciu narastającym po dziewięciu miesiącach produkcja srebra płatnego wzrosła o 8,1 proc. rok do roku do poziomu 1073,3 tony. W alternatywnych zestawieniach uwzględniających powiązania kapitałowe pierwsze miejsce zajmuje Industrias Peñoles.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter rynkowy i makroekonomiczny, nie wpływa bezpośrednio na bieżące rozliczenia podatkowe ani operacyjne jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "KGHM Polska Miedź obronił pozycję największego producenta srebra na świecie w trzecim kwartale 2026 roku. Wyprzedził tym samym amerykańskiego Newmonta oraz meksykańskie Fresnillo. W ujęciu narastającym po dziewięciu miesiącach 2026 roku produkcja srebra płatnego w KGHM wzrosła o 8,1 proc. rok do roku, osiągając 1073,3 tony.",
+            "background": "Drugie miejsce w zestawieniu zajął Newmont z wynikiem 342,14 t, a trzecie Fresnillo z wynikiem 320,37 t. W alternatywnych zestawieniach na pierwszym miejscu pojawia się Industrias Peñoles ze względu na odmienną metodologię klasyfikowania powiązań kapitałowych, ponieważ Peñoles kontroluje około 74,99 proc. kapitału Fresnillo.",
+            "what_it_means_for_business": "Wydarzenie to ma charakter prestiżowy i rynkowy. Nie niesie za sobą bezpośrednich skutków podatkowych, finansowych ani operacyjnych dla jednoosobowej działalności gospodarczej świadczącej usługi B2B czy prowadzącej e-commerce.",
+            "what_to_do": [
+              "Brak konieczności podejmowania jakichkolwiek działań przez przedsiębiorcę."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-17",
+                "description": "Data publikacji informacji"
+              }
+            ],
+            "caveats": "Istnieje zastrzeżenie dotyczące ujmowania w rankingu spółki matki Fresnillo (Industrias Peñoles) oraz odmiennej metodologii klasyfikowania powiązań kapitałowych. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Ranking-producentow-srebra-w-trzecim-kwartale-2026-r-KGHM-liderem-po-raz-kolejny-9230232.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-ca1207487e87",
+          "headline": "Śledztwo ws. śmierci dziecka w szpitalu w Gorzowie",
+          "summary": "Prokuratura prowadzi śledztwo w sprawie śmierci pięcioletniego chłopca w szpitalu w Gorzowie Wielkopolskim. Sprawa dotyczy podejrzenia narażenia na utraty życia lub zdrowia oraz nieumyślnego spowodowania śmierci. Śledztwo ma zostać przekazane do Prokuratury Regionalnej w Szczecinie.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o charakterze kryminalno-medycznym nie ma bezpośredniego wpływu na działalność biznesową ani rozliczenia podatkowe firmy."
+          },
+          "details": {
+            "what_happened": "W szpitalu w Gorzowie Wielkopolskim nad ranem zmarł pięcioletni chłopiec. Członek rodziny złożył zawiadomienie o możliwości popełnienia przestępstwa przez lekarzy. Prokuratura Rejonowa wszczęła śledztwo, wstępnie przyjmując klasyfikację prawną narażenia człowieka na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu oraz nieumyślne spowodowanie śmierci. Dotychczas nikomu nie przedstawiono zarzutów, a sprawa ma zostać przekazana do Prokuratury Regionalnej w Szczecinie.",
+            "background": "Dziecko trafiło do placówki z objawami osłabienia i wymiotów, a źle czuć się miało od kilku dni. Z relacji matki wynikało, że 5-latek miał uderzyć się w głowę, co nie zostało potwierdzone, natomiast lekarze zlokalizowali problem w obszarze brzucha. Przeprowadzona sekcja zwłok wykazała, że przyczyną śmierci była ostra niewydolność krążeniowo-oddechowa w przebiegu niedrożności przewodu pokarmowego.",
+            "what_it_means_for_business": "Wydarzenie to jest informacją o charakterze ogólnospołecznym i medialnym. Nie niesie za sobą żadnych bezpośrednich skutków finansowych, prawnych ani podatkowych dla prowadzonej działalności gospodarczej.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/lubuskie/gorzow-wielkopolski-prokuratura-bada-sprawe-smierci-5-latka-w-szpitalu-st9342514?source=rss",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-865a3b48d7c3",
+          "headline": "Atak na strażaka w Pęplinie policja poszukuje świadków",
+          "summary": "W poniedziałek wieczorem w miejscowości Pęplino zaatakowano 41-letniego strażaka ochotnika. Sprawca zranił poszkodowanego ostrym narzędziem i uciekł, a policja prowadzi poszukiwania.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o incydencie kryminalnym nie ma bezpośredniego wpływu na działalność biznesową ani rozliczenia podatkowe firmy."
+          },
+          "details": {
+            "what_happened": "Wieczorem po godzinie 19 w miejscowości Pęplino niedaleko Ustki doszło do ataku na 41-letniego strażaka ochotnika spacerującego z psem. Sprawca podjechał samochodem, zranił poszkodowanego ostrym narzędziem w rękę i odjechał. Poszkodowany trafił do szpitala, a Komenda Miejska Policji w Słupsku zabezpiecza ślady i szuka sprawcy.",
+            "background": "Zdarzenie miało miejsce w województwie pomorskim. Policja prowadzi czynności dochodzeniowe, ustala świadków oraz apeluje do osób mogących posiadać nagrania z kamer o kontakt.",
+            "what_it_means_for_business": "Wydarzenie to ma charakter kryminalny i nie niesie za sobą bezpośrednich skutków prawnych, podatkowych ani operacyjnych dla prowadzonej działalności gospodarczej.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/trojmiasto/peplino-zaatakowal-strazaka-ostrym-narzedziem-sprawcy-szuka-policja-st9343074?source=rss",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-cc0225048062",
+          "headline": "Projekt rządu zakłada zamrożenie cen gazu w 2027 roku",
+          "summary": "Rząd przygotował projekt ustawy zakładający zamrożenie cen gazu w 2027 roku dla odbiorców chronionych na poziomie 197,29 zł/MWh. Rozwiązanie to ma być finansowane z daniny od nadzwyczajnych zysków sprzedawców paliw gazowych. Okres obowiązywania maksymalnej ceny zaplanowano od 1 stycznia do 31 grudnia 2027 r.",
+          "tags": [
+            "Ustawy",
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy odbiorców chronionych i gospodarstw domowych, a nie bezpośrednio kosztów prowadzenia działalności przez jednoosobową działalność gospodarczą."
+          },
+          "details": {
+            "what_happened": "Rząd zamierza pracować nad rozwiązaniami dotyczącymi poziomu cen energii elektrycznej oraz przygotował projekt ustawy zakładający zamrożenie cen gazu w 2027 roku dla odbiorców chronionych na poziomie 197,29 zł/MWh. Projekt przewiduje także wprowadzenie daniny od nadzwyczajnych zysków sprzedawców paliw gazowych na sfinansowanie rekompensat dla przedsiębiorstw energetycznych. Zdecydowano o zamrożeniu cen gazu dla odbiorców indywidualnych i gospodarstw rodzinnych na poziomie 197,29 zł/MWh oraz przygotowano projekt ustawy w tej sprawie przez Ministerstwo Energii.",
+            "background": "Prace nad projektem ustawy o szczególnej ochronie niektórych odbiorców paliw gazowych w 2027 r. w związku z sytuacją na rynku gazu oraz o zmianie niektórych ustaw prowadzone są w odpowiedzi na sytuację na rynku gazu. Działania te obejmują również kwestie poziomu cen energii elektrycznej.",
+            "what_it_means_for_business": "brak danych w źródle",
+            "what_to_do": [
+              "Śledzić dalsze prace legislacyjne nad projektem ustawy w celu weryfikacji ostatecznego kształtu przepisów."
+            ],
+            "deadlines": [
+              {
+                "date": "od 1 stycznia do 31 grudnia 2027 r.",
+                "description": "Okres obowiązywania maksymalnej ceny gazu dla odbiorców chronionych"
+              }
+            ],
+            "caveats": "Maksymalna cena dotyczyć będzie odbiorców chronionych, w tym gospodarstw domowych, wspólnot i spółdzielni mieszkaniowych, a także podmiotów realizujących ważne zadania z zakresu użyteczności publicznej takie jak np. szkoły, szpitale, domy opieki, kościoły i noclegownie. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Ceny-gazu-zamrozone-na-2027-rok-Tusk-podal-stawke-dla-gospodarstw-domowych-9230183.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-bdcfc0460ae3",
+          "headline": "Spadek akcji Deutsche Banku po wycieku dokumentów",
+          "summary": "Notowania Deutsche Banku spadły na otwarciu wtorkowej sesji o 5 procent po publikacjach opartych na wycieku wewnętrznych dokumentów. Ujawniają one m.in. powiązania z rosyjskimi oligarchami, Donaldem Trumpem i Jeffreyem Epsteinem. Bank oświadczył, że sprawy sięgają lat wstecz, a mechanizmy kontrolne zostały wzmocnione.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy rynków finansowych i sytuacji globalnego banku, nie wpływając bezpośrednio na bieżące rozliczenia podatkowe JDG."
+          },
+          "details": {
+            "what_happened": "Notowania Deutsche Banku spadły na otwarciu wtorkowej sesji o 5 procent po publikacjach opartych na wycieku 15 milionów wewnętrznych dokumentów. Ujawniają one powiązania banku z rosyjskimi oligarchami, Donaldem Trumpem i Jeffreyem Epsteinem. Bank wydał oświadczenie, w którym podkreślił, że sprawy sięgają wielu lat wstecz, a mechanizmy kontrolne zostały wzmocnione.",
+            "background": "Dokumenty wskazują m.in., że bank omyłkowo wysłał dokument podatkowy Trumpa księgowemu innego klienta w 2017 roku. Ponadto zabiegał o rozwój działalności w Rosji aż do inwazji w lutym 2022 roku. Wcześniejsze wzmianki w faktach dotyczą także lat 2018 oraz 2025 i daty 2026-11-17 (brak danych w źródle dotyczących szczegółów tych dat).",
+            "what_it_means_for_business": "Wydarzenie to ma charakter informacyjny o sytuacji na rynkach międzynarodowych i nie przekłada się bezpośrednio na codzienne obowiązki podatkowo-księgowe polskiego przedsiębiorcy. Brak danych w źródle wskazuje na jakikolwiek wpływ na rozliczenia VAT, PIT, ZUS czy współpracę B2B. Przedsiębiorca nie musi podejmować w związku z tym żadnych działań operacyjnych.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/biznes/pieniadze/wyprzedaz-akcji-deutsche-banku-inwestorzy-reaguja-na-wyciek-danych-st9342761?source=rss",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 27,
+    "estimated_tokens": 64609,
+    "rejected_count": 0,
+    "low_confidence_count": 0,
+    "sources_status": {
+      "weather": "ok",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "ok",
+      "economy_world": "ok"
+    },
+    "run_mode": "production"
+  }
+}
