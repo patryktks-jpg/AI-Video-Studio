@@ -1,0 +1,750 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T12:37:58+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "ok",
+    "temp_now": 9.7,
+    "apparent_temp": 7.4,
+    "temp_min": 7.4,
+    "temp_max": 11.2,
+    "wind_speed_kmh": 11.9,
+    "rain_probability_max": 98,
+    "condition": "Częściowe zachmurzenie ⛅",
+    "practical_tip": "Parasol wskazany od około 11:00 (opady do 98%).",
+    "hourly_forecast": [
+      {
+        "hour": "07:00",
+        "temp": 8.1,
+        "rain_prob": 0
+      },
+      {
+        "hour": "08:00",
+        "temp": 8.2,
+        "rain_prob": 9
+      },
+      {
+        "hour": "09:00",
+        "temp": 9.1,
+        "rain_prob": 22
+      },
+      {
+        "hour": "10:00",
+        "temp": 9.3,
+        "rain_prob": 37
+      },
+      {
+        "hour": "11:00",
+        "temp": 9.2,
+        "rain_prob": 61
+      },
+      {
+        "hour": "12:00",
+        "temp": 9.5,
+        "rain_prob": 89
+      },
+      {
+        "hour": "13:00",
+        "temp": 10.0,
+        "rain_prob": 98
+      },
+      {
+        "hour": "14:00",
+        "temp": 11.0,
+        "rain_prob": 73
+      },
+      {
+        "hour": "15:00",
+        "temp": 11.2,
+        "rain_prob": 31
+      },
+      {
+        "hour": "16:00",
+        "temp": 10.3,
+        "rain_prob": 0
+      },
+      {
+        "hour": "17:00",
+        "temp": 9.2,
+        "rain_prob": 0
+      },
+      {
+        "hour": "18:00",
+        "temp": 8.0,
+        "rain_prob": 4
+      },
+      {
+        "hour": "19:00",
+        "temp": 8.0,
+        "rain_prob": 10
+      },
+      {
+        "hour": "20:00",
+        "temp": 7.8,
+        "rain_prob": 9
+      },
+      {
+        "hour": "21:00",
+        "temp": 7.6,
+        "rain_prob": 6
+      }
+    ]
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "224/A/NBP/2026",
+    "effective_date": "2026-11-18",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.4089
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 4.017
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.7731
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.2909
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "zus-jdg-pozostali-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 2,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 2,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": [
+        "PIT",
+        "CIT",
+        "ryczałt"
+      ]
+    },
+    {
+      "id": "vat-jpk-v7m-2026-11-25",
+      "date": "2026-11-25",
+      "original_day": 25,
+      "shifted": false,
+      "days_remaining": 7,
+      "title": "JPK_V7M / JPK_V7K oraz zapłata podatku VAT",
+      "description": "Złożenie jednolitego pliku kontrolnego VAT (JPK_V7M, część ewidencyjna JPK_V7K) oraz zapłata podatku VAT za miesiąc poprzedni. Termin dotyczy również informacji podsumowującej VAT-UE.",
+      "tags": [
+        "VAT",
+        "JPK"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-719814",
+          "headline": "Interpretacja KIS w sprawie aportu infrastruktury wodno-kanalizacyjnej",
+          "summary": "Dyrektor KIS potwierdził stanowisko wnioskodawcy dotyczące opodatkowania podatkiem VAT wniesienia aportem infrastruktury oraz korekty wieloletniej. Dotyczy to m.in. braku wyłączenia z opodatkowania na podstawie art. 6 pkt 1 ustawy oraz prawa do odliczenia.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy specyficznej sytuacji gminy i spółki komunalnej (aport infrastruktury), co nie ma bezpośredniego przełożenia na standardową działalność handlowo-usługową jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0113-KDIPT1-1.4012.754.2026.2.KKO. W rozstrzygnięciu uznano za prawidłowe stanowisko wnioskodawcy w sprawie braku wyłączenia z opodatkowania podatkiem VAT na podstawie art. 6 pkt 1 ustawy czynności wniesienia aportem infrastruktury do spółki. Potwierdzono również, że aport ten jest czynnością podlegającą opodatkowaniu VAT i niekorzystającą ze zwolnienia.",
+            "background": "Wnioskodawca będący gminą i czynnym podatnikiem VAT realizował w latach 2021-2026 inwestycje w infrastrukturę wodno-kanalizacyjną oraz nabył samochód serwisowy o wartości początkowej przekraczającej 15 000 zł. Infrastruktura ta i samochód stanowią nowe środki trwałe. Na terenie gminy funkcjonuje Zakład Gospodarki Komunalnej w Sp. z o.o. z wyłącznym udziałem gminy, zarządzający tą infrastrukturą jako odrębny podatnik VAT. Wniosek o wydanie interpretacji wpłynął 10 sierpnia 2026 r., a jego uzupełnienie 18 września 2026 r.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza zasady opodatkowania aportem składników majątku oraz kwestie związane z podstawą opodatkowania, prawem do odliczenia podatku VAT naliczonego i korektą wieloletnią. Dla standardowego przedsiębiorcy prowadzącego JDG usługi B2B i e-commerce informacje te mają charakter czysto informacyjny, ze względu na odmienny kontekst podmiotowy sprawy dotyczący jednostek samorządu terytorialnego.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "10 sierpnia 2026 r.",
+                "description": "wpływ wniosku o wydanie interpretacji indywidualnej"
+              },
+              {
+                "date": "18 września 2026 r.",
+                "description": "data wpływu uzupełnienia wniosku"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719814",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-719632",
+          "headline": "Prawidłowość wyboru ryczałtu dla usług inżynierskich",
+          "summary": "Dyrektor KIS potwierdził prawidłowość stanowiska wnioskodawcy planującego rozpoczęcie jednoosobowej działalności gospodarczej w zakresie stosowania zryczałtowanego podatku dochodowego. Dotyczy to świadczenia usług projektowo-inżynierskich oraz doradztwa technicznego przy zachowaniu limitu przychodów 2 000 000 euro. Wnioskodawca musi pamiętać o wyodrębnieniu w ewidencji przychodów różnych rodzajów czynności.",
+          "tags": [
+            "PIT",
+            "Ustawy"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Interpretacja dotyczy planowanego rozpoczęcia jednoosobowej działalności gospodarczej oraz rozważanych form opodatkowania."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej rozstrzygnął sprawę dotyczącą oceny skutków podatkowych w zryczałtowanym podatku dochodowym od niektórych przychodów osiąganych przez osoby fizyczne. Organ uznał za prawidłowe stanowisko wnioskodawcy, który zamierza świadczyć usługi projektowo-inżynierskie i doradztwa technicznego. Wskazano sygnaturę sprawy 0112-KDSL1-2.4011.713.2026.2.AP. Działalność będzie prowadzona w formie jednoosobowej działalności gospodarczej od 1 lipca 2026 r.",
+            "background": "Wnioskodawca jest polskim rezydentem podatkowym planującym rozpoczęcie działalności gospodarczej z wpisem do CEIDG i NIP. Przedmiotem współpracy będą m.in. opracowywanie koncepcji technicznych rozwiązań magazynowych z wykorzystaniem robotyki mobilnej, wsparcie techniczne, dobór komponentów oraz czynności handlowo-ofertowe. Wysokość przychodów nie przekroczy w roku bieżącym i kolejnym kwoty 2 000 000 euro, a usługi będą wykonywane osobiście na podstawie umów cywilnoprawnych.",
+            "what_it_means_for_business": "Przedsiębiorca zyskuje potwierdzenie możliwości zastosowania ryczałtu od przychodów ewidencjonowanych dla planowanego profilu usług technicznych i projektowych. Warunkiem koniecznym dla bezpieczeństwa podatkowego jest prawidłowe wyodrębnianie w ewidencji przychodów różnych rodzajów czynności oraz przypisywanie wynagrodzenia do konkretnych usług. Limit przychodów uprawniający do ryczałtu wynosi 2 000 000 euro.",
+            "what_to_do": [
+              "Dokonać wyboru właściwej formy opodatkowania w ustawowym terminie",
+              "Wdrożyć wyodrębnioną ewidencję przychodów dla różnych rodzajów świadczonych czynności"
+            ],
+            "deadlines": [
+              {
+                "date": "Do 20 dnia miesiąca następującego po miesiącu uzyskania pierwszego przychodu",
+                "description": "dokonanie wyboru właściwej formy opodatkowania"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Wnioskodawca musi bezwzględnie wyodrębniać w prowadzonej ewidencji przychodów różne rodzaje czynności i być w stanie przypisać wynagrodzenie do poszczególnych rodzajów usług. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719632",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-719502",
+          "headline": "KIS: nabycie udziału w mieszkaniu a zwolnienie z PCC",
+          "summary": "Dyrektor KIS uznał stanowisko wnioskodawczyni za nieprawidłowe w sprawie zwolnienia z podatku od czynności cywilnoprawnych przy zakupie udziału w lokalu mieszkalnym. Sprawa dotyczy interpretacji przepisów art. 9 pkt 17 ustawy o podatku od czynności cywilnoprawnych w kontekście wcześniejszego nabycia udziałów w innych nieruchomościach w drodze spadku.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy prywatnych kwestii podatkowych związanych z zakupem nieruchomości przez osobę fizyczną, a nie bezpośrednio działalności gospodarczej firmy."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS wydał interpretację indywidualną o sygnaturze 0111-KDWB.4014.214.2026.2.KP, w której uznał stanowisko wnioskodawczyni za nieprawidłowe. Wnioskodawczyni chciała skorzystać ze zwolnienia z podatku od czynności cywilnoprawnych (PCC) przy zakupie udziału 1/2 w spółdzielczym-własnościowym prawie do lokalu mieszkalnego z rynku wtórnego. Organ odrzucił jej pogląd, że transakcja ta spełnia warunki zwolnienia dla pierwszego mieszkania.",
+            "background": "Wnioskodawczyni planowała zakup udziału 1/2 w lokalu z zamiarem zaciągnięcia kredytu, a drugi udział 1/2 miał kupić jej partner. Wcześniej nabyła w drodze spadku po ojcu udziały w innych nieruchomościach (m.in. udział 1/6, udział 1/24, a w wyniku działu spadku udział 1/16). Nigdy nie mieszkała w tamtych lokalach i nigdy nie posiadała na własność żadnego innego lokalu, uważając, że nie posiadała więcej niż 50% udziału w odrębnych nieruchomościach spadkowych.",
+            "what_it_means_for_business": "Interpretacja dotyczy przepisów ustawy o podatku od czynności cywilnoprawnych z dnia 9 września 2000 r., a konkretnie art. 9 pkt 17 oraz powiązanych artykułów dotyczących opodatkowania umów sprzedaży. Dla przedsiębiorcy prowadzącego jednoosobową działalność gospodarczą informacja ta ma charakter ogólnoinformacyjny i dotyczy prywatnego majątku oraz zasad stosowania ulg w PCC przy zakupie nieruchomości.",
+            "what_to_do": [
+              "Przeanalizować posiadane udziały w nieruchomościach nabytych w drodze spadku przed planowanym zakupem pierwszego mieszkania.",
+              "Uwzględnić stanowisko organów podatkowych przy kalkulacji kosztów związanych z podatkiem od czynności cywilnoprawnych."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-18",
+                "description": "Data powiązana ze sprawą w faktach źródłowych"
+              },
+              {
+                "date": "2026-11-13",
+                "description": "Data powiązana ze sprawą w faktach źródłowych"
+              },
+              {
+                "date": "19 września 2026 r.",
+                "description": "Data powiązana ze sprawą w faktach źródłowych"
+              },
+              {
+                "date": "24 października 2026 r.",
+                "description": "Data powiązana ze sprawą w faktach źródłowych"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719502",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-718192",
+          "headline": "Interpretacja KIS w sprawie PIT przy zbyciu nieruchomości ze spadku",
+          "summary": "Dyrektor KIS potwierdził, że pięcioletni termin do opodatkowania PIT przy sprzedaży nieruchomości ze spadku liczy się od końca roku jej pierwotnego nabycia przez spadkodawcę. Sprawa dotyczyła nieodpłatnego zniesienia współwłasności w ramach zarządu majątkiem prywatnym w 2026 lub 2027 roku.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Interpretacja dotyczy opodatkowania PIT w ramach zarządu majątkiem prywatnym, a nie prowadzonej przez JDG działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Wnioskodawca stał się współwłaścicielem kompleksu działek ewidencyjnych na podstawie spadkobrania po zmarłym w 1999 r. ojcu. Na mocy aktu notarialnego z 14 października 2025 r. doszło do nieodpłatnego zniesienia współwłasności, w wyniku którego Wnioskodawca otrzymał na wyłączną własność działkę nr 1/10. Czynność była ekwiwalentna, a planowane zbycie tej działki nastąpi w ramach zarządu majątkiem prywatnym.",
+            "background": "Wnioskodawca zapytał, czy odpłatne zbycie działki nr 1/10 będzie podlegało PIT, oraz czy 5-letni termin z art. 10 ust. 1 pkt 8 ustawy o PIT należy liczyć od końca roku kalendarzowego, w którym nastąpiło otwarcie spadku po ojcu. Dyrektor Krajowej Informacji Skarbowej uznał stanowisko wnioskodawcy za prawidłowe.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza zasady ustalania 5-letniego terminu dla celów PIT przy nieruchomościach nabytego w drodze spadkobrania. Dotyczy to jednak majątku prywatnego, a nie aktywów firmowych wykorzystywanych w ramach jednoosobowej działalności gospodarczej.",
+            "what_to_do": [
+              "Przeanalizować datę otwarcia spadku i nabycia nieruchomości przez spadkodawcę w przypadku planowanych transakcji prywatnych."
+            ],
+            "deadlines": [
+              {
+                "date": "1999",
+                "description": "rok nabycia spadku przez spadkodawcę (otwarcia spadku po ojcu)"
+              },
+              {
+                "date": "2026 lub 2027",
+                "description": "planowane odpłatne zbycie działki nr 1/10"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/718192",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eli-du-2026-1509",
+          "headline": "Nowelizacja ustawy o VAT i KKS weszła w życie",
+          "summary": "Sejm uchwalił ustawę o zmianie ustawy o podatku od towarów i usług oraz niektórych innych ustaw opublikowaną w Dz.U. 2026 poz. 1509. Nowe przepisy wchodzą w życie z dniem 1 stycznia 2027 r. Regulacje te dotyczą ustawy o podatku od towarów i usług oraz kodeksu karnego skarbowego.",
+          "tags": [
+            "VAT",
+            "Ustawy"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Zmiany w ustawie o podatku od towarów i usług bezpośrednio wpływają na miesięczne rozliczenia VAT firmy będącej czynnym podatnikiem."
+          },
+          "details": {
+            "what_happened": "Sejm uchwalił ustawę z dnia 22 października 2026 r. o zmianie ustawy o podatku od towarów i usług oraz niektórych innych ustaw. Akt ten został opublikowany w Dzienniku Ustaw 2026 r. pod poz. 1509. Zmiany obejmują ustawę o podatku od towarów i usług oraz kodeks karny skarbowy. Ustawa wchodzi w życie z dniem 1 stycznia 2027 r. i ma status aktu obowiązującego.",
+            "background": "Proces legislacyjny zakończył się uchwaleniem aktu opublikowanego w Dzienniku Ustaw 2026 poz. 1509 w dniu 22 października 2026 r. Zmiany dotyczą kluczowych regulacji w obszarze podatku od towarów i usług oraz kodeksu karnego skarbowego. W źródle brak danych na temat wnioskodawcy oraz szczegółowych pytań.",
+            "what_it_means_for_business": "Nowe przepisy wchodzące w życie na początku 2027 roku wymagają od czynnego podatnika VAT dostosowania procesów rozliczeniowych do znowelizowanych przepisów ustawy o podatku od towarów i usług. Zmiany w kodeksie karnym skarbowym wiążą się także z koniecznością zachowania szczególnej ostrożności w prawidłowości rozliczeń podatkowych. Przedsiębiorca powinien śledzić zakres wprowadzonych zmian na bazie poz. 1509.",
+            "what_to_do": [
+              "Przeanalizować nowelizację opublikowaną w Dz.U. 2026 poz. 1509 pod kątem jej wpływu na rozliczenia VAT."
+            ],
+            "deadlines": [
+              {
+                "date": "2027-01-01",
+                "description": "Data wejścia w życie ustawy"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1509/ogl",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1507",
+          "headline": "Jednolity tekst rozporządzenia w sprawie pomocy dla rolnictwa",
+          "summary": "Ogłoszono jednolity tekst rozporządzenia Ministra Rolnictwa i Rozwoju Wsi. Dotyczy ono szczegółowych warunków przyznawania pomocy finansowej. Dokument opublikowano pod sygnaturą Dz.U. 2026 poz. 1507.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy sektora rolnego i Programu Rozwoju Obszarów Wiejskich, co nie ma bezpośredniego wpływu na profile usługowe i e-commerce."
+          },
+          "details": {
+            "what_happened": "Ogłoszono jednolity tekst rozporządzenia Ministra Rolnictwa i Rozwoju Wsi. Regulacja dotyczy szczegółowych warunków i trybu przyznawania pomocy finansowej. Wsparcie realizowane jest w ramach poddziałania 'Wsparcie na rzecz kosztów bieżących i aktywizacji'. Działanie to jest objęte Programem Rozwoju Obszarów Wiejskich na lata 2014-2020.",
+            "background": "Wydanie jednolitego tekstu rozporządzenia ma na celu usystematyzowanie obowiązujących przepisów w tym obszarze. W oficjalnych faktach źródłowych wskazano daty 2026-11-05 oraz 2026-11-17. Sprawa nie wynika z pytania wnioskodawcy, lecz stanowi urzędowe ogłoszenie aktu prawnego.",
+            "what_it_means_for_business": "Dla profilu gospodarczego prowadzącego usługi B2B oraz e-commerce informacja ta ma charakter wyłącznie poznawczy. Przepisy te nie wpływają na bieżące rozliczenia podatkowe, składki ZUS czy obowiązki handlowe przedsiębiorcy. Brak danych w źródle wskazuje na brak bezpośrednich konsekwencji finansowych dla innych branż.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1507/ogl",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1503",
+          "headline": "Opłaty za krew i jej składniki w 2027 r.",
+          "summary": "Ministerstwo Zdrowia wydało rozporządzenie określające wysokość opłat za krew i jej składniki w 2027 r. Nowe przepisy zostały opublikowane w Dzienniku Ustaw pod pozycją Dz.U. 2026 poz. 1503. Regulacja wejdzie w życie z dniem 1 stycznia 2027 r.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o opłatach za krew nie ma bezpośredniego związku z prowadzoną działalnością usługową B2B i e-commerce."
+          },
+          "details": {
+            "what_happened": "Wydano Rozporządzenie Ministra Zdrowia z dnia 6 listopada 2026 r. w sprawie określenia wysokości opłat za krew i jej składniki w 2027 r. Akt prawny opublikowano w Dzienniku Ustaw jako Dz.U. 2026 poz. 1503. Określa on wysokość opłat obowiązujących w roku 2027.",
+            "background": "Sprawa dotyczy regulacji wydanych przez Ministra Zdrowia na podstawie dostępnych faktów. Brak danych w źródle na temat dodatkowego tła czy wnioskodawców.",
+            "what_it_means_for_business": "Rozporządzenie dotyczy opłat za krew i jej składniki w 2027 r. Brak danych w źródle na temat bezpośrednich konsekwencji finansowych lub podatkowych dla profilu działalności gospodarczej użytkownika.",
+            "what_to_do": [
+              "Zapoznać się z treścią rozporządzenia opublikowanego w Dz.U. 2026 poz. 1503, jeśli działalność gospodarcza jest powiązana z branżą medyczną."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-06",
+                "description": "Data wydania rozporządzenia"
+              },
+              {
+                "date": "2026-11-16",
+                "description": "Data powiązana w faktach"
+              },
+              {
+                "date": "2027-01-01",
+                "description": "Wejście w życie rozporządzenia"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1503/ogl",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eli-du-2026-1496",
+          "headline": "Nowy statut Państwowego Gospodarstwa Wodnego Wody Polskie",
+          "summary": "Wydano rozporządzenie Ministra Infrastruktury z dnia 5 listopada 2026 r. w sprawie nadania statutu Państwowemu Gospodarstwu Wodnemu Wody Polskie. Regulacja została opublikowana w Dzienniku Ustaw pod pozycją 1496.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o statucie instytucji państwowej nie ma bezpośredniego wpływu na bieżące rozliczenia podatkowe lub składkowe jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Minister Infrastruktury wydał rozporządzenie z dnia 5 listopada 2026 r. dotyczące nadania statutu Państwowemu Gospodarstwu Wodnemu Wody Polskie. Akt prawny został ogłoszony w Dzienniku Ustaw w dniu 13 listopada 2026 r. pod pozycją 1496. Dokument reguluje kwestie organizacyjne związane z funkcjonowaniem Wód Polskich.",
+            "background": "Wydanie rozporządzenia nastąpiło na podstawie uprawnień ustawowych przysługujących ministrowi właściwskiemu do spraw gospodarki wodnej. Proces ten wiąże się z nadaniem nowego statutu dla Państwowego Gospodarstwa Wodnego Wody Polskie.",
+            "what_it_means_for_business": "Wydane rozporządzenie ma charakter organizacyjny i wewnętrzny dla administracji publicznej oraz państwowych jednostek budżetowych. Brak danych w źródle wskazuje na bezpośrednie przełożenie na codzienne obowiązki podatkowe czy fakturowanie przedsiębiorców. Opracowanie ma charakter wyłącznie informacyjny.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [
+              {
+                "date": "2027-01-01",
+                "description": "Data wejścia w życie"
+              }
+            ],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Dziennik Ustaw (ELI Sejm)",
+              "url": "https://eli.gov.pl/eli/DU/2026/1496/ogl",
+              "published": "2026-11-13"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "tax-16406ec733b0",
+          "headline": "Planowane podwyższenie opłaty cukrowej od 1 stycznia 2027 r.",
+          "summary": "Rząd planuje podwyższyć opłatę cukrową od 1 stycznia 2027 r., co ma zwiększyć wpływy do systemu ochrony zdrowia o około 1,3 mld zł rocznie. Stawka podstawowa wzrośnie z 50 do 70 groszy za litr, a dla napojów z kofeiną lub tauryną z 10 groszy do 1 zł. Przedstawiciele branży spożywczej obawiają się wzrostu cen w sklepach i spadku sprzedaży.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Informacja dotyczy rynku e-commerce i handlu detalicznego, wpływając na ceny napojów i koszty prowadzenia działalności handlowej."
+          },
+          "details": {
+            "what_happened": "Rząd zapowiedział podwyższenie opłaty cukrowej, co ma na celu zwiększenie wpływa do systemu ochrony zdrowia oraz ograniczenie spożycia słodzonych napojów. Zmiany te mają wejść w życie 1 stycznia 2027 r. Podstawowa opłata wzrośnie z 50 do 70 groszy za litr, natomiast dla napojów z dodatkiem kofeiny lub tauryny stawka wzrośnie z 10 groszy do 1 zł za litr. Według szacunków Ministerstwa Finansów do Narodowego Funduszu Zdrowia ma trafiać dodatkowo około 1,3 mld zł rocznie.",
+            "background": "Działania te stanowią kontynuację regulacji wprowadzonych w 2021 r. Przedstawiciele branży spożywczej wskazują na negatywne doświadczenia z tamtego okresu i obawiają się kolejnych regulacji. Wskazują na szacowany wzrost cen w sklepach, m.in. o ok. 5,7 proc. dla ice tea i 22,6 proc. dla nektarów niegazowanych, oraz spadek sprzedaży.",
+            "what_it_means_for_business": "Dla przedsiębiorców prowadzących działalność w zakresie handlu detalicznego i e-commerce planowane zmiany mogą oznaczać wyższe ceny zakupowe napojów objętych opłatą oraz konieczność dostosowania polityki cenowej. Wzrost cen dla klientów ostatecznych może wpłynąć na spadek wielkości sprzedaży wybranych kategorii produktów. Brak danych w źródle na temat szczegółowych obowiązków rozliczeniowych dla handlowców.",
+            "what_to_do": [
+              "Monitorować zapowiedzi legislacyjne dotyczące wejścia w życie nowych stawek od 2027 roku.",
+              "Przeanalizować potencjalny wpływ wyższych cen napojów na asortyment i marże w prowadzonym handlu detalicznym."
+            ],
+            "deadlines": [
+              {
+                "date": "1 stycznia 2027 r.",
+                "description": "Wejście w życie nowych stawek opłaty cukrowej"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Interia Biznes - Podatki",
+              "url": "https://biznes.interia.pl/gospodarka/news-rzad-liczy-na-miliardy-dla-nfz-pomoc-maja-nowe-stawki-oplaty,nId,23569762",
+              "published": "2026-11-06"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-6f8be45c4701",
+          "headline": "GUS i ZUS opublikowały najnowsze dane o emeryturach i rentach",
+          "summary": "Główny Urząd Statystyczny oraz ZUS opublikowały kompleksowe dane statystyczne dotyczące emerytur i rent w 2025 roku. Raport obejmuje m.in. liczbę świadczeniobiorców, wysokość wypłacanych kwot oraz strukturę wiekową osób przechodzących na emeryturę.",
+          "tags": [
+            "ZUS"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter ogólnostatyczny i nie wpływa bezpośrednio na bieżące rozliczenia podatkowe lub składkowe jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Główny Urząd Statystyczny (GUS) oraz ZUS opublikowały najnowsze dane dotyczące emerytów i rent w Polsce w 2025 r. Wskazano m.in. liczbę emerytów i rencistów, średnią wysokość emerytur ogółem oraz z podziałem na płeć i województwa. Przedstawiono również kwoty wydane na emerytury, strukturę wiekową osób przechodzących na emeryturę oraz relację świadczeń do przeciętnego wynagrodzenia. Opublikowane dane stanowią podsumowanie statystyczne dotyczące tego obszaru za rok 2025.",
+            "background": "Publikacja wpisuje się w cykliczne udostępnianie przez GUS i ZUS oficjalnych danych statystycznych obrazujących sytuację demograficzno-finansową systemu emerytalnego w Polsce. Wskazano w niej szereg wskaźników liczbowych oraz kwotowych odnoszących się do ubiegłych lat.",
+            "what_it_means_for_business": "Publikacja danych statystycznych o emeryturach i rentach nie zmienia zasad rozliczeń podatkowych, składkowych ani obowiązków prowadzonej jednoosobowej działalności gospodarczej. Informacja ta ma wymiar głównie analityczny i informacyjny w skali makroekonomicznej. Brak danych w źródle wskazuje na brak bezpośrednich konsekwencji finansowych dla przedsiębiorcy.",
+            "what_to_do": [
+              "Zapoznać się z publikacją w celach informacyjnych, jeśli prowadzona działalność wymaga śledzenia wskaźników makroekonomicznych."
+            ],
+            "deadlines": [
+              {
+                "date": "2025",
+                "description": "Rok, którego dotyczą publikowane dane statystyczne ZUS i GUS"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/finanse/srednia-emerytura-w-polsce-zus-pokazuje-najnowsze-dane-7352311602161664a.html",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-ec17b4218dd4",
+          "headline": "Wypadek w Spale: zarzuty dla kierowcy po potrąceniu strażaków",
+          "summary": "W dniu 13 listopada w Spale kierujący samochodem potrącił na przejściu dla pieszych dwie osoby, w tym dyrektorkę zarządu wojewódzkiego OSP, która zginęła na miejscu. Sprawca usłyszał zarzuty w prokuraturze, nie przyznał się do winy i zastosowano wobec niego środki zapobiegawcze.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o charakterze kryminalnym i wypadku drogowym nie ma bezpośredniego wpływu na podatki, rozliczenia VAT ani prowadzenie jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "W dniu 13 listopada w Spale na ulicy Ignacego Mościckiego kierujący samochodem osobowym marki Cupra 55-latek potrącił na oznakowanym przejściu dla pieszych kobietę i mężczyznę. W wyniku wypadku śmierć na miejscu poniosła Małgorzata Pawlik, dyrektorka zarządu wojewódzkiego związku Ochotniczej Straży Pożarnej, a ranny został były komendant powiatowy państwowej straży w Opocznie, Dariusz Polański. 55-letni kierowca usłyszał w prokuraturze w Tomaszowie Mazowieckim zarzut spowodowania wypadku ze skutkiem śmiertelnym. Podczas przesłuchania nie przyznał się do winy i odmówił składania wyjaśnień, a prokurator zastosował wobec niego dozór policyjny, zakaz opuszczania kraju oraz poręczenie majątkowe.",
+            "background": "Sprawa prowadzona jest przez prokuraturę w Tomaszowie Mazowieckim oraz Prokuraturę Okręgową w Piotrkowie Trybunalskim. Dotyczy zdarzenia drogowego ze skutkiem śmiertelnym, za które grozi kara od 6 miesięcy do 8 lat pozbawienia wolności.",
+            "what_it_means_for_business": "Wydarzenie to ma charakter czysto informacyjny i nie niesie za sobą żadnych skutków podatkowych, prawnych ani finansowych dla bieżącej działalności gospodarczej przedsiębiorcy. Brak bezpośredniego przełożenia na procedury biznesowe czy rozliczenia z urzędem skarbowym i ZUS.",
+            "what_to_do": [
+              "brak danych w źródle"
+            ],
+            "deadlines": [],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "TVN24 Najnowsze",
+              "url": "https://tvn24.pl/lodz/spala-zginela-znana-dzialaczka-ochotniczej-strazy-ranny-byly-komendant-zarzuty-dla-kierowcy-st9344526?source=rss",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-269b23c2fd79",
+          "headline": "Sondaż IBRiS: 71 proc. Polaków przeciw wyższym podatkom na socjal",
+          "summary": "Z badania IBRiS wynika, że blisko trzy czwarte Polaków nie popiera podnoszenia podatków w celu finansowania nowych świadczeń socjalnych. Przeciwko jest zarówno większość zwolenników obozu rządzącego, jak i wyborców opozycji. Ekonomiści zwracają uwagę na ryzyko związane ze wzrostem wydatków i zadłużenia państwa.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter ogólnogospodarczy i społeczny, nie wprowadzając bezpośrednich zmian w bieżących rozliczeniach podatkowych jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Z sondażu przeprowadzonego przez IBRiS dla 'Rzeczpospolitej' wynika, że blisko trzy czwarte Polaków (71 proc.) sprzeciwia się podnoszeniu podatków na sfinansowanie nowych świadczeń socjalnych. Przeciwko takiemu rozwiązaniu opowiada się 58 proc. zwolenników obozu rządzącego oraz 82 proc. wyborców opozycji, w tym 88 proc. zwolenników PiS i 98 proc. Konfederacji. Najwięcej przeciwników odnotowano w grupie wiekowej 40–59 lat, a najmniej wśród najmłodszych (18–29 lat) i najstarszych (powyżej 70 lat).",
+            "background": "Temat podatków i finansowania wydatków publicznych budzi duże emocje społeczne i polityczne. W dyskusji głos zabrali ekonomiści Marcin Mrowiec i Kamil Sobolewski, którzy ostrzegają przed dalszym wzrostem wydatków, zadłużenia państwa oraz kosztów jego obsługi.",
+            "what_it_means_for_business": "Opublikowane wyniki badań społecznych nie niosą za sobą bezpośrednich zmian w przepisach podatkowych dla przedsiębiorców. Stanowią jednak istotny kontekst makroekonomiczny dotyczący nastrojów społecznych oraz przyszłej polityki fiskalnej państwa.",
+            "what_to_do": [
+              "Śledzić dalsze zapowiedzi rządu dotyczące ewentualnych zmian w systemie podatkowym i wydatkach budżetowych."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-18",
+                "description": "data wskazana w źródle"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/finanse/wydatki-na-socjal-polacy-wyslali-rzadowi-jasny-sygnal-7352240204908576a.html",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-68f8fc32c4b5",
+          "headline": "Kurs euro do złotego PLN/EUR w dniu 18.11.2026 r.",
+          "summary": "Przedstawiono bieżący kurs euro do złotego wynoszący 4.4048 zł za jedno euro w dniu 18.11.2026 r. Podano również poranne kursy franka szwajcarskiego oraz dolara amerykańskiego. Wartości te są istotne dla rozliczeń transakcji zagranicznych i handlu wewnątrz UE.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Firma prowadzi handel zagraniczny i usługi w UE, dlatego bieżące kursy walut mają znaczenie dla wyceny transakcji."
+          },
+          "details": {
+            "what_happened": "W dniu 18.11.2026 r. opublikowano kurs euro do złotego PLN/EUR, który wynosił 4.4048 zł za jedno euro. O godzinie 07:00 podano także kursy wobec franka szwajcarskiego na poziomie 0.9238 oraz dolara amerykańskiego na poziomie 1.0983. Dodatkowo przedstawiono ogólne informacje na temat historii i funkcjonowania wspólnej waluty Unii Europejskiej.",
+            "background": "Informacja dotyczy bieżących notowań walutowych na rynkach oraz danych o unijnej walucie. Wspomniano m.in. o wejściu euro do obiegu 1 stycznia 2002 r., przystąpieniu Chorwacji do strefy euro 1 stycznia 2023 r. oraz o osiągnięciu parytetu z dolarem w lipcu 2022 r.",
+            "what_it_means_for_business": "Znajomość aktualnego kursu euro jest kluczowa dla przedsiębiorców prowadzących działalność e-commerce i handel wewnątrz Unii Europejskiej. Wpływa to bezpośrednio na wycenę towarów, usług oraz prawidłowe przeliczanie kwot na dokumentach księgowych. Brak danych w źródle na temat specyficznych obowiązków podatkowych w tym zakresie oznacza konieczność stosowania standardowych zasad przeliczania walut.",
+            "what_to_do": [
+              "Monitorować bieżące kursy walut przy rozliczaniu transakcji unijnych.",
+              "Sprawdzać poprawność przeliczania kwot wyrażonych w walutach obcych na PLN."
+            ],
+            "deadlines": [
+              {
+                "date": "1 stycznia 2002 r.",
+                "description": "wejście euro do obiegu"
+              },
+              {
+                "date": "lipiec 2022 r.",
+                "description": "waluta osiągnęła parytet z dolarem po raz pierwszy od wejścia do obiegu"
+              },
+              {
+                "date": "1 stycznia 2023 r.",
+                "description": "Chorwacja dołącza do strefy euro"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "data publikacji kursu PLN/EUR wynoszącego 4.4048 zł"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/pieniadze/ile-kosztuje-euro-kurs-euro-do-zlotego-pln-eur-18-11-2026-7352245611722752a.html",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-a27682744beb",
+          "headline": "Aktualny kurs dolara PLN/USD na dzień 18.11.2026 r.",
+          "summary": "Wskazano oficjalny kurs dolara amerykańskiego względem złotego wynoszący 4.0108 zł. Przedstawiono również wybrane fakty historyczne dotyczące amerykańskiej waluty oraz polityki Rezerwy Federalnej.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Kurs walutowy ma znaczenie dla firm prowadzących handel detaliczny oraz usługi międzynarodowe."
+          },
+          "details": {
+            "what_happened": "W dniu 18.11.2026 r. podano, że kurs dolara do złotego PLN/USD wynosi 4.0108 zł za jednego dolara. W materiale omówiono także ogólne i historyczne informacje o dolarze amerykańskim. Dotyczą one m.in. historii emisji, konferencji w Bretton Woods w 1944 r., polityki monetarnej Rezerwy Federalnej oraz sytuacji parytetu z euro w lipcu 2022 r.",
+            "background": "Informacja stanowi bieżący odczyt rynkowy kursu walutowego powiązany z historią funkcjonowania dolara oraz działaniami instytucji finansowych, takich jak Fed. W materiale brak danych na temat pytań wnioskodawców czy specyficznych rozstrzygnięć urzędowych.",
+            "what_it_means_for_business": "Znajomość bieżącego kursu walutowego jest istotna przy rozliczaniu transakcji międzynarodowych oraz kalkulacji opłacalności działalności handlowej i usługowej. Wahania kursów wpływają na wycenę przychodów i kosztów wyrażonych w walutach obcych. Przedsiębiorca powinien uwzględniać aktualne notowania w bieżących rozliczeniach.",
+            "what_to_do": [
+              "Monitorować bieżące notowania kursu PLN/USD przy realizacji transakcji międzynarodowych"
+            ],
+            "deadlines": [
+              {
+                "date": "18.11.2026",
+                "description": "Data publikacji kursu dolara wynoszącego 4.0108 zł"
+              }
+            ],
+            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/pieniadze/ile-kosztuje-dolar-kurs-dolara-do-zlotego-pln-usd-18-11-2026-7352245573916704a.html",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 29,
+    "estimated_tokens": 67114,
+    "rejected_count": 0,
+    "low_confidence_count": 0,
+    "sources_status": {
+      "weather": "ok",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "partial",
+      "economy_world": "ok"
+    },
+    "run_mode": "production"
+  }
+}
