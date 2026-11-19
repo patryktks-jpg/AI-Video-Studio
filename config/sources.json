@@ -8,7 +8,7 @@
   "ai_delay_seconds": 2.0,
   "ai_max_retries": 3,
   "max_items_per_section": 5,
-  "max_source_chars_per_item": 6000,
+  "max_source_chars_per_item": 12000,
   "selection_criteria": {
     "description": "Wybieraj pozycje o największym wpływie na JDG i MŚP w Polsce: zmiany w stawkach/limitach, nowe obowiązki lub ulgi podatkowe/ZUS, bliskie terminy lub wysokie ryzyko kar.",
     "priority_keywords": [
@@ -36,13 +36,13 @@
     "search_url": "https://eureka.mf.gov.pl/api/public/v1/wyszukiwarka/informacje",
     "detail_url_template": "https://eureka.mf.gov.pl/api/public/v1/informacje/{id}",
     "public_url_template": "https://eureka.mf.gov.pl/informacje/podglad/{id}",
-    "fetch_size": 10,
+    "fetch_size": 25,
     "max_items": 4,
     "request_delay_seconds": 0.6
   },
   "legislation": {
     "enabled": true,
-    "sejm_prints_url": "https://api.sejm.gov.pl/sejm/term10/prints?limit=20",
+    "sejm_prints_url": "https://api.sejm.gov.pl/sejm/term10/prints?sort_by=-deliveryDate&limit=100",
     "eli_du_url_template": "https://api.sejm.gov.pl/eli/acts/DU/{year}",
     "max_items": 4
   },

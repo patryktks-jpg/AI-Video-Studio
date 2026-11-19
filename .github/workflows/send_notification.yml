@@ -1,11 +1,6 @@
 name: 2. Wysylka Porannej Pigulki o 8:00 (Telegram)
 
 on:
-  schedule:
-    # 05:55 UTC = 07:55 CEST (lato UTC+2)
-    - cron: '55 5 * * *'
-    # 06:55 UTC = 07:55 CET (zima UTC+1)
-    - cron: '55 6 * * *'
   workflow_dispatch:
     inputs:
       force:
@@ -18,15 +13,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: 'send-morning-briefing'
+  group: 'pages-and-pill'
   cancel-in-progress: false
 
 jobs:
   send-notification:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Pobierz repozytorium
         uses: actions/checkout@v4
@@ -36,15 +36,58 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Wysłanie powiadomienia o 8:00
+      - name: Upewnij się, że dzisiejsza pigułka istnieje
+        id: generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
-          FLAGS="--send-daily"
-          if [ "${{ github.event.inputs.force }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+          TODAY_PL=$(TZ="Europe/Warsaw" date +%Y-%m-%d)
+          if [ -f "data/${TODAY_PL}.json" ]; then
+            echo "Pigułka na ${TODAY_PL} już istnieje w repozytorium."
+            echo "pill_generated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Brak pigułki na ${TODAY_PL} — uruchamiam generację przed publikacją."
+            python scripts/main.py --no-notify --force-time
+          fi
+
+      - name: Zapisz wygenerowaną pigułkę w repozytorium
+        if: steps.generator.outputs.pill_generated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/ app/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(pill): aktualizacja porannej pigułki [skip ci]"
+            git pull --rebase -X theirs origin main
+            git push
+          else
+            echo "Brak nowych zmian w data/ lub app/data/."
+          fi
+
+      - name: Konfiguracja GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Spakowanie artefaktu PWA (/app)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+      - name: Publikacja PWA na GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Wysłanie powiadomienia na Telegram (po publikacji Pages)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          FLAGS="--send-daily --no-emergency"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force }}" = "true" ]; then
             FLAGS="$FLAGS --force"
           fi
           python scripts/notifier.py $FLAGS
@@ -53,10 +96,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sent_log.json
+          git add -A data/ app/data/
           if ! git diff --staged --quiet; then
             git commit -m "chore(notif): aktualizacja rejestru wysylki powiadomien [skip ci]"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           else
             echo "Brak nowych wpisów w sent_log.json."

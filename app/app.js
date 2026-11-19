@@ -118,13 +118,15 @@ function relevanceBadge(rel) {
 
 /* --- Pobieranie danych z JSON --- */
 async function fetchJson(url) {
-  const resp = await fetch(url, { cache: "no-cache" });
+  const sep = url.includes("?") ? "&" : "?";
+  const cacheBusted = `${url}${sep}v=${Date.now()}`;
+  const resp = await fetch(cacheBusted, { cache: "no-store" });
   if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
   return resp.json();
 }
 
-async function ensureDayLoaded(dateStr) {
-  if (state.loadedPills[dateStr]) return state.loadedPills[dateStr];
+async function ensureDayLoaded(dateStr, forceReload = false) {
+  if (!forceReload && state.loadedPills[dateStr]) return state.loadedPills[dateStr];
   const pill = await fetchJson(`./data/${dateStr}.json`);
   state.loadedPills[dateStr] = pill;
   return pill;
@@ -665,29 +667,59 @@ async function init() {
 
   await loadSavedItems();
 
-  try {
-    const idx = await fetchJson("./data/index.json");
-    state.daysIndex = idx.days || [];
-  } catch {
-    state.daysIndex = [];
+  const selectEl = document.getElementById("archive-select");
+
+  async function refreshLatestIndex(isResume = false) {
+    try {
+      const idx = await fetchJson("./data/index.json");
+      const freshDays = idx.days || [];
+      if (freshDays.length === 0) {
+        if (!isResume) {
+          state.daysIndex = [];
+          selectEl.innerHTML = "";
+          document.getElementById("pill-date-title").textContent = "Brak wygenerowanych pigułek";
+        }
+        return;
+      }
+
+      const newest = freshDays[0];
+      const cachedNewest = state.loadedPills[newest.date];
+      const hasNewerDay = !isResume || state.currentDate !== newest.date;
+      const hasUpdatedContent =
+        isResume && cachedNewest && newest.generated_at && cachedNewest.generated_at !== newest.generated_at;
+
+      state.daysIndex = freshDays;
+      selectEl.innerHTML = "";
+      state.daysIndex.forEach((d) => {
+        const opt = document.createElement("option");
+        opt.value = d.date;
+        opt.textContent = `${d.date} (${d.items_count} poz.)`;
+        selectEl.appendChild(opt);
+      });
+
+      if (!isResume || hasNewerDay || hasUpdatedContent) {
+        state.currentDate = newest.date;
+        selectEl.value = state.currentDate;
+        await ensureDayLoaded(state.currentDate, true);
+        renderAll();
+        preloadRecentArchive();
+      } else {
+        selectEl.value = state.currentDate;
+      }
+    } catch {
+      if (!isResume && state.daysIndex.length === 0) {
+        document.getElementById("pill-date-title").textContent = "Brak wygenerowanych pigułek";
+      }
+    }
   }
 
-  const selectEl = document.getElementById("archive-select");
-  selectEl.innerHTML = "";
-  if (state.daysIndex.length === 0) {
-    document.getElementById("pill-date-title").textContent = "Brak wygenerowanych pigułek";
-  } else {
-    state.daysIndex.forEach((d) => {
-      const opt = document.createElement("option");
-      opt.value = d.date;
-      opt.textContent = `${d.date} (${d.items_count} poz.)`;
-      selectEl.appendChild(opt);
-    });
-    state.currentDate = state.daysIndex[0].date;
-    await ensureDayLoaded(state.currentDate);
-    renderAll();
-    preloadRecentArchive();
-  }
+  await refreshLatestIndex(false);
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && navigator.onLine) {
+      refreshLatestIndex(true);
+    }
+  });
 
   selectEl.addEventListener("change", async (ev) => {
     state.currentDate = ev.target.value;

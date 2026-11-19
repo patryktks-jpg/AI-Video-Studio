@@ -1,18 +1,18 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T12:35:58+01:00",
+  "generated_at": "2026-11-19T20:58:53+01:00",
   "weather": {
     "city": "Brzesko",
     "postal_code": "32-800",
     "status": "ok",
-    "temp_now": 12.2,
-    "apparent_temp": 10.1,
+    "temp_now": 8.0,
+    "apparent_temp": 7.0,
     "temp_min": 7.8,
-    "temp_max": 12.6,
-    "wind_speed_kmh": 7.6,
-    "rain_probability_max": 100,
-    "condition": "Częściowe zachmurzenie ⛅",
-    "practical_tip": "Parasol wskazany od około 19:00 (opady do 89%).",
+    "temp_max": 13.0,
+    "wind_speed_kmh": 2.5,
+    "rain_probability_max": 94,
+    "condition": "Lekki deszcz 🌦️",
+    "practical_tip": "Parasol wskazany od około 19:00 (opady do 90%).",
     "hourly_forecast": [
       {
         "hour": "07:00",
@@ -31,63 +31,63 @@
       },
       {
         "hour": "10:00",
-        "temp": 10.3,
+        "temp": 10.7,
         "rain_prob": 0
       },
       {
         "hour": "11:00",
-        "temp": 11.3,
-        "rain_prob": 0
-      },
-      {
-        "hour": "12:00",
         "temp": 11.9,
         "rain_prob": 0
       },
       {
-        "hour": "13:00",
-        "temp": 12.4,
-        "rain_prob": 0
-      },
-      {
-        "hour": "14:00",
+        "hour": "12:00",
         "temp": 12.5,
         "rain_prob": 0
       },
       {
+        "hour": "13:00",
+        "temp": 13.0,
+        "rain_prob": 0
+      },
+      {
+        "hour": "14:00",
+        "temp": 12.6,
+        "rain_prob": 0
+      },
+      {
         "hour": "15:00",
-        "temp": 11.5,
+        "temp": 11.8,
         "rain_prob": 0
       },
       {
         "hour": "16:00",
-        "temp": 10.5,
+        "temp": 10.9,
         "rain_prob": 0
       },
       {
         "hour": "17:00",
-        "temp": 9.9,
-        "rain_prob": 16
+        "temp": 10.4,
+        "rain_prob": 19
       },
       {
         "hour": "18:00",
-        "temp": 9.5,
-        "rain_prob": 39
+        "temp": 9.7,
+        "rain_prob": 45
       },
       {
         "hour": "19:00",
-        "temp": 8.3,
-        "rain_prob": 59
+        "temp": 8.7,
+        "rain_prob": 67
       },
       {
         "hour": "20:00",
-        "temp": 7.9,
-        "rain_prob": 75
+        "temp": 8.2,
+        "rain_prob": 81
       },
       {
         "hour": "21:00",
-        "temp": 7.8,
-        "rain_prob": 89
+        "temp": 7.9,
+        "rain_prob": 90
       }
     ]
   },
@@ -173,142 +173,114 @@
       "status_message": "",
       "items": [
         {
-          "id": "kis-720197",
-          "headline": "Pravo do odliczenia VAT od wydatków na cmentarze komunalne",
-          "summary": "Organ potwierdził prawidłowość stanowiska wnioskodawcy w zakresie odliczania podatku naliczonego przy użyciu prewspółczynnika opartego na udziale pochówków odpłatnych. Dotyczy to wydatków bieżących i inwestycyjnych związanych z utrzymaniem cmentarzy komunalnych.",
+          "id": "kis-719514",
+          "headline": "Usługi B2B dla kontrahenta z UE a VAT i JPK",
+          "summary": "Dyrektor KIS potwierdził, że usługi graficzne 3D świadczone na rzecz firmy z Irlandii są opodatkowane w Irlandii zgodnie z art. 28b ustawy o VAT. Podatnik zwolniony podmiotowo z VAT w Polsce dokumentuje je fakturą z adnotacją „odwrotne obciążenie” bez stawki i kwoty VAT oraz nie składa pliku JPK_VAT.",
           "tags": [
             "VAT"
           ],
-          "importance": "medium",
+          "importance": "high",
           "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja dotyczy specyfiki rozliczeń VAT jednostek samorządu terytorialnego i cmentarzy, co nie przekłada się bezpośrednio na profil usług B2B i e-commerce firmy."
+            "level": "high",
+            "reason": "Informacja bezpośrednio dotyczy rozliczeń VAT przy świadczeniu usług B2B na rzecz kontrahentów z UE przez jednoosobową działalność gospodarczą korzystającą ze zwolnienia podmiotowego."
           },
           "details": {
-            "what_happened": "Organ uznał za prawidłowe stanowisko wnioskodawcy, zgodnie z którym ma on prawo do odliczenia części podatku naliczonego z faktur dokumentujących wydatki bieżące i inwestycyjne związane z cmentarzami. Odliczenie to odbywa się za pomocą proporcji obliczonej według udziału procentowego, w jakim działalność cmentarna prowadzona jest w ramach czynności opodatkowanych VAT. Do wyliczenia stosuje się tzw. prewspółczynnik oparty na udziale liczby osób pochowanych odpłatnie w całkowitej liczbie osób pochowanych w danym roku.",
-            "background": "Wnioskodawca, będący zarejestrowanym czynnym podatnikiem VAT i właścicielem cmentarzy komunalnych, wykonuje odpłatne czynności opodatkowane VAT, takie jak udostępnianie miejsc pod groby, korzystanie z kaplicy, wjazd czy pochówki. Jednocześnie ponosi koszty utrzymania cmentarza dokumentowane fakturami VAT oraz realizuje nieodpłatne pochówki m.in. osób bezdomnych lub samotnych, do czego jest ustawowo zobowiązany.",
-            "what_it_means_for_business": "Rozstrzygnięcie potwierdza zasady stosowania prewspółczynnika przy mieszanej działalności obejmującej zarówno czynności opodatkowane, jak i zwolnione bądź pozaustawowe. Wskazuje ono na dopuszczalną metodę kalkulacji proporcji odliczenia podatku naliczonego w oparciu o wskaźnik rzeczowy (liczbę pochówków). Przedsiębiorcy prowadzący działalność o charakterze mieszanym powinni upewnić się, że stosowane przez nich metody alokacji podatku naliczonego odzwierciedlają specyfikę prowadzonej działalności.",
+            "what_happened": "Dyrektor KIS rozstrzygnął, że miejscem świadczenia usług na rzecz podatnika z siedzibą w Irlandii jest kraj kontrahenta (art. 28b ust. 1 ustawy o VAT), co oznacza brak opodatkowania tych usług w Polsce. Wnioskodawca ma obowiązek wystawić fakturę z adnotacją „odwrotne obciążenie” (art. 106e ust. 1 pkt 18 ustawy) bez wykazywania stawki, kwoty podatku oraz sumy wartości sprzedaży netto. Potwierdzono również, że podatnik zwolniony podmiotowo z VAT na podstawie art. 113 ust. 1, zarejestrowany do VAT UE, nie ma obowiązku przesyłania pliku JPK_VAT.",
+            "background": "Wnioskodawca (grafik 3D, zwolniony z VAT podmiotowo, zarejestrowany do VAT UE) zapytał o miejsce opodatkowania, sposób dokumentacji oraz wykazywanie w JPK_VAT usług tworzenia modeli 3D świadczonych na rzecz biura architektonicznego w Irlandii. Organ uznał stanowisko wnioskodawcy za w pełni prawidłowe, opierając się na przepisach ustawy o podatku od towarów i usług dotyczących miejsca świadczenia usług B2B i obowiązków fakturowych.",
+            "what_it_means_for_business": "Przedsiębiorca świadczący usługi na rzecz firm z UE przy zwolnieniu podmiotowym z VAT nie nalicza polskiego podatku i nie musi składać deklaracji JPK_VAT. Transakcję należy udokumentować fakturą z adnotacją „odwrotne obciążenie” bez kwot podatku. Warunkiem jest posiadanie ważnego numeru VAT UE kontrahenta zweryfikowanego w systemie VIES.",
             "what_to_do": [
-              "Zweryfikować poprawność stosowanych w firmie metod prewspółczynnika VAT w przypadku prowadzenia działalności o charakterze mieszanym.",
-              "Przeanalizować dokumentację kosztową pod kątem możliwości odliczenia podatku naliczonego."
-            ],
-            "deadlines": [],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/720197",
-              "published": "2026-11-19"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "kis-720077",
-          "headline": "Przychody z reklam w mediach społecznościowych a ryczałt",
-          "summary": "Dyrektor KIS potwierdził, że odpłatne udostępnianie miejsc na reklamy w mediach społecznościowych przez osobę prywatną można zakwalifikować jako najem lub dzierżawę. Taki przychód może być opodatkowany ryczałtem ewidencjonowanym według stawki 8,5% do kwoty 100 000 zł oraz 12,5% od nadwyżki. Warunkiem jest uzyskiwanie przychodów poza prowadzoną działalnością gospodarczą.",
-          "tags": [
-            "PIT"
-          ],
-          "importance": "medium",
-          "relevance_for_profile": {
-            "level": "low",
-            "reason": "Interpretacja dotyczy przychodów osoby nieprowadzącej działalności gospodarczej, podczas gdy profil dotyczy aktywnego przedsiębiorcy."
-          },
-          "details": {
-            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0113-KDIPT2-1.4011.797.2026.1.AP. Organ uznał za prawidłowe stanowisko wnioskodawcy, że przychody z odpłatnego udostępniania miejsc na reklamy na profilu w mediach społecznościowych można zaliczyć do źródła przychodów określonego w art. 10 ust. 1 pkt 6 ustawy o PIT. Oznacza to możliwość opodatkowania tych przychodów ryczałtem od przychodów ewidencjonowanych.",
-            "background": "Wnioskodawca będący osobą nieprowadzącą działalności gospodarczej prowadzi profil na portalu X, gdzie zamieszcza komentarze i udostępnia odpłatnie innym podmiotom miejsca na reklamy displayowe oraz bumpery reklamowe. Wystąpił z pytaniem, czy przychody te podlegają opodatkowaniu ryczałtem jako umowy o charakterze najmu lub dzierżawy zgodnie z art. 2 ust. 1a ustawy o zryczałtowanym podatku dochodowym.",
-            "what_it_means_for_business": "Rozstrzygnięcie to dotyczy osób uzyskujących przychody poza pozarolniczą działalnością gospodarczą. Stawki ryczałtu wynoszą 8,5% od przychodów do kwoty 100 000 zł oraz 12,5% od nadwyżki ponad tę kwotę. Uzyskiwany dochód nie musi być głównym źródłem utrzymania wnioskodawcy.",
-            "what_to_do": [
-              "Zweryfikować, czy ewentualne dodatkowe aktywności reklamowe poza firmą są prawidłowo kwalifikowane podatkowo",
-              "Sprawdzić limity przychodów wynoszące 100 000 zł przy stosowaniu stawek 8,5% i 12,5%"
+              "Zweryfikować kontrahenta z UE w systemie VIES i upewnić się, że posiada ważny numer VAT",
+              "Wystawiać faktury dla zagranicznego kontrahenta biznesowego z adnotacją „odwrotne obciążenie” bez stawki i kwoty podatku",
+              "Nie uwzględniać transakcji w plikach JPK_VAT, jeśli korzystasz ze zwolnienia podmiotowego z VAT na podstawie art. 113 ust. 1"
             ],
             "deadlines": [
               {
-                "date": "brak danych w źródle",
-                "description": "brak danych w źródle"
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego za pośrednictwem Dyrektora KIS"
               }
             ],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Przychody można opłacać ryczałtem od przychodów ewidencjonowanych wg stawki 8,5% od przychodów do kwoty 100 000 zł oraz 12,5% od nadwyżki ponad kwotę 100 000 zł, pod warunkiem, że przychody nie są uzyskiwane w ramach działalności gospodarczej. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja dotyczy wyłącznie przedstawionego stanu faktycznego i stanu prawnego obowiązującego w dacie zaistnienia zdarzenia. Ochrony prawnej nie stosuje się w przypadku decyzji wydanych z zastosowaniem art. 119a, nadużycia prawa (art. 5 ust. 5 ustawy o VAT) lub środków ograniczających umowne korzyści. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/720077",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719514",
               "published": "2026-11-19"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "kis-720098",
-          "headline": "Płatności earn-out a koszty podatkowe po połączeniu spółek",
-          "summary": "Dyrektor KIS potwierdził, że płatności typu earn-out wypłacane po połączeniu odwrotnym mogą stanowić koszty uzyskania przychodów inne niż bezpośrednio związane z przychodami. Stanowisko wnioskodawcy uznano za w pełni prawidłowe w świetle przedstawionego stanu faktycznego.",
+          "id": "kis-720237",
+          "headline": "Interpretacja KIS ws. kosztów i przychodów operatora B w CIT",
+          "summary": "Dyrektor KIS uznał stanowisko wnioskodawcy w sprawie CIT za prawidłowe w części dotyczącej większości wydatków, lecz nieprawidłowe w zakresie kosztów wynagrodzeń pracowniczych i składek. Wydatki (poza płacowymi) podlegają ujęciu w kosztach na podstawie art. 15 ust. 4 ustawy o CIT w roku osiągnięcia przychodów z wynagrodzenia.",
           "tags": [
-            "CIT",
-            "Ustawy"
+            "VAT"
           ],
           "importance": "low",
           "relevance_for_profile": {
             "level": "low",
-            "reason": "Informacja dotyczy podatku dochodowego od osób prawnych (CIT) oraz specyficznych transakcji kapitałowych spółek z o.o., podczas gdy profil firmy to jednoosobowa działalność gospodarcza."
+            "reason": "Informacja dotyczy podatku CIT oraz specyficznej umowy operatora B, podczas gdy profil firmy to jednoosobowa działalność gospodarcza."
           },
           "details": {
-            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację dotyczącą skutków podatkowych w podatku dochodowym od osób prawnych. Organ potwierdził prawidłowość stanowiska wnioskodawcy, zgodnie z którym płatności typu earn-out będą stanowić koszty uzyskania przychodów inne niż bezpośrednio związane z przychodami. Wydatki te powinny być alokowane jako koszt związany z działalnością operacyjną. Spółka przejęła majątek oraz prawa i obowiązki w wyniku połączenia odwrotnego ze spółką przejmowaną. Spółka przejmowana nabyła wcześniej udziały na podstawie umowy przewidującej dodatkową płatność earn-out uzależnioną od wskaźników EBITDA.",
-            "background": "Wnioskodawca wystąpił z zapytaniem o możliwość zaliczenia do kosztów uzyskania przychodów płatności earn-out realizowanych na rzecz udziałowca. Do połączenia spółki z ograniczoną odpowiedzialnością z jej udziałowcem doszło w trybie połączenia odwrotnego na podstawie przepisów Kodeksu spółek handlowych. Umowa sprzedaży udziałów zawarta wcześniej przez spółkę przejmowaną przewidywała mechanizm dodatkowego wynagrodzenia uzależnionego od osiągnięcia określonych wskaźników finansowych w danych latach obrotowych. Organ podatkowy uznał stanowisko wnioskodawcy za prawidłowe.",
-            "what_it_means_for_business": "Rozstrzygnięcie potwierdza zasady kwalifikacji podatkowej dodatkowych płatności za udziały w ramach struktur holdingowych i połączeń spółek kapitałowych. Dla jednoosobowej działalności gospodarczej informacje te mają charakter czysto informacyjny, ze względu na odmienny form prawno-podatkowy. Przedsiębiorcy prowadzący JDG nie rozliczają podatku CIT ani nie przeprowadzają połączeń spółek kapitałowych na gruncie KSH w tym trybie. Interpretacja dotyczy specyficznych transakcji M&A i sukcesji uniwersalnej w spółkach z o.o.",
+            "what_happened": "Dyrektor KIS rozstrzygnął interpretację indywidualną (sygn. 0111-KDIB1-1.4010.452.2026.2.SH) dotyczącą momentu rozpoznania przychodów i kosztów uzyskania przychodów w CIT na podstawie porozumień dotyczących powierzenia obowiązków operatora B. Organ uznał za prawidłowe stanowisko wnioskodawcy, że wydatki (z wyjątkiem płacowych) ujmuje się w kosztach na podstawie art. 15 ust. 4 ustawy o CIT w roku osiągnięcia odpowiadających im przychodów. Za nieprawidłowe uznano stanowisko w części dotyczącej wynagrodzeń pracowniczych i składek społecznych, które podlegają ujęciu w kosztach w momentach wskazanych w art. 15 ust. 4g i 4h oraz art. 16 ust. 1 pkt 57, 57a ustawy o CIT.",
+            "background": "Wnioskodawca (polski rezydent podatkowy, czynny podatnik VAT) zawarł z operatorem porozumienia na okresy roczne (w tym na lata 2023-2026) w celu doprecyzowania rozliczania kosztów funkcjonowania instalacji, systemów, mediów i ochrony. Wnioskodawca zapytał, czy wynagrodzenie stanowi przychód na koniec okresu rozlicniczego lub z faktury oraz czy wydatki stanowią KUP w roku uzyskania wynagrodzenia.",
+            "what_it_means_for_business": "Rozstrzygnięcie precyzuje zasady potrącalności kosztów uzyskania przychodów w CIT dla podmiotów rozliczających koszty w ramach umów powierzenia obowiązków operatora. Pokazuje, że ogólne zasady potrącania koszów powiązanych z przychodami nie dotyczą automatycznie wynagrodzeń pracowniczych i składek, które mają własne, sztywne reżimy ustawowe.",
             "what_to_do": [
-              "Brak konkretnych działań wymaganych dla jednoosobowej działalności gospodarczej."
+              "Zweryfikować moment zaliczania wynagrodzeń pracowniczych i składek społecznych do kosztów podatkowych zgodnie z art. 15 ust. 4g i 4h oraz art. 16 ust. 1 pkt 57 i 57a ustawy o CIT",
+              "Sprawdzić prawidłowość przyporządkowania pozostałych wydatków do roku osiągnięcia odpowiadających im przychodów na podstawie art. 15 ust. 4 ustawy o CIT"
             ],
-            "deadlines": [],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Przepisów art. 14k-14n nie stosuje się, jeżeli stan faktyczny lub zdarzenie przyszłe stanowi element czynności będących przedmiotem decyzji wydanej z zastosowaniem art. 119a, w związku z wystąpieniem nadużycia prawa, o którym mowa w art. 5 ust. 5 ustawy o VAT, lub z zastosowaniem środków ograniczających umowne korzyści. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/720098",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720237",
               "published": "2026-11-19"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "kis-720081",
-          "headline": "Koszty dojazdów pociągiem a PIT w interpretacji KIS",
-          "summary": "Dyrektor KIS uznał za nieprawidłowe stanowisko podatnika, który chciał zaliczyć do zwiększonych kosztów uzyskania przychodu całą wartość imiennego biletu okresowego sieciowego. Bilet ten miał służyć zarówno do dojazdów do pracy, jak i częściowo do celów prywatnych. Interpretacja dotyczy zdarzenia przyszłego od roku podatkowego 2027.",
+          "id": "kis-720238",
+          "headline": "Ryczałt 8,5% na udostępnianie powierzchni reklamowej w aplikacjach",
+          "summary": "Dyrektor KIS potwierdził, że przychody z udostępniania miejsca na cele reklamowe we własnych aplikacjach mobilnych (PKWiU 63.11.20.0) mogą być opodatkowane ryczałtem według stawki 8,5%. Dotyczy to sytuacji, gdy podatnik nie tworzy materiałów reklamowych ani nie pośredniczy w sprzedaży cudzych miejsc.",
           "tags": [
-            "PIT"
+            "PIT",
+            "ryczałt"
           ],
-          "importance": "low",
+          "importance": "high",
           "relevance_for_profile": {
-            "level": "low",
-            "reason": "Interpretacja dotyczy pracownika zatrudnionego na etacie i rozliczenia kosztów uzyskania przychodu ze stosunku pracy, co nie dotyczy bezpośrednio jednoosobowej działalności gospodarczej użytkownika."
+            "level": "high",
+            "reason": "Interpretacja dotyczy opodatkowania ryczałtem usług reklamowych w aplikacjach, co bezpośrednio koresponduje z profilem JDG rozważającym tę formę opodatkowania."
           },
           "details": {
-            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną o sygnaturze 0113-KDWPT.4011.734.2026.2.PPK, w której uznał stanowisko wnioskodawcy za nieprawidłowe. Podatnik chciał na podstawie art. 22 ust. 11 ustawy o PIT powiększyć koszty uzyskania przychodu o całą wartość imiennego biletu okresowego sieciowego. Bilet ten miał być wykorzystywany do dojazdów do zakładu pracy pociągiem oraz sporadycznie do celów prywatnych. Organ zakwestionował możliwość zaliczenia pełnej kwoty biletu w koszty w sytuacji, gdy służy on również celom prywatnym, a wyodrębnienie proporcji jest trudne.",
-            "background": "Wnioskodawca będący pracownikiem planował na początek 2027 r. przeprowadzkę do innej pobliskiej miejscowości i rozpoczęcie dojazdów do pracy pociągiem. Koszt rocznego biletu okresowego miał przekraczać kwotę zwiększonych kosztów uzyskania przychodu. Podatnik zadał pytanie, czy przepis art. 22 ust. 11 ustawy o PIT umożliwia powiększenie kosztów o całą wartość biletu sieciowego wykorzystywanego mieszanie do celów służbowych i prywatnych. Sam wskazał, że w jego ocenie takie odliczenie jest w pełni dopuszczalne.",
-            "what_it_means_for_business": "Rozstrzygnięcie to dotyczy sfery podatku dochodowego od osób fizycznych ze stosunku pracy i nie wywiera bezpośredniego wpływu na rozliczenia prowadzonej przez użytkownika jednoosobowej działalności gospodarczej. Pokazuje ono jednak rygorystyczne podejście organów podatkowych do wydatków o charakterze mieszanym (prywatno-służbowym) w kontekście zaliczania ich do kosztów uzyskania przychodów. Przedsiębiorca powinien brać pod uwagę to podejście przy analizie własnych wydatków o dualnym charakterze.",
+            "what_happened": "Dyrektor KIS rozstrzygnął, że przychody ze sprzedaży powierzchni reklamowej w tworzonych przez siebie bezpłatnych aplikacjach mobilnych podlegają opodatkowaniu ryczałtem od przychodów ewidencjonowanych wg stawki 8,5%. Stawka ta znajduje zastosowanie na podstawie art. 12 ust. 1 pkt 5 lit. a ustawy o zryczałtowanym podatku dochodowym, ponieważ usługi te mieszczą się w grupowaniu PKWiU 2015 pod symbolem 63.11.20.0 i nie podlegają wyłączeniom.",
+            "background": "Wnioskodawca (JDG na ryczałcie) zapytał o stawkę podatku dla usług udostępniania miejsca reklamowego na rzecz sieci reklamowych na podstawie wyświetleń i kliknięć. Wskazał, że nie tworzy reklam, nie pośredniczy w sprzedaży cudzego czasu reklamowego ani nie świadczy usług przetwarzania danych (PKWiU ex 63.11.1). Organ uznał to stanowisko za w pełni prawidłowe.",
+            "what_it_means_for_business": "Przedsiębiorca uzyskujący przychody z monetyzacji własnych aplikacji poprzez wyświetlanie reklam zewnętrznych sieci może legalnie stosować stawkę 8,5% ryczałtu. Warunkiem jest ścisłe przestrzeganie profilu działalności: brak projektowania kampanii reklamowych dla innych oraz brak klasyfikacji usług jako przetwarzanie danych lub sprzedaż oprogramowania.",
             "what_to_do": [
-              "Zapoznać się z treścią art. 22 ust. 11 ustawy o PIT w zakresie ogólnych zasad rozliczania kosztów.",
-              "Monitorować własne wydatki firmowe o charakterze mieszanym pod kątem prawidłowego wyodrębnienia części zawodowej i prywatnej."
+              "Zweryfikować poprawność klasyfikacji PKWiU świadczonych usług reklamowych w aplikacjach (symbol 63.11.20.0).",
+              "Upewnić się, że umowy z sieciami reklamowymi dotyczą wyłącznie udostępniania własnej powierzchni, a nie pośrednictwa czy tworzenia materiałów reklamowych.",
+              "Kontrolować limit przychodów 2 000 000 euro uprawniający do korzystania z ryczałtu."
             ],
             "deadlines": [
               {
-                "date": "początek 2027 r.",
-                "description": "planowana przeprowadzka z miejscowości świadczenia pracy do innej pobliskiej miejscowości"
-              },
-              {
-                "date": "rok podatkowy 2027",
-                "description": "okres, którego dotyczy przedmiot interpretacji i zdarzenia przyszłego"
+                "date": "trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Termin do wniesienia skargi do Wojewódzkiego Sądu Administracyjnego"
               }
             ],
-            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Przedmiotem interpretacji jest zdarzenie przyszłe od roku podatkowego 2027 i kolejne lata przyszłe. W stanie faktycznym brak danych w źródle dotyczących innych dodatków, zwrotu kosztów dojazdów czy dokładnych kwot. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja została wydana przy założeniu, że Wnioskodawca poprawnie zakwalifikował świadczone usługi do odpowiedniego grupowania PKWiU. W przypadku zmiany któregokolwiek elementu przedstawionego we wniosku opisu sprawy, udzielona interpretacja traci swoją aktualność. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "EUREKA MF (KIS)",
-              "url": "https://eureka.mf.gov.pl/informacje/podglad/720081",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720238",
               "published": "2026-11-19"
             }
           ],
@@ -324,35 +296,40 @@
       "items": [
         {
           "id": "tax-971b5d9830d3",
-          "headline": "Niemiecki rząd planuje obniżkę podatku od prądu i limit cen",
-          "summary": "Niemiecki rząd koalicyjny uzgodnił obniżenie podatku od energii elektrycznej do unijnego minimum oraz wprowadzenie limitu cen paliw. Zmiany te mają wejść w życie od 1 stycznia 2027 roku. Finansowanie obniżki w 2027 roku ma pochodzić z nadwyżek na koncie EEG.",
+          "headline": "Niemcy obniżają podatek od prądu dla firm od 2027 roku",
+          "summary": "Niemiecki rząd uzgodnił obniżenie podatku od energii elektrycznej z 2,05 centa do 0,1 centa za kWh dla wszystkich przedsiębiorstw i gospodarstw domowych. Zmiana ma obowiązywać od 1 stycznia 2027 roku do końca 2027 roku, a finansowanie zagwarantowano w kwocie 5,4 mld euro rocznie.",
           "tags": [
-            "Rynki"
+            "Rynki",
+            "Ustawy"
           ],
           "importance": "medium",
           "relevance_for_profile": {
             "level": "medium",
-            "reason": "Informacja dotyczy zagranicznego otoczenia rynkowego, co może mieć znaczenie dla firm prowadzących handel lub usługi w relacjach z kontrahentami z Niemiec."
+            "reason": "Dotyczy kosztów energii i paliw na rynku niemieckim, co może mieć znaczenie przy działalności B2B, e-commerce lub handlu zagranicznym z tym krajem."
           },
           "details": {
-            "what_happened": "Niemiecki rząd koalicyjny CDU/CSU i SPD uzgodnił pakiet rozwiązań obejmujący obniżenie podatku od energii elektrycznej dla wszystkich odbiorców do unijnego minimum wynoszącego 0,1 centa za kilowatogodzinę. Pakiet przewiduje również wprowadzenie limitu cen paliw od 1 stycznia 2027 roku. Koszt obniżki podatku od prądu szacowany jest na 5,4 mld euro rocznie. W 2027 roku rozwiązanie to ma być finansowane z nadwyżek na koncie EEG.",
-            "background": "Decyzja zapadła na szczeblu niemieckiego rządu koalicyjnego. Kontekst obejmuje poszukiwanie rozwiązań obciążających koszty energii i paliw, przy jednoczesnym braku stałych źródeł finansowania reformy na okres po 2027 roku.",
-            "what_it_means_for_business": "Dla przedsiębiorców prowadzących działalność powiązaną z rynkiem niemieckim zmiany te mogą w przyszłości wpłynąć na koszty operacyjne i cenowe związane z energią oraz paliwami. Brak danych w źródle bezpośrednio odnosi się do szczegółów rozliczeń podatkowych w Polsce, jednak zmiany makroekonomiczne u kluczowego partnera handlowego kształtują otoczenie rynkowe.",
+            "what_happened": "Niemiecka koalicja rządowa uzgodniła pakiet obejmujący obniżkę podatku od energii elektrycznej: przed zmianą stawka wynosiła 2,05 centa za kilowatogodzinę głównie dla przemysłu i rolnictwa, a po zmianie wyniesie 0,1 centa za kWh i obejmie również pozostałe przedsiębiorstwa oraz gospodarstwa domowe. Dodatkowo od 1 stycznia 2027 roku wprowadzony zostanie limit cen paliw po zakończeniu obecnego rozwiązania obniżającego obciążenia podatkowe przy tankowaniu.",
+            "background": "Celem reformy o wartości 5,4 mld euro rocznie jest wsparcie odbiorców energii w obliczu kosztów transformacji. Finansowanie w 2027 roku ma pochodzić z nadwyżek na koncie EEG szacowanych na około 4 mld euro.",
+            "what_it_means_for_business": "Przedsiębiorstwa prowadzące działalność lub ponoszące koszty energetyczne w Niemczech od 2027 roku zyskają niższe obciążenia podatkowe w cenach prądu oraz limit cen paliw. Obniżka jest jednak zagwarantowana tylko do końca 2027 roku, a dalsze przedłużenie zależy od znalezienia trwałego źródła finansowania przez niemiecki rząd.",
             "what_to_do": [
-              "Monitorować dalsze informacje dotyczące wprowadzenia limitu cen paliw oraz obniżki podatku od prądu w Niemczech w kontekście prowadzonej działalności.",
-              "Śledzić komunikaty dotyczące trwałych źródeł finansowania reformy po 2027 roku."
+              "Monitorować koszty energii elektrycznej i paliw w działalności powiązanej z rynkiem niemieckim w kontekście wejścia w życie przepisów 1 stycznia 2027 roku",
+              "Śledzić decyzje niemieckiego rządu dotyczące trwałego finansowania reformy po 2027 roku, aby ocenić ryzyko powrotu wyższych stawek"
             ],
             "deadlines": [
               {
-                "date": "2027-01-01",
-                "description": "wejście w życie limitu cen paliw"
+                "date": "1 stycznia 2027 roku",
+                "description": "wejście w życie limitu cen paliw oraz obniżki podatku od energii elektrycznej"
               },
               {
                 "date": "koniec 2027 roku",
-                "description": "czas obowiązywania gwarantowanej ulgi na podatek od prądu"
+                "description": "czas obowiązywania gwarantowanej obniżki podatku od energii elektrycznej"
+              },
+              {
+                "date": "2027",
+                "description": "okres finansowania reformy z konta EEG"
               }
             ],
-            "caveats": "Trwałe źródła finansowania reformy na okres po 2027 roku pozostają obecnie niepewne. Obniżka podatku od prądu została zagwarantowana tylko do końca 2027 roku, a jej przedłużenie uzależniono od znalezienia trwałego źródła finansowania. W przypadku braku środków z nadwyżek na koncie EEG, rząd zapowiada ograniczenie dotacji lub podwyższenie innych podatków. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Trwałe źródła finansowania reformy na okres po 2027 roku pozostają niepewne; obniżka podatku została zagwarantowana tylko do końca 2027 roku, a w przypadku braku środków rząd rozważa ograniczenie dotacji lub podwyższenie innych podatków. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
@@ -364,127 +341,93 @@
           "confidence": "high"
         },
         {
-          "id": "eli-du-2026-1522",
-          "headline": "Nowa ustawa ogłoszona w Dzienniku Ustaw wchodzi w życie w 2027 roku",
-          "summary": "Sejm uchwalił ustawę o zmianie ustawy o finansowym wspieraniu produkcji audiowizualnej oraz niektórych innych ustaw. Akt został opublikowany jako Dz.U. 2026 poz. 1522 i zacznie obowiązywać 1 stycznia 2027 roku. Brak danych w źródle na temat szczegółowych skutków dla podatników.",
+          "id": "sejm-druk-10-3252-A",
+          "headline": "Uchwalono ustawę o zmianie ustawy o KRS i zmniejszeniu obciążeń",
+          "summary": "Sejm uchwalił rządowy projekt ustawy o zmianie ustawy o Krajowym Rejestrze Sądowym (druk nr 3252-A). Zmiany mają na celu zmniejszenie obciążeń administracyjnych poprzez automatyzację procesów i uproszczenie składania sprawozdań finansowych.",
           "tags": [
             "Ustawy"
           ],
           "importance": "low",
           "relevance_for_profile": {
             "level": "low",
-            "reason": "Brak danych w źródle wskazujących na bezpośredni wpływ nowelizacji przepisów audiowizualnych na usługi B2B, e-commerce czy rozliczenia podatkowe firmy."
+            "reason": "Projekt dotyczy głównie funkcjonowania KRS i podmiotów w nim rejestrowanych, co dla jednoosobowej działalności gospodarczej ma ograniczone znaczenie bieżące."
           },
           "details": {
-            "what_happened": "Opublikowano ustawę z dnia 22 października 2026 r. o zmianie ustawy o finansowym wspieraniu produkcji audiowizualnej oraz niektórych innych ustaw. Akt otrzymał sygnaturę Dz.U. 2026 poz. 1522. Status aktu to obowiązujący, a jego wejście w życie zaplanowano na 1 stycznia 2027 r.",
-            "background": "Proces legislacyjny zakończył się uchwaleniem i ogłoszeniem nowelizacji przez Sejm. W dostarczonych faktach brak danych dotyczących szczegółowego pytania wnioskodawcy, stanowiska organu oraz dodatkowego tła przepisów.",
-            "what_it_means_for_business": "W oparciu o dostarczone fakty brak danych w źródle na temat bezpośredniego przełożenia tych przepisów na codzienne rozliczenia firmy, podatki czy handel. Przedsiębiorca nie musi podejmować natychmiastowych działań finansowych na tej podstawie.",
+            "what_happened": "Uchwalono projekt ustawy (druk sejmowy nr 3252-A) zmieniającej ustawę o Krajowym Rejestrze Sądowym oraz inne ustawy. Wdrożono rozwiązania oparte na automatyzacji i informatyzacji, w tym stworzenie specjalnych kont oraz automatyczną aktualizację danych z rejestru PESEL. Uproszczono również zasady postępowania wobec tzw. martwych podmiotów oraz zasady składania sprawozdań finansowych.",
+            "background": "Prace nad projektem realizowano w Sejmie w dniach 22 października – 19 listopada 2026 r. (I czytanie, II czytanie i prace w Komisji do Spraw Deregulacji oraz Komisji Sprawiedliwości i Praw Człowieka). Cel regulacji to ograniczenie liczby dokumentów papierowych, czynności kancelaryjnych oraz usprawnienie pracy sądów rejestrowych.",
+            "what_it_means_for_business": "Przedsiębiorcy zyskają mniejsze obciążenia administracyjne związane z obsługą KRS, ograniczenie liczby dokumentów papierowych oraz prostsze zasady składania sprawozdań finansowych. Automatyczna aktualizacja danych z rejestru PESEL zmniejszy liczbę czynności kancelaryjnych.",
             "what_to_do": [
-              "Monitorować oficjalne komunikaty i dalsze akty wykonawcze, jeśli dotkną one branży"
+              "Śledzić wejście w życie przepisów dotyczących uproszczeń w składaniu sprawozdań finansowych, jeśli dotyczy to prowadzonych form księgowości.",
+              "Wykorzystać automatyczną aktualizację danych z PESEL i specjalne konta w kontaktach z KRS."
             ],
             "deadlines": [
               {
-                "date": "2027-01-01",
-                "description": "Data wejścia w życie ustawy"
+                "date": "2026-10-22",
+                "description": "Praca w komisjach po I czytaniu"
+              },
+              {
+                "date": "2026-11-17",
+                "description": "II czytanie na posiedzeniu Sejmu"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "Praca w komisjach po II czytaniu"
+              },
+              {
+                "date": "2026-11-19",
+                "description": "III czytanie na posiedzeniu Sejmu i uchwalenie projektu"
               }
             ],
-            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
-              "name": "Dziennik Ustaw (ELI Sejm)",
-              "url": "https://eli.gov.pl/eli/DU/2026/1522/ogl",
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3252-A",
               "published": "2026-11-18"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "eli-du-2026-1510",
-          "headline": "Nowe rozporządzenie w sprawie wpłat na mikrorachunek podatkowy",
-          "summary": "Minister Finansów i Gospodarki wydał rozporządzenie z dnia 10 listopada 2026 r. dotyczące rodzajów podatków, opłat lub niepodatkowych należności budżetowych opłacanych przy użyciu mikrorachunku. Nowe przepisy wejdą w życie z dniem 1 stycznia 2027 r. Regulacja ta ma istotne znaczenie dla prawidłowego realizowania rozliczeń publicznoprawnych przez przedsiębiorców.",
+          "id": "sejm-druk-10-3373",
+          "headline": "Zmiany w KKS i Kpk: szybsze postępowania i łagodniejsze kary",
+          "summary": "Projekt rządowy (druk 3373) przewiduje wprowadzenie rozwiązań przyspieszających postępowania karne i KKS. W jasnych sprawach strony będą mogły zawierać porozumienia i uzyskiwać łagodniejsze kary w zamian za współpracę i naprawienie szkody.",
           "tags": [
-            "VAT"
+            "Ustawy"
           ],
-          "importance": "high",
+          "importance": "medium",
           "relevance_for_profile": {
-            "level": "high",
-            "reason": "Rozporządzenie bezpośrednio dotyka zasad technicznych dokonywania wpłat podatkowych przez przedsiębiorcę posiadającego status czynnego podatnika VAT i prowadzącego JDG."
+            "level": "medium",
+            "reason": "Projekt dotyczy przepisów Kodeksu karnego skarbowego, co ma znaczenie dla odpowiedzialności karnej skarbowej przedsiębiorcy."
           },
           "details": {
-            "what_happened": "Opublikowano Rozporządzenie Ministra Finansów i Gospodarki z dnia 10 listopada 2026 r., które zostało ogłoszone w Dzienniku Ustaw (Dz.U. 2026 poz. 1510). Akt ten określa rodzaje podatków, opłat lub niepodatkowych należności budżetowych, których wpłata jest realizowana przy użyciu mikrorachunku podatkowego. Dokument wchodzi w życie z dniem 1 stycznia 2027 r. Proces ten wiąże się z przepisami ordynacji podatkowej.",
-            "background": "Wydanie rozporządzenia stanowi realizację kompetencji organów państwowych w zakresie precyzowania zasad posługiwania się indywidualnym rachunkiem podatkowym. Tło sprawy opiera się na przepisach ordynacji podatkowej regulujących kwestie wpłat budżetowych. Brak danych w źródle na temat specyficznego pytania wnioskodawcy czy odrębnego kontekstu spornego.",
-            "what_it_means_for_business": "Dla przedsiębiorcy rozporządzenie oznacza konieczność stosowania zaktualizowanych ram prawnych przy dokonywaniu wpłat należności budżetowych za pomocą mikrorachunku podatkowego. Wpływa to na operacyjną stronę realizowania obowiązków fiskalnych firmy. Należy dostosować systemy księgowe lub procedury płatnicze do nowych wytycznych wynikających z aktu prawnego.",
+            "what_happened": "Sejm proceduje projekt ustawy (druk 3373) zmieniający Kodeks postępowania karnego oraz Kodeks karny skarbowy. Przed zmianą i po zmianie ramy prawne są w procesie legislacyjnym: w przypadkach, gdy okoliczności przestępstwa są jasne, strony będą mogły szerzej korzystać z porozumień prowadzących do szybkiego zakończenia sprawy. W zamian za współpracę i spełnienie określonych warunków oskarżony będzie mógł skorzystać z łagodniejszej kary.",
+            "background": "Celem projektu ustawy jest wprowadzenie rozwiązań przyspieszających postępowania karne i ułatwiających szybkie naprawienie szkody wyrządzonej pokrzywdzonym. Projekt wpłynął do Sejmu 2026-09-09 i aktualnie ma status projektu w toku / nieuchwalonego po pracach w Komisji Nadzwyczajnej do spraw zmian w kodyfikacjach.",
+            "what_it_means_for_business": "Przedsiębiorca w przypadku ewentualnego sporu lub zarzutów z KKS będzie mógł w jasnych okolicznościach skorzystać z porozumienia z organami i szybszego zakończenia postępowania w zamian za współpracę i naprawienie szkody, co może skutkować łagodniejszą karą. Na ten moment przepis ma status projektu i nie wszedł w życie.",
             "what_to_do": [
-              "Zapoznać się z treścią rozporządzenia opublikowanego w Dz.U. 2026 poz. 1510.",
-              "Przygotować wewnętrzne procedury księgowe i płatnicze do zmian wchodzących w życie z początkiem roku."
+              "Monitorować dalsze prace legislacyjne nad drukiem sejmowym nr 3373 w zakresie zmian w Kodeksie karnym skarbowym."
             ],
             "deadlines": [
               {
-                "date": "2026-11-10",
-                "description": "data wydania rozporządzenia"
-              },
-              {
-                "date": "2026-11-17",
-                "description": "data powiązana z procesem legislacyjnym lub publikacyjnym"
-              },
-              {
-                "date": "2027-01-01",
-                "description": "wejście w życie rozporządzenia"
-              }
-            ],
-            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "Dziennik Ustaw (ELI Sejm)",
-              "url": "https://eli.gov.pl/eli/DU/2026/1510/ogl",
-              "published": "2026-11-17"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "sejm-druk-10-3361",
-          "headline": "Projekt ustawy o finansowaniu produkcji półprzewodników w Sejmie",
-          "summary": "Komisja Edukacji i Nauki oraz Komisja Finansów Publicznych przygotowały sprawozdanie o poselskim projekcie ustawy dotyczącym finansowania produkcji półprzewodników. Projekt ma na celu zorganizowanie i zagwarantowanie rządowych pieniędzy na budowę oraz rozwój fabryk chipów i mikroprocesorów w Polsce. Status procesu to w toku / nieuchwalony.",
-          "tags": [
-            "Ustawy",
-            "Rynki",
-            "Technologie"
-          ],
-          "importance": "low",
-          "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja dotyczy makroekonomicznego wsparcia produkcji półprzewodników i nie ma bezpośredniego przełożenia na bieżące rozliczenia podatkowe ani operacje firmy usługowo-handlowej."
-          },
-          "details": {
-            "what_happened": "Komisja Edukacji i Nauki oraz Komisja Finansów Publicznych sporządziły sprawozdanie o poselskim projekcie ustawy o finansowaniu działań zmierzających do zwiększenia zdolności produkcji półprzewodnikowych układów scalonych na terytorium Rzeczypospolitej Polskiej oraz o zmianie niektórych innych ustaw (druk sejmowy nr 3361). Inicjatywa dotyczy zorganizowania i zagwarantowania rządowych pieniędzy na budowę oraz rozwój fabryk produkujących chipy i mikroprocesory w Polsce. Obecny status procesu legislacyjnego to w toku / nieuchwalony.",
-            "background": "Projekt wpłynął do Sejmu 2026-10-22, a 2026-11-04 skierowano go do I czytania w komisjach. Pierwsze czytanie w komisjach odbyło się 2026-11-17, natomiast 2026-11-18 prowadzono prace w komisjach po I czytaniu. Sprawozdanie połączonych komisji datowane jest na 2026-11-19.",
-            "what_it_means_for_business": "Prace nad projektem mają charakter strategiczny dla gospodarki i sektora technologicznego. Dla bieżącej działalności jednoosobowej działalności gospodarczej świadczącej usługi B2B oraz prowadzącej handel i e-commerce, projekt na tym etapie nie niesie bezpośrednich konsekwencji finansowych ani nowych obowiązków rozliczeniowych. Brak danych w źródle wskazuje na brak szczegółowych przepisów podatkowych wpływających na podatników.",
-            "what_to_do": [
-              "Śledzić dalsze prace legislacyjne w Sejmie w zakresie ewentualnych zmian w przepisach dla przedsiębiorców."
-            ],
-            "deadlines": [
-              {
-                "date": "2026-10-22",
+                "date": "2026-09-09",
                 "description": "Projekt wpłynął do Sejmu"
               },
               {
-                "date": "2026-11-04",
-                "description": "Skierowano do I czytania w komisjach"
+                "date": "2026-09-15",
+                "description": "Skierowano do I czytania na posiedzeniu Sejmu"
+              },
+              {
+                "date": "2026-10-09",
+                "description": "I czytanie na posiedzeniu Sejmu"
               },
               {
                 "date": "2026-11-17",
-                "description": "I czytanie w komisjach"
-              },
-              {
-                "date": "2026-11-18",
                 "description": "Praca w komisjach po I czytaniu"
               },
               {
-                "date": "2026-11-19",
-                "description": "Data sprawozdania komisji"
+                "date": "2026-11-18",
+                "description": "Data wpływu do Sejmu / Data publikacji źródła"
               }
             ],
             "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
@@ -492,50 +435,8 @@
           "sources": [
             {
               "name": "Sejm RP (API)",
-              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3361",
-              "published": "2026-11-19"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "gov-4a8cac9cc376",
-          "headline": "Jesienne prognozy gospodarcze Komisji Europejskiej dla Polski",
-          "summary": "Komisja Europejska opublikowała jesienne prognozy gospodarcze Autumn Forecast 2026 dla Polski i Unii Europejskiej. Dokument obejmuje wskaźniki takie jak wzrost PKB, inwestycje, konsumpcja, inflacja oraz deficyt i dług sektora instytucji rządowych i samorządowych.",
-          "tags": [
-            "Rynki",
-            "Ustawy"
-          ],
-          "importance": "medium",
-          "relevance_for_profile": {
-            "level": "medium",
-            "reason": "Prognozy makroekonomiczne dotyczą ogólnej sytuacji gospodarczej kraju, wpływając na otoczenie biznesowe usług B2B i e-commerce."
-          },
-          "details": {
-            "what_happened": "Komisja Europejska opublikowała jesienne prognozy gospodarcze Autumn Forecast 2026 dla Polski i Unii Europejskiej. Opracowanie obejmuje m.in. wzrost PKB, inwestycje, konsumpcję, inflację, rynek pracy oraz deficyt i dług sektora instytucji rządowych i samorządowych. Przedstawiono również prognozę kluczowych wskaźników makroekonomicznych Polski na lata 2026-2028.",
-            "background": "Informacje opublikowano w oparciu o dane Komisji Europejskiej oraz Ministerstwa Finansów. Wskazano także na projekt ustawy budżetowej na rok 2027 oraz lata 2027-2028.",
-            "what_it_means_for_business": "Publikacja danych makroekonomicznych stanowi element szerszego otoczenia gospodarczego, w którym funkcjonuje przedsiębiorstwo. Opracowanie uwzględnia m.in. wskaźniki wzrostu gospodarczego i inflacji w ujęciu wieloletnim. Brak jest bezpośrednich rozstrzygnięć podatkowych zmieniających zasady rozliczeń firmy.",
-            "what_to_do": [
-              "Śledzić oficjalne komunikaty Ministerstwa Finansów i Komisji Europejskiej dotyczące dalszych prognoz gospodarczych",
-              "Uwzględniać zmienność otoczenia makroekonomicznego w długoterminowych planach biznesowych"
-            ],
-            "deadlines": [
-              {
-                "date": "koniec marca tego roku",
-                "description": "wdrożenie działań polityki fiskalnej (pakiet CPN)"
-              },
-              {
-                "date": "2028",
-                "description": "zakładane wdrażanie pakietu ETS2"
-              }
-            ],
-            "caveats": "Prognoza KE jest wynikiem standardowo stosowanego podejścia no-policy change, co oznacza, że nie uwzględnia zmian w polityce rządu, które w momencie zamknięcia prognozy nie były wystarczająco doprecyzowane ani przyjęte przez parlament, w tym wymogów wynikających z reguł fiskalnych na rok 2028 oraz opublikowanych informacji o wyższych dochodach podatkowych. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "Ministerstwo Finansów (gov.pl)",
-              "url": "https://www.gov.pl/web/finanse/komentarz-do-prognoz-komisji-europejskiej-autumn-forecast-2026",
-              "published": "2026-11-17"
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3373",
+              "published": "2026-11-18"
             }
           ],
           "confidence": "high"
@@ -549,214 +450,119 @@
       "status_message": "",
       "items": [
         {
-          "id": "eco-d82f34f938a1",
-          "headline": "Nowa trzystopniowa skala podatkowa bez zmiany kwoty wolnej",
-          "summary": "Sejm i Senat przyjęły nowelizację wprowadzającą od 1 stycznia 2027 roku nową, trzystopniową skalę podatkową. Obietnica podniesienia kwoty wolnej od podatku do 60 tys. zł nie została zrealizowana, a dotychczasowy limit 30 tys. zł pozostaje bez zmian.",
+          "id": "eco-935d05fb44c6",
+          "headline": "Reforma podatku Belki: Osobiste Konta Inwestycyjne (OKI) od 2027 r.",
+          "summary": "Uchwalono ustawę o OKI, która od 1 stycznia 2027 r. zastępuje 19% podatek Belki coroczną opłatą od majątku. Wprowadzono zwolnienie do 100 000 zł średniej rocznej wartości aktywów dla krajowych portfeli.",
           "tags": [
             "PIT"
           ],
-          "importance": "high",
+          "importance": "low",
           "relevance_for_profile": {
-            "level": "high",
-            "reason": "Zmiany w skali podatkowej bezpośrednio wpływają na rozliczenia przedsiębiorców rozliczających się według skali podatkowej."
+            "level": "low",
+            "reason": "Dotyczy oszczędności i inwestycji prywatnych osób fizycznych, a nie bieżących rozliczeń podatkowych jednoosobowej działalności gospodarczej."
           },
           "details": {
-            "what_happened": "Pod koniec 2026 r. Sejm i Senat przyjęły nowelizację wprowadzającą od 1 stycznia 2027 r. nową, trzystopniową skalę podatkową. Nowe progi obejmują stawkę 12 proc. do 130 tys. zł, 24 proc. od nadwyżki ponad 130 tys. zł do 150 tys. zł oraz 32 proc. od nadwyżki przekraczającej 150 tys. zł. Kluczowa kwota wolna od podatku pozostaje jednak bez zmian na poziomie 30 tys. zł.",
-            "background": "Podniesienie kwoty wolnej od podatku z 30 tys. do 60 tys. zł było obietnicą wyborczą Koalicji Obywatelskiej z 2023 r. Po trzech latach rząd tłumaczy brak realizacji tej obietnicy względami budżetowymi, wskazując, że koszt dla budżetu i samorządów wynosiłby 58,6 mld zł rocznie. Wiceminister finansów Jarosław Neneman odniósł się do kosztów tego rozwiązania w odpowiedzi na interpelację poselską z 17 września 2026 r.",
-            "what_it_means_for_business": "Przedsiębiorcy rozliczający się według skali podatkowej muszą uwzględnić nową, trzystopniową strukturę progów dochodowych przy planowaniu swoich rozliczeń. Ponieważ kwota wolna od podatku nie została podniesiona do 60 tys. zł i nadal wynosi 30 tys. zł, zasady obliczania podatku dochodowego w tym zakresie pozostają niezmienione. Brak zmian w kwocie wolnej oznacza brak dodatkowych ulg podatkowych w tym obszarze dla prowadzących działalność gospodarczą.",
+            "what_happened": "Zastąpiono 19 proc. podatek Belki (od zysków ze sprzedaży, odsetek i dywidend) coroczną opłatą od wartości zgromadzonych aktywów w ramach Osobistych Kont Inwestycyjnych (OKI). Przed zmianami obowiązywał stały podatek od zysków kapitałowych, a po zmianie w 2027 roku stawka opłaty wynosi 0,85%, a od 2028 r. będzie powiązana ze stopą referencyjną NBP. Wprowadzono limit zwolnienia do 100 000 zł średniej rocznej wartości aktywów dla aktywów kwalifikowanych oraz podlimit 25 000 zł dla części oszczędnościowej (lokaty, obligacje skarbowe).",
+            "background": "Ustawa o Osobistych Kontach Inwestycyjnych (OKI) została uchwalona 3 lipca 2026 r. i podpisana przez prezydenta 13 sierpnia. Celem reformy jest zmiana sposobu opodatkowania oszczędności i inwestycji w Polsce oraz wsparcie krajowego rynku kapitałowego.",
+            "what_it_means_for_business": "Zmiana dotyczy inwestorów indywidualnych, a nie bezpośrednio działalności gospodarczej. Przedsiębiorca jako osoba fizyczna będzie mógł założyć OKI i skorzystać ze zwolnienia dla aktywów kwalifikowanych denominowanych w złotych, pamiętając o limicie 100 000 zł na numer PESEL.",
             "what_to_do": [
-              "Przeanalizować wpływ nowej trzystopniowej skali podatkowej na planowane dochody firmy od 1 stycznia 2027 r.",
-              "Uwzględnić utrzymanie kwoty wolnej od podatku na dotychczasowym poziomie 30 tys. zł w kalkulacjach podatkowych."
+              "Przeanalizować strukturę prywatnych oszczędności i inwestycji pod kątem spełnienia kryteriów dla aktywów kwalifikowanych (instrumenty krajowe w PLN)."
             ],
             "deadlines": [
-              {
-                "date": "2023",
-                "description": "wybory, przed którymi pojawiła się obietnica 100 konkretów KO"
-              },
-              {
-                "date": "2023-09-24",
-                "description": "Donald Tusk mówił o rozwiązaniu w Mińsku Mazowieckim"
-              },
-              {
-                "date": "2023-12-08",
-                "description": "Tusk przyznał, że nie uda się wprowadzić zmiany w ciągu pierwszych 100 dni rządów"
-              },
-              {
-                "date": "2026-09-17",
-                "description": "odpowiedź na interpelację poselską wiceministra finansów Jarosława Nenemana w sprawie kosztów"
-              },
-              {
-                "date": "koniec 2026 r.",
-                "description": "rząd zajął się nową zmianą w systemie podatkowym, przyjętą przez Sejm i Senat"
-              },
               {
                 "date": "2027-01-01",
-                "description": "wejście w życie nowej, trzystopniowej skali podatkowej"
+                "description": "Start OKI"
               }
             ],
-            "caveats": "brak danych w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "Money.pl Wiadomości",
-              "url": "https://www.money.pl/emerytury/emerytury-bez-pit-mialy-byc-obietnica-rzad-wskazuje-na-miliardy-7352655435851808a.html",
-              "published": "2026-11-19"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "eco-252d6fd5f2f2",
-          "headline": "NBP wstrzymał realizację zleceń płatniczych Trybunału Konstytucyjnego",
-          "summary": "Narodowy Bank Polski wstrzymał realizację zleceń płatniczych na rachunkach Trybunału Konstytucyjnego. Decyzja wynika z wątpliwości co do właściwej reprezentacji instytucji oraz konfliktu wokół dysponowania rachunkiem. Rząd skrytykował ten krok i zapowiedział poszukiwanie alternatywnego finansowania.",
-          "tags": [
-            "Ustawy",
-            "Rynki"
-          ],
-          "importance": "low",
-          "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja dotyczy sporu instytucjonalnego i nie ma bezpośredniego wpływu na rozliczenia podatkowe lub operacyjne jednoosobowej działalności gospodarczej."
-          },
-          "details": {
-            "what_happened": "Oddział Narodowego Banku Polskiego w Warszawie podjął decyzję o wstrzymaniu realizacji zleceń płatniczych na rachunkach Trybunału Konstytucyjnego. Działanie to zostało podjęte niezależnie od tego, przez kogo zlecenia są składane. Wskazano, że zarządzanie rachunkiem bankowym TK powinno zostać przejęte przez osobę, która dostatecznie wykaże swoje umocowanie. Rząd skrytykował decyzję banku centralnego i zapowiedział poszukiwanie sposobu na finansowanie TK.",
-            "background": "Sprawa wynika z wątpliwości dotyczących właściwej reprezentacji Trybunału Konstytucyjnego oraz konfliktu dwóch stron chcących dysponować jednym rachunkiem bankowym. Sytuacja wiąże się ze stosowaniem przepisów takich jak ustawa o usługach płatniczych. Wśród dat pojawiają się 2026-11-19, poniedziałek, czwartek oraz wtorek.",
-            "what_it_means_for_business": "Wydarzenie ma charakter makroekonomiczny i polityczny. Nie wprowadza zmian w przepisach podatkowych, obowiązkach ZUS ani w zasadach prowadzenia działalności gospodarczej. Przedsiębiorca nie musi podejmować żadnych działań dostosowawczych w swojej firmie.",
-            "what_to_do": [
-              "brak danych w źródle"
-            ],
-            "deadlines": [],
-            "caveats": "NBP wstrzymał realizację zleceń płatniczych niezależnie od tego, przez kogo są one zlecane. Zarządzanie rachunkiem bankowym TK powinno być przejęte przez osobę, która dostatecznie wykaże swoje umocowanie. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "Money.pl Wiadomości",
-              "url": "https://www.money.pl/finanse/nbp-wstrzymal-przelewy-tk-wyjecie-wtyczki-7352636162316288a.html",
-              "published": "2026-11-19"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "eco-4f962df7353c",
-          "headline": "UniCredit przejmuje Commerzbank po porozumieniu z rządem Niemiec",
-          "summary": "Włoski UniCredit osiągnął porozumienie z niemieckim rządem w sprawie przejęcia Commerzbanku. Transakcja zyskała zgodę organów UE, a nowy właściciel ma utrzymać wsparcie dla małych i średnich przedsiębiorstw. Prezes UniCredit zapowiedział redukcję tysięcy miejsc pracy oraz zmiany w kierownictwie banku.",
-          "tags": [
-            "Rynki"
-          ],
-          "importance": "low",
-          "relevance_for_profile": {
-            "level": "low",
-            "reason": "Informacja o transakcji na rynku bankowym w Niemczech nie ma bezpośredniego wpływu na bieżące podatki, VAT czy rozliczenia JDG w Polsce."
-          },
-          "details": {
-            "what_happened": "Włoski UniCredit i niemiecki rząd osiągnęły porozumienie w sprawie przyszłości Commerzbanku, co otwiera drogę do przejęcia instytucji. Ustalenia przewidują, że UniCredit przejmie faktyczną kontrolę po rozliczeniu akcji, uzyskując udział wynoszący niespełna 50 proc. Transakcja uzyskała zielone światło od organów Unii Europejskiej. Prezes UniCredit zapowiedział redukcję tysięcy miejsc pracy, ograniczenie liczby zagranicznych oddziałów oraz potencjalne zmiany w ścisłym kierownictwie i radzie nadzorczej, w tym zastąpienie obecnej szefowej Bettiny Orlopp.",
-            "background": "Rząd w Berlinie prowadził rozmowy z UniCreditem, stawiając warunki dotyczące dalszego funkcjonowania Commerzbanku pod skrzydłami nowego inwestora. Ostatecznie strona niemiecka zrezygnowała z żądania obsadzenia dwóch miejsc w radzie nadzorczej.",
-            "what_it_means_for_business": "Przejęcie Commerzbanku przez włoski UniCredit oznacza duże zmiany strukturalne i personalne w tej niemieckiej instytucji finansowej. Dla przedsiębiorców korzystających z usług tego banku kluczowe ma być utrzymanie wsparcia dla małych i średnich przedsiębiorstw oraz zachowanie międzynarodowych struktur banku. Brak danych w źródle wskazuje na bezpośrednie przełożenie tych wydarzeń na polski rynek usług B2B i e-commerce.",
-            "what_to_do": [
-              "Monitorować komunikaty Commerzbanku dotyczące ewentualnych zmian w obsłudze klientów biznesowych."
-            ],
-            "deadlines": [
-              {
-                "date": "do końca bieżącego miesiąca",
-                "description": "uzyskanie wszystkich wymaganych zgód regulacyjnych przez UniCredit"
-              }
-            ],
-            "caveats": "Rząd Niemiec postawił warunki dotyczące dalszego funkcjonowania banku, które UniCredit ma spełnić, w tym utrzymanie wsparcia dla Mittelstandu, zachowanie międzynarodowych struktur, pozostanie centrali we Frankfurcie i brak wycofania z giełdy. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "Zwolnienie nie obejmuje aktywów zagranicznych, kryptowalut ani instrumentów pochodnych. Wykluczone są obligacje strukturyzowane. Brak możliwości prowadzenia konta wspólnego. Kwota wolna 100 000 zł jest jedna dla danego numeru PESEL bez względu na liczbę posiadanych kont OKI. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "Bankier.pl Biznes",
-              "url": "https://www.bankier.pl/wiadomosc/Wlosi-zburzyli-niemiecki-mur-Berlin-oddaje-Commerzbank-w-rece-UniCreditu-9231393.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "url": "https://www.bankier.pl/wiadomosc/OKI-od-2027-roku-Co-sie-zmieni-w-oszczedzaniu-i-inwestowaniu-Polakow-9209518.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
               "published": "2026-11-19"
             }
           ],
           "confidence": "high"
         },
         {
-          "id": "eco-b9826e475113",
-          "headline": "Interwencja OPEC w Puławach i opublikowane dane o wpłatach",
-          "summary": "Pracownicy OPEC w Puławach wzięli udział w interwencji domowej i uratowali seniorkę przebywającą w wannie. W wywiadzie prezes spółki omówił również przypadek dotyczący omyłkowej wpłaty środków i powiadomienia MOPS.",
+          "id": "eco-715ae089420f",
+          "headline": "Apel o podpisanie zmian w PIT i weto prezydenta ws. VAT na napoje",
+          "summary": "Minister finansów apeluje do prezydenta o podpisanie nowelizacji PIT (potencjalne oszczędności do 7,2 tys. zł dla rodziny) oraz ustawy o kosztach energii. Jednocześnie prezydent zawetował ustawę podnoszącą stawkę VAT do 23 proc. na napoje energetyczne i odpowiedniki napojów alkoholowych z sokami.",
           "tags": [
+            "VAT",
+            "PIT",
             "Ustawy"
           ],
-          "importance": "low",
-          "relevance_for_profile": {
-            "level": "low",
-            "reason": "brak danych w źródle bezpośrednio powiązanych z profilem podatkowo-biznesowym firmy"
-          },
-          "details": {
-            "what_happened": "Pracownicy OPEC w Puławach wraz z sąsiadką weszli do mieszkania seniorki, która przez cztery dni nie mogła wyjść z wanny, i wezwali karetkę pogotowia. W tym samym wywiadzie prezes OPEC opisał drugą sytuację, w której seniorka chciała omyłkowo wpłacić na konto spółki 10 tys. zł przy jednoczesnej nadpłacie, co skłoniło spółkę do powiadomienia Miejskiego Ośrodka Pomocy Społecznej.",
-            "background": "Sprawa wyszła na jaw w niedzielę, gdy woda zaczęła przeciekać przez podłogę do mieszkania sąsiada z dołu, który wezwał pogotowie ciepłownicze. Wątek finansowy dotyczył kwestii omyłkowej wpłaty na konto przedsiębiorstwa energetycznego i weryfikacji salda rachunku klienta.",
-            "what_it_means_for_business": "brak danych w źródle",
-            "what_to_do": [
-              "brak danych w źródle"
-            ],
-            "deadlines": [
-              {
-                "date": "w piątek wieczorem",
-                "description": "moment, w którym seniorka weszła do wanny"
-              },
-              {
-                "date": "w niedzielę",
-                "description": "moment, w którym sąsiad z dołu zauważył wyciek wody z sufitu i wezwał pogotowie cieplne"
-              },
-              {
-                "date": "cztery dni",
-                "description": "czas, przez który seniorka przebywała w wannie"
-              },
-              {
-                "date": "w zeszłym tygodniu",
-                "description": "moment, w którym inna seniorka chciała wpłacić na konto OPEC 10 tys. zł"
-              }
-            ],
-            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
-          },
-          "sources": [
-            {
-              "name": "TVN24 Najnowsze",
-              "url": "https://tvn24.pl/lublin/pulawy-nie-mogla-wyjsc-z-wanny-pomogli-jej-gdy-sasiad-z-dolu-zauwazyl-ze-przecieka-mu-sufit-st9346755?source=rss",
-              "published": "2026-11-19"
-            }
-          ],
-          "confidence": "high"
-        },
-        {
-          "id": "eco-e394f34d3955",
-          "headline": "27 grudnia 2026 r. bez handlu: zasady i grudniowe kalendarz",
-          "summary": "Minister pracy potwierdziła, że 27 grudnia 2026 r. nie będzie niedzielą handlową. Przed świętami sklepy będą otwarte w trzy niedziele: 6, 13 i 20 grudnia, natomiast po Wigilii nastąpi cztero dniowa przerwa w handlu. Za złamanie zakazu grożą kary finansowe od 1000 zł do 100 tys. zł.",
-          "tags": [
-            "Rynki"
-          ],
-          "importance": "medium",
+          "importance": "high",
           "relevance_for_profile": {
             "level": "medium",
-            "reason": "Informacja o kalendarzu niedziel handlowych i przerwach świątecznych dotyczy bezpośrednio branży e-commerce i handlu detalicznego."
+            "reason": "Informacje dotyczą stawek VAT na napoje w e-commerce oraz planowanych zmian w podatku PIT dla przedsiębiorców."
           },
           "details": {
-            "what_happened": "Minister rodziny, pracy i polityki społecznej Agnieszka Dziemianowicz-Bąk potwierdziła, że 27 grudnia 2026 r. nie będzie niedzielą handlową. Przed świętami Bożego Narodzenia sklepy będą otwarte w trzy kolejne niedziele: 6, 13 i 20 grudnia 2026 r. Po Wigilii klientów czeka przerwa aż do poniedziałku, co oznacza cztery dni z rzędu bez zakupów w dużych sklepach. Dodatkowo potwierdzono, że nie przewiduje się żadnych dodatkowych niedziel handlowych w grudniu 2027 r.",
-            "background": "W 2026 r. Wigilia przypada na czwartek, a pierwszy i drugi dzień świąt Bożego Narodzenia na piątek i sobotę. Zgodnie z przepisami w niedziele i święta w placówkach handlowych zakazany jest handel oraz wykonywanie czynności związanych z handlem, a także powierzanie pracy zatrudnionym.",
-            "what_it_means_for_business": "Przedsiębiorcy prowadzący handel detaliczny muszą uwzględnić harmonogram dni wolnych i niedziel handlowych przy planowaniu pracy oraz logistyki przedświątecznej. Czterodniowa przerwa w handlu po Wigilii wymaga odpowiedniego zarządzania sprzedażą i obsługą zamówień. Naruszenie zakazu handlu wiąże się z ryzykiem wysokich kar finansowych.",
+            "what_happened": "Prezydent zawetował ustawę podnoszącą stawkę VAT do 23 proc. na bezalkoholowe odpowiedniki napojów alkoholowych zawierające soki oraz na napoje energetyczne, przez co utrzymana została niższa stawka na te produkty. Ponadto Minister Finansów zaapelował o szybkie podpisanie zmian w PIT (mających objąć 3,5 mln Polaków z oszczędnościami do 7,2 tys. zł rocznie) oraz ustawy obniżającej koszty energii dla firm energochłonnych w zamian za inwestycje w efektywność energetyczną.",
+            "background": "NBP wstrzymał dyspozycje płatnicze z rachunków Trybunału Konstytucyjnego z uwagi na wątpliwości co do osób uprawnionych do zleceń, a resort finansów pracuje nad przywróceniem płatności. Równolegle minister skrytykował środowe weto prezydenta w sprawie stawek VAT i domaga się wejścia w życie zamrożonych ustaw podatkowych oraz energetycznych.",
+            "what_it_means_for_business": "Utrzymanie obecnych stawek VAT na napoje energetyczne i bezalkoholowe odpowiedniki alkoholi oznacza brak konieczności zmiany cen i systemów rozliczeń dla handlu detalicznego i e-commerce w tym zakresie. Z kolei ewentualne wejście w życie zmian w PIT oraz ustaw energetycznych bezpośrednio wpłynie na obciążenia podatkowe i rachunki za prąd firm.",
             "what_to_do": [
-              "Uwzględnić harmonogram niedziel handlowych w planowaniu pracy i logistyki na grudzień 2026 r.",
-              "Przygotować obsługę klientów e-commerce na cztery dni przerwy w dużym handlu stacjonarnym po Wigilii."
+              "Monitorować proces legislacyjny dotyczący wejścia w życie zmian w podatku PIT i ustaw o kosztach energii dla firm",
+              "Sprawdzić dotychczasowe stawki VAT stosowane w e-commerce dla napojów energetycznych i bezalkoholowych odpowiedników alkoholi w związku z wetem prezydenta"
             ],
             "deadlines": [
               {
-                "date": "6, 13 i 20 grudnia",
-                "description": "niedziele handlowe przed świętami"
+                "date": "w tym tygodniu",
+                "description": "NBP przekazał informację o wstrzymaniu dyspozycji płatniczych z kont TK"
               },
               {
-                "date": "27 grudnia 2026 r.",
-                "description": "dzień wolny od handlu w dużych sklepach"
+                "date": "środa",
+                "description": "Weto prezydenta w sprawie stawek VAT"
+              },
+              {
+                "date": "w czwartek",
+                "description": "Minister Andrzej Domański poinformował o pracach nad płatnościami TK i zaapelował o PIT"
               }
             ],
-            "caveats": "Za złamanie zakazu handlu w niedziele grozi kara od 1000 zł do 100 tys. zł, a przy uporczywym naruszaniu przepisów – kara ograniczenia wolności. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
           },
           "sources": [
             {
               "name": "Money.pl Wiadomości",
-              "url": "https://www.money.pl/finanse/sklepy-stana-na-4-dni-ministra-nie-pozostawia-zludzen-7352624913483808a.html",
+              "url": "https://www.money.pl/finanse/zablokowane-konta-tk-minister-finansow-powiedzial-co-robi-rzad-7352745833580576a.html",
+              "published": "2026-11-19"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-7c4bcad941d8",
+          "headline": "Debiut giełdowy Anthropic na Nasdaq z kapitalizacją 1,5 bln USD",
+          "summary": "Firma Anthropic zadebiutowała na giełdzie Nasdaq pod symbolem ANT, osiągając cenę otwarcia 111,50 dolarów za akcję. W ramach IPO sprzedano 980 mln akcji po cenie 83 dolary, co dało kapitalizację rynkową na poziomie ok. 1,5 biliona dolarów.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o debiucie giełdowym zagranicznego podmiotu ma charakter rynkowy i nie wpływa bezpośrednio na rozliczenia podatkowe ani operacyjne polskiej JDG."
+          },
+          "details": {
+            "what_happened": "Anthropic zadebiutował na giełdzie Nasdaq pod symbolem ANT. Cena początkowa handlu wyniosła 111,50 dolarów za akcję (wzrost o 34 proc. względem ceny z IPO wynoszącej 83 dolary). Pierwotne plany zakładały sprzedaż 825 mln akcji w cenie 70–78 dol., jednak ostatecznie sprzedano 980 mln akcji po 83 dolary.",
+            "background": "Debiut giełdowy twórcy modelu Claude i lidera branży AI wiąże się z pozyskaniem kapitału. Oprócz IPO zaplanowano sprzedaż kolejnej transzy akcji za łącznie 26 mld dużym inwestorom (m.in. Amazonowi, Nvidii i Google), co łącznie przyniesie firmie 107,3 mld dol.",
+            "what_it_means_for_business": "Wydarzenie ma charakter rynkowy i informacyjny dla branży technologicznej. Nie niesie za sobą bezpośrednich skutków podatkowych ani nowych obowiązków regulacyjnych dla jednoosobowych działalności gospodarczych w Polsce.",
+            "what_to_do": [
+              "Brak konkretnych czynności lub zmian w procesach podatkowo-księgowych wymaganych w polskiej JDG."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-19",
+                "description": "Dzień giełdowego debiutu firmy Anthropic"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/gielda/anthropic-debiutuje-na-gieldzie-oto-kurs-akcji-7352763026315296a.html",
               "published": "2026-11-19"
             }
           ],
@@ -767,8 +573,8 @@
   ],
   "meta": {
     "ai_model": "gemini-3.5-flash-lite",
-    "ai_calls": 29,
-    "estimated_tokens": 73094,
+    "ai_calls": 20,
+    "estimated_tokens": 68330,
     "rejected_count": 0,
     "low_confidence_count": 0,
     "sources_status": {

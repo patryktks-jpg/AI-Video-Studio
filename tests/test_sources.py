@@ -2,7 +2,11 @@
 
 import unittest
 
-from scripts.sources.eureka_kis import parse_eureka_document
+from scripts.sources.eureka_kis import (
+    parse_eureka_document,
+    score_eureka_hit,
+    truncate_keeping_head_and_tail,
+)
 from scripts.sources.http_utils import clean_html_to_text, extract_article_body
 from scripts.sources.legislation import (
     format_du_act_detail,
@@ -131,11 +135,23 @@ class TestEurekaKisSource(unittest.TestCase):
         self.assertIn("Spółka świadczy usługi.", parsed["full_text"])
         self.assertNotIn("<p>", parsed["full_text"])
 
+    def test_score_eureka_hit_and_head_tail_truncation(self) -> None:
+        self.assertEqual(score_eureka_hit({"TEZA": "Odliczanie VAT na cmentarze komunalne", "SLOWA_KLUCZOWE": ["VAT"]}), -1)
+        self.assertGreater(score_eureka_hit({"TEZA": "Ryczałt w działalności gospodarczej B2B", "SLOWA_KLUCZOWE": ["ryczałt"]}), 0)
+
+        long_text = "POCZATEK_STAN_FAKTYCZNY " + ("X" * 900) + " KONIEC_UZASADNIENIE"
+        truncated = truncate_keeping_head_and_tail(long_text, 500)
+        self.assertLessEqual(len(truncated), 500)
+        self.assertIn("POCZATEK_STAN_FAKTYCZNY", truncated)
+        self.assertIn("KONIEC_UZASADNIENIE", truncated)
+
 
 class TestLegislationSource(unittest.TestCase):
     def test_business_relevance_filter(self) -> None:
         self.assertTrue(is_business_relevant("Projekt ustawy o podatku VAT i KSeF"))
         self.assertFalse(is_business_relevant("Uchwała w sprawie ustanowienia roku patrona"))
+        self.assertFalse(is_business_relevant("Rozporządzenie w sprawie opłat za krew i jej składniki"))
+        self.assertFalse(is_business_relevant("Nadanie statutu Wody Polskie"))
 
     def test_format_du_act_detail(self) -> None:
         act = {
@@ -148,11 +164,15 @@ class TestLegislationSource(unittest.TestCase):
             "type": "Rozporządzenie",
             "releasedBy": ["Minister Finansów"],
             "keywords": ["VAT", "JPK"],
+            "comments": "art. 1 wchodzi od 2027-01-01",
+            "directives": [{"address": "32025L0516", "title": "Dyrektywa VAT w epoce cyfrowej"}],
         }
-        res = format_du_act_detail(act)
+        res = format_du_act_detail(act, process_desc="Upraszcza korygowanie JPK.")
         self.assertEqual(res["id"], "eli-du-2026-1495")
         self.assertEqual(res["section_id"], "podatki_zus")
         self.assertIn("2026-12-01", res["full_text"])
+        self.assertIn("Dyrektywa VAT w epoce cyfrowej", res["full_text"])
+        self.assertIn("Upraszcza korygowanie JPK.", res["full_text"])
 
     def test_format_sejm_print(self) -> None:
         pr = {"number": "123", "title": "Zmiana ustawy o ZUS", "deliveryDate": "2026-11-10", "term": 10}

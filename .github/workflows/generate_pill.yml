@@ -1,11 +1,6 @@
 name: 1. Generowanie Porannej Pigulki i Publikacja PWA
 
 on:
-  schedule:
-    # 04:17 UTC = 05:17 CET (zima) / 06:17 CEST (lato)
-    - cron: '17 3 * * *'
-    # 05:17 UTC = 06:17 CET (zima) / 07:17 CEST (lato)
-    - cron: '17 4 * * *'
   push:
     branches:
       - main

@@ -282,6 +282,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Moduł powiadomień Porannej Pigułki")
     parser.add_argument("--send-daily", action="store_true", help="Wysyła poranne powiadomienie na dziś (z alertem awaryjnym w razie braku)")
     parser.add_argument("--force", action="store_true", help="Wymusza wysyłkę nawet jeśli dziś już wysłano")
+    parser.add_argument("--no-emergency", action="store_true", help="Wyłącza awaryjne generowanie przy braku pliku (wyśle wyłącznie alert)")
     parser.add_argument("--failure", action="store_true", help="Wysyła powiadomienie o awarii pipeline'u")
     parser.add_argument("--reason", default="Błąd w zadaniu GitHub Actions.", help="Opis błędu")
     args = parser.parse_args()
@@ -290,5 +291,8 @@ if __name__ == "__main__":
         send_failure_alert(args.reason)
         print("Wysłano powiadomienie o awarii.")
     elif args.send_daily:
-        out = send_daily_notification(force=args.force)
+        out = send_daily_notification(
+            force=args.force,
+            allow_emergency_generate=not args.no_emergency,
+        )
         print(f"Wynik wysyłki: {json.dumps(out, ensure_ascii=False)}")

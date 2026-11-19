@@ -1,4 +1,4 @@
-const CACHE_NAME = "poranna-pigulka-v1";
+const CACHE_NAME = "poranna-pigulka-v2";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -28,7 +28,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET") return;
 
-  // Dla plików danych (JSON): najpierw sieć, a przy braku internetu ostatni zapisany cache
+  // Dla plików danych (JSON): najpierw sieć (z pominięciem cache przeglądarki), a offline ostatni zapisany cache
   if (url.pathname.includes("/data/") && url.pathname.endsWith(".json")) {
     event.respondWith(
       fetch(event.request)
@@ -39,7 +39,7 @@ self.addEventListener("fetch", (event) => {
           }
           return resp;
         })
-        .catch(() => caches.match(event.request))
+        .catch(() => caches.match(event.request, { ignoreSearch: true }))
     );
     return;
   }
@@ -54,6 +54,6 @@ self.addEventListener("fetch", (event) => {
         }
         return resp;
       })
-      .catch(() => caches.match(event.request))
+      .catch(() => caches.match(event.request, { ignoreSearch: true }))
   );
 });
