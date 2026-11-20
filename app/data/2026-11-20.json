@@ -1,0 +1,765 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:58:24+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "ok",
+    "temp_now": 7.1,
+    "apparent_temp": 3.8,
+    "temp_min": 6.2,
+    "temp_max": 9.0,
+    "wind_speed_kmh": 13.0,
+    "rain_probability_max": 100,
+    "condition": "Pochmurno ☁️",
+    "practical_tip": "Parasol wskazany od około 13:00 (opady do 78%).",
+    "hourly_forecast": [
+      {
+        "hour": "07:00",
+        "temp": 6.6,
+        "rain_prob": 2
+      },
+      {
+        "hour": "08:00",
+        "temp": 7.3,
+        "rain_prob": 0
+      },
+      {
+        "hour": "09:00",
+        "temp": 8.3,
+        "rain_prob": 0
+      },
+      {
+        "hour": "10:00",
+        "temp": 8.9,
+        "rain_prob": 2
+      },
+      {
+        "hour": "11:00",
+        "temp": 8.9,
+        "rain_prob": 22
+      },
+      {
+        "hour": "12:00",
+        "temp": 8.6,
+        "rain_prob": 48
+      },
+      {
+        "hour": "13:00",
+        "temp": 8.5,
+        "rain_prob": 67
+      },
+      {
+        "hour": "14:00",
+        "temp": 8.3,
+        "rain_prob": 69
+      },
+      {
+        "hour": "15:00",
+        "temp": 8.3,
+        "rain_prob": 63
+      },
+      {
+        "hour": "16:00",
+        "temp": 8.1,
+        "rain_prob": 59
+      },
+      {
+        "hour": "17:00",
+        "temp": 8.0,
+        "rain_prob": 63
+      },
+      {
+        "hour": "18:00",
+        "temp": 8.0,
+        "rain_prob": 70
+      },
+      {
+        "hour": "19:00",
+        "temp": 8.1,
+        "rain_prob": 75
+      },
+      {
+        "hour": "20:00",
+        "temp": 7.1,
+        "rain_prob": 77
+      },
+      {
+        "hour": "21:00",
+        "temp": 6.3,
+        "rain_prob": 78
+      }
+    ]
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "225/A/NBP/2026",
+    "effective_date": "2026-11-19",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.4165
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 4.0176
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.7684
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.2816
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "zus-jdg-pozostali-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 0,
+      "title": "Składki ZUS i składka zdrowotna (JDG i pozostali płatnicy)",
+      "description": "Złożenie dokumentów rozliczeniowych (ZUS DRA / RCA) oraz opłacenie składek na ubezpieczenia społeczne i zdrowotne za miesiąc poprzedni.",
+      "tags": [
+        "ZUS"
+      ]
+    },
+    {
+      "id": "pit-cit-zaliczka-ryczalt-2026-11-20",
+      "date": "2026-11-20",
+      "original_day": 20,
+      "shifted": false,
+      "days_remaining": 0,
+      "title": "Zaliczka na PIT / CIT oraz ryczałt od przychodów ewidencjonowanych",
+      "description": "Termin zapłaty zaliczki na podatek dochodowy (skala, liniowy, CIT) lub ryczałtu za miesiąc poprzedni (lub kwartał, jeśli rozliczenie kwartalne dotyczy miesięcy I, IV, VII, X).",
+      "tags": [
+        "PIT",
+        "CIT",
+        "ryczałt"
+      ]
+    },
+    {
+      "id": "vat-jpk-v7m-2026-11-25",
+      "date": "2026-11-25",
+      "original_day": 25,
+      "shifted": false,
+      "days_remaining": 5,
+      "title": "JPK_V7M / JPK_V7K oraz zapłata podatku VAT",
+      "description": "Złożenie jednolitego pliku kontrolnego VAT (JPK_V7M, część ewidencyjna JPK_V7K) oraz zapłata podatku VAT za miesiąc poprzedni. Termin dotyczy również informacji podsumowującej VAT-UE.",
+      "tags": [
+        "VAT",
+        "JPK"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-719523",
+          "headline": "Ulga na złe długi w VAT tylko dla kontrahentów będących podatnikami VAT czynnymi",
+          "summary": "Dyrektor KIS potwierdził, że prawo do korekty podatku należnego w ramach ulgi na złe długi (art. 89a ustawy o VAT) przysługuje wyłącznie przy nieopłaconych fakturach wystawionych na rzecz podatników VAT czynnych po upływie 90 dni od terminu płatności. Stanowisko wnioskodawcy uznano za nieprawidłowe w części dotyczącej możliwości takiej korekty wobec podmiotów zwolnionych z VAT oraz niezarejestrowanych jako podatnicy VAT.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Interpretacja dotyczy kluczowych zasad rozliczania ulgi na złe długi w podatku VAT dla firm świadczących usługi B2B."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS rozstrzygnął kwestię stosowania art. 89a ust. 1 ustawy o VAT. Przed zmianą lub w spornej kwestii wnioskodawca zakładał prawo do korekty dla wszystkich klientów B2B, jednak po rozstrzygnięciu organu prawo to dotyczy wyłącznie faktur wystawionych na rzecz czynnych podatników VAT po upływie 90 dni od terminu płatności. Brak jest prawa do korekty bez spełnienia dodatkowych wymogów w odniesieniu do wierzytelności na rzecz podatników VAT zwolnionych oraz podmiotów niezarejestrowanych jako podatnicy VAT.",
+            "background": "Spółka posiadająca nieopłacone faktury z tytułu usług leasingu, najmu, dzierżawy oraz zarządzania flotą pojazdów wystawione na rzecz różnych podmiotów (czynnych podatników VAT, zwolnionych oraz niezarejestrowanych) wystąpiła o interpretację. Dyrektor KIS uznał stanowisko wnioskodawcy za prawidłowe w zakresie podatników VAT czynnych, a za nieprawidłowe w zakresie podmiotów zwolnionych z VAT oraz niezarejestrowanych.",
+            "what_it_means_for_business": "Przedsiębiorca nie może pomniejszyć podstawy opodatkowania oraz podatku należnego w ramach ulgi na złe długi, jeśli dłużnik nie jest czynnym podatnikiem VAT, chyba że zostaną spełnione dodatkowe wymogi ustawowe. Wpływa to bezpośrednio na płynność finansową oraz rozliczenia podatkowe przy transakcjach B2B z podmiotami zwolnionymi lub niedziałającymi jako czynni podatnicy VAT.",
+            "what_to_do": [
+              "Zweryfikować status kontrahentów w rejestrze VAT przed podjęciem decyzji o skorzystaniu z ulgi na złe długi dla przeterminowanych należności.",
+              "Sprawdzić, czy nieopłacone faktury przekroczyły 90 dni od uzgodnionego terminu płatności.",
+              "W przypadku ewentualnego spororu z organem podatkowym, pamiętać o terminie 30 dni na wniesienie skargi do Wojewódzkiego Sądu Administracyjnego."
+            ],
+            "deadlines": [
+              {
+                "date": "upływ ponad 90 dni",
+                "description": "termin od uzgodnionego terminu płatności faktury, po którym można uprawdopodobnić nieściągalność wierzytelności"
+              },
+              {
+                "date": "30 dni",
+                "description": "termin do wniesienia skargi do Wojewódzkiego Sądu Administracyjnego od dnia doręczenia interpretacji"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja dotyczy stanu faktycznego przedstawionego przez wnioskodawcę i stanu prawnego obowiązującego w dacie zaistnienia zdarzenia oraz w dniu wydania interpretacji. Nie dotyczy osób fizycznych nieprowadzących działalności gospodarczej (konsumentów). Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719523",
+              "published": "2026-11-19"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-720041",
+          "headline": "Projekty OZE a wyłączenie kosztów finansowania z CIT",
+          "summary": "Dyrektor KIS potwierdził, że projekty OZE (farmy wiatrowe i PV) stanowią długoterminowy projekt infrastruktury publicznej z art. 15c ust. 10 ustawy o CIT. Dzięki temu koszty finansowania zewnętrznego oraz koszty refinansowania tych projektów nie podlegają uwzględnieniu przy kalkulacji nadwyżki kosztów finansowania dłużnego. Stanowisko wnioskodawcy uznano w pełni za prawidłowe.",
+          "tags": [
+            "CIT",
+            "Ustawy"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Interpretacja dotyczy podatku CIT oraz specyficznych projektów OZE i finansowania dłużnego, co nie przekłada się bezpośrednio na profil JDG rozliczającego się na PIT."
+          },
+          "details": {
+            "what_happened": "Dyrektor Krajowej Informacji Skarbowej wydał interpretację indywidualną (sygn. 0111-KDIB2-1.4010.463.2026.2.MN) potwierdzającą prawidłowość stanowiska wnioskodawcy. Rozstrzygnięto, że farmy wiatrowe i fotowoltaiczne wchodzące w skład projektów OZE kwalifikują się jako długoterminowy projekt z zakresu infrastruktury publicznej. W konsekwencji na podstawie art. 15c ust. 8 ustawy o CIT wyłączono zewnętrzne koszty finansowania oraz koszty refinansowania z kalkulacji nadwyżki kosztów finansowania dłużnego.",
+            "background": "Wnioskodawca realizujący projekty OZE w formule m.in. pożyczek wewnątrz grupy i cash-poolingu zapytał, czy farmy wiatrowe i PV stanowią długoterminowy projekt z zakresu infrastruktury publicznej w rozumieniu art. 15c ust. 10 ustawy o CIT. Pozwala to na niestosowanie ograniczeń w zaliczaniu kosztów finansowania dłużnego do kosztów uzyskania przychodów na podstawie art. 15c ust. 8 tej ustawy. Organ uznał stanowisko wnioskodawcy za prawidłowe i odstąpił od uzasadnienia prawnego na podstawie art. 14c § 1 Ordynacji podatkowej.",
+            "what_it_means_for_business": "Podmioty realizujące inwestycje w OZE spełniające kryteria długoterminowego projektu infrastruktury publicznej mogą pomniejszyć lub wyeliminować obostrzenia związane z limitowaniem kosztów finansowania dłużnego w CIT. Oznacza to pełniejszą podatkową potrącalność kosztów odsetkowych i finansowych związanych z zewnętrznym oraz wewnątrzgrupowym finansowaniem takich farm. Interpretacja chroni podatnika w zakresie opisanego zdarzenia przyszłego i stanu faktycznego, o ile nie zachodzą przesłanki z art. 14na Ordynacji podatkowej.",
+            "what_to_do": [
+              "Zweryfikować strukturę finansowania projektów OZE pod kątem ich kwalifikacji jako długoterminowy projekt z zakresu infrastruktury publicznej w świetle art. 15c ust. 10 ustawy o CIT.",
+              "Sprawdzić możliwość wyłączenia kosztów finansowania zewnętrznego i kosztów refinansowania z kalkulacji nadwyżki kosztów finansowania dłużnego na podstawie art. 15c ust. 8 ustawy o CIT."
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Funkcja ochronna interpretacji nie przysługuje w warunkach określonych w art. 14na Ordynacji podatkowej (klauzula przeciw unikaniu opodatkowania, nadużycie prawa lub środki ograniczające umowne korzyści). Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720041",
+              "published": "2026-11-19"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-720179",
+          "headline": "Przychód z tytułu nieodpłatnego nabycia akcji z tytułu realizacji praw z RSU.",
+          "summary": "Rodzaj dokumentu: Interpretacja indywidualna\nSygnatura: 0113-KDIPT2-1.4011.707.2026.1.DJD\nData wydania: 2026-11-17\nData publikacji w EUREKA: 2026-11-19\nTeza: Przychód z tytułu nieodpłatnego nabycia akcji z tytułu realizacji praw z RSU. Słowa kluczowe: akcja-objęcie (nabycie) akcji, akcja-sprzedaż akcji, koszt-koszty uz",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
+          },
+          "details": {
+            "what_happened": "Rodzaj dokumentu: Interpretacja indywidualna\nSygnatura: 0113-KDIPT2-1.4011.707.2026.1.DJD\nData wydania: 2026-11-17\nData publikacji w EUREKA: 2026-11-19\nTeza: Przychód z tytułu nieodpłatnego nabycia akcji z tytułu realizacji praw z RSU.\nSłowa kluczowe: akcja-objęcie (nabycie) akcji, akcja-sprzedaż akcji, koszt-koszty uzyskania przychodów, programy-program motywacyjny, przychód-moment powstania przychodów, przychód-powstanie przychodu, przychód-przychód z działalności gospodarczej, stawka-stawki ryczałtu\n\nTreść interpretacji:\nInterpretacja indywidualna\n– stanowisko prawidłowe\nSzanowny Panie,\nstwierdzam, że Pana\nstanowisko w sprawie oceny skutków podatkowych opisanego stanu\nfaktycznego i zdarzenia przyszłego w podatku dochodowym od osób fizycznych i zryczałtowanym\npodatku dochodowym od niektórych przychodów osiąganych przez osoby\nfizyczne jest prawidłowe.\nZakres wniosku o wydanie interpreta",
+            "background": "Materiał pochodzi z publikacji: EUREKA MF (KIS).",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
+            "what_to_do": [
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
+            ],
+            "deadlines": [],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Etap A ekstrakcji AI nie zwrócił poprawnego JSON; użyto streszczenia bazowego."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720179",
+              "published": "2026-11-19"
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "kis-719226",
+          "headline": "Wykup z leasingu na cele prywatne bez VAT przy braku odliczenia",
+          "summary": "Dyrektor KIS potwierdził, że nieodpłatne przekazanie wspólnikowi wykupionego z leasingu samochodu nie podlega VAT. Warunkiem jest brak prawa do odliczenia podatku naliczonego przy tym wykupie, ponieważ auto od początku przeznaczono na cele osobiste.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Interpretacja dotyczy zasad opodatkowania VAT przy wykupie majątku z leasingu i jego przekazaniu na cele prywatne, co może mieć znaczenie dla jednoosobowej działalności."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS rozstrzygnął, że nieodpłatne przekazanie towarów należących do przedsiębiorstwa na cele osobiste wspólników podlega opodatkowaniu VAT tylko wtedy, gdy podatnikowi przysługiwało prawo do odliczenia VAT przy ich nabyciu lub wytworzeniu. W sytuacji gdy samochód z leasingu wykupiono bez zamiaru używania go w działalności i bez odliczania podatku naliczonego, jego późniejsze przekazanie na cele prywatne nie podlega opodatkowaniu VAT na podstawie art. 7 ust. 2 ustawy o VAT.",
+            "background": "Spółka komandytowa leasingująca auto osobowe (odliczająca 50% VAT od rat) planowała wykup po co najmniej 24 miesiącach z przeznaczeniem na cele osobiste wspólnika. Wykup miał być udokumentowany fakturą bez odliczenia VAT, a samochód nie miał trafić do ewidencji środków trwałych. Wnioskodawca pytał, czy nieodpłatne przekazanie auta wspólnikowi będzie opodatkowane VAT, wskazując na brak takiego opodatkowania. Organ uznał to stanowisko za prawidłowe.",
+            "what_it_means_for_business": "Przedsiębiorcy planujący wykup środków trwałych z leasingu z bezpośrednim przeznaczeniem na cele prywatne (i rezygnujący z odliczenia VAT przy wykupie) nie muszą naliczać podatku VAT od ich nieodpłatnego przekazania na cele osobiste. Zapewnia to neutralność podatkową w sytuacji braku wcześniejszego odliczenia VAT naliczonego.",
+            "what_to_do": [
+              "Zweryfikować zamiar wykorzystania majątku przed wykupem z leasingu",
+              "Pominiąć odliczenie podatku VAT przy wykupie towaru przeznaczonego od razu na cele prywatne, jeśli ma to uchronić przed VAT przy przekazaniu"
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Funkcję ochronną interpretacji stosuje się, jeśli sytuacja wnioskodawcy będzie tożsama z opisem zdarzenia przyszłego. Przepisów o ochronie nie stosuje się w przypadkach określonych w art. 14na § 1 i § 2 Ordynacji podatkowej (np. nadużycie prawa, klauzula przeciwko unikaniu opodatkowania). Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719226",
+              "published": "2026-11-19"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "sejm-druk-10-3286-A",
+          "headline": "Odroczenie kar za KSeF do końca 2027 r. i przedłużenie odwrotnego obciążenia",
+          "summary": "Komisja Finansów Publicznych przyjęła projekt ustawy przewidujący odroczenie kar za błędy w KSeF do końca 2027 r. Przedłużono również o 3,5 roku mechanizm odwrotnego obciążenia VAT dla gazu, energii i uprawnień do emisji.",
+          "tags": [
+            "VAT",
+            "KSeF",
+            "Ustawy"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Informacja bezpośrednio dotyczy planowanego wdrożenia KSeF w Twojej JDG oraz rozliczeń VAT w handlu i usługach."
+          },
+          "details": {
+            "what_happened": "Przyjęto dodatkowe sprawozdanie Komisji Finansów Publicznych dotyczące projektu ustawy o zmianie ustawy o podatku od towarów i usług. Główne zmiany to odroczenie nakładania kar pieniężnych za błędy związane z Krajowym Systemem e-Faktur do końca 2027 r. oraz przedłużenie o 3,5 roku mechanizmu odwrotnego obciążenia VAT dla gazu, energii elektrycznej i uprawnień do emisji gazów cieplarnianych.",
+            "background": "Działania wynikają z rządowego projektu ustawy i prac w Komisji Finansów Publicznych oraz Sejmu RP po drugim i trzecim czytaniu w dniach 4-6 listopada 2026 r., których celem jest zmiana ustawy o podatku od towarów i usług oraz niektórych innych ustaw.",
+            "what_it_means_for_business": "Przedsiębiorcy zyskują dodatkowy czas na dostosowanie systemów fakturujących do KSeF bez ryzyka sankcji finansowych do końca 2027 r. Utrzymanie mechanizmu odwrotnego obciążenia VAT dla energii i gazu stabilizuje rozliczenia w tych obszarach dla firm.",
+            "what_to_do": [
+              "Zweryfikować przygotowanie systemów do KSeF, biorąc pod uwagę odroczenie kar do końca 2027 r.",
+              "Sprawdzić stosowanie mechanizmu odwrotnego obciążenia VAT przy zakupie gazu i energii elektrycznej."
+            ],
+            "deadlines": [
+              {
+                "date": "do końca 2027 r.",
+                "description": "odroczenie nakładania kar pieniężnych za błędy związane z Krajowym Systemem e-Faktur (KSeF)"
+              },
+              {
+                "date": "2026-11-06",
+                "description": "praca w komisjach po II czytaniu oraz III czytanie na posiedzeniu Sejmu"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3286-A",
+              "published": "2026-11-06"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "sejm-druk-10-3382",
+          "headline": "Ograniczenie dostępu KAS do rachunków bankowych",
+          "summary": "Sejm uchwalił nowelizację ustawy o KAS i Prawa bankowego (druk nr 3382). Przywrócono stan sprzed 1 lipca 2022 r., zgodnie z którym KAS może żądać informacji o rachunku bankowym wyłącznie wobec osoby podejrzanej.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Dotyczy przepisów kontrolnych i ochrony tajemnicy bankowej przedsiębiorcy prowadzącego JDG."
+          },
+          "details": {
+            "what_happened": "Przed zmianą informacje o rachunku bankowym mogły być przekazywane organom KAS na ich żądanie wobec każdej osoby fizycznej. Po zmianie przywrócono rozwiązanie sprzed 1 lipca 2022 r., ograniczając to uprawnienie wyłącznie wobec osoby podejrzanej o popełnienie przestępstwa, wykroczenia, przestępstwa skarbowego lub wykroczenia skarbowego.",
+            "background": "Sprawozdanie Komisji Finansów Publicznych dotyczyło uchwały Senatu w sprawie ustawy o zmianie ustawy o Krajowej Administracji Skarbowej oraz ustawy - Prawo bankowe (druk sejmowy nr 3382). Proces legislacyjny obejmował m.in. III czytanie na posiedzeniu Sejmu w dniu 22 października 2026 r., stanowisko Senatu z dnia 6 listopada 2026 r. oraz rozpatrzenie stanowiska Senatu na forum Sejmu w dniu 19 listopada 2026 r.",
+            "what_it_means_for_business": "Brak jednoznacznych wniosków w źródle.",
+            "what_to_do": [
+              "Brak dodatkowych czynności operacyjnych dla firmy, przepisy regulują kompetencje organów państwowych."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-22",
+                "description": "III czytanie na posiedzeniu Sejmu"
+              },
+              {
+                "date": "2026-11-06",
+                "description": "Stanowisko Senatu"
+              },
+              {
+                "date": "2026-11-17",
+                "description": "Praca w komisjach nad stanowiskiem Senatu"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "Data wpływu do Sejmu"
+              },
+              {
+                "date": "2026-11-19",
+                "description": "Rozpatrywanie na forum Sejmu stanowiska Senatu"
+              }
+            ],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3382",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "sejm-druk-10-3378",
+          "headline": "Automatyzacja świadczenia 800+ bez corocznych wniosków",
+          "summary": "Komisje sejmowe zajęły się rządowym projektem (druk nr 3378) wprowadzającym automatyczne odnawianie prawa do świadczenia 800+ na kolejne okresy. Zmiana ma wyeliminować konieczność corocznego składania wniosków przez rodziców i opiekunów.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy świadczeń rodzinnych i nie wpływa bezpośrednio na rozliczenia podatkowe ani działalność B2B firmy."
+          },
+          "details": {
+            "what_happened": "Przygotowano sprawozdanie Komisji do Spraw Deregulacji oraz Komisji Polityki Społecznej i Rodziny o rządowym projekcie ustawy zmieniającej ustawę o pomocy państwa w wychowywaniu dzieci. Zmiana polega na przejściu z zasady corocznego składania wniosków na automatyczne odnawianie prawa do świadczenia 800+ na kolejne okresy świadczeniowe.",
+            "background": "Projekt stanowi realizację rządowych działań deregulacyjnych mających na celu odciążenie obywateli z obowiązków biurokratycznych związanych z ponownym ubieganiem się o świadczenie wychowawcze. Projekt wpłynął do Sejmu 2026-10-21 i został skierowany do pierwszego czytania w komisjach.",
+            "what_it_means_for_business": "Zmiana ma charakter społeczny i dotyczy osób fizycznych wychowujących dzieci. Nie wywołuje bezpośrednich skutków dla rozliczeń podatkowych JDG, składek ZUS ani obowiązków w zakresie prowadzonej działalności gospodarczej.",
+            "what_to_do": [
+              "Brak wymagalnych działań w firmie - projekt dotyczy procedur administracyjnych dla obywateli, a nie rozliczeń biznesowych."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-21",
+                "description": "Projekt wpłynął do Sejmu"
+              },
+              {
+                "date": "2026-10-23",
+                "description": "Skierowano do I czytania w komisjach"
+              },
+              {
+                "date": "2026-11-17",
+                "description": "I czytanie i praca w komisjach"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "Data wpływu do Sejmu / Data publikacji źródła"
+              }
+            ],
+            "caveats": "Projekt w toku / nieuchwalony; brak dodatkowych zastrzeżeń w źródle. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3378",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "sejm-druk-10-3379",
+          "headline": "Zakłady ubezpieczeń z dostępem do danych PESEL o dowodach",
+          "summary": "Uchwalono ustawę (druk sejmowy nr 3379) zmieniającą ustawę o ewidencji ludności. Rozszerzono katalog podmiotów uprawnionych do pozyskiwania z rejestru PESEL danych w zakresie serii, numeru oraz daty ważności dowodu osobistego po jego wymianie o zakłady ubezpieczeń.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy uprawnień zakładów ubezpieczeń do pozyskiwania danych z rejestru PESEL i nie wpływa bezpośrednio na rozliczenia podatkowe lub składkowe JDG."
+          },
+          "details": {
+            "what_happened": "Przed zmianą zakłady ubezpieczeń nie miały ustawowego uprawnienia do pozyskiwania z rejestru PESEL danych obejmujących serię, numer oraz datę ważności dowodu osobistego po wymianie dokumentu na nowy. Po zmianie (druk sejmowy nr 3379) katalog podmiotów uprawnionych do takich danych w rejestrze ewidencji ludności został oficjalnie rozszerzony o zakłady ubezpieczeń. Proces legislacyjny obejmował m.in. III czytanie w Sejmie 2026-10-08 oraz rozpatrzenie stanowiska Senatu w dniach 2026-11-06 i 2026-11-19.",
+            "background": "Działania te zrealizowano w ramach prac nad rządowym projektem ustawy o zmianie ustawy o ewidencji ludności (druki sejmowy nr 3379) w ramach prac Komisji do Spraw Deregulacji i Sejmu RP. Cel projektu polega na deregulacji i rozszerzeniu katalogu podmiotów uprawnionych do pozyskiwania danych z rejestru PESEL.",
+            "what_it_means_for_business": "Zmiana ta dotyczy bezpośrednio zakładów ubezpieczeń, które zyskują narzędzie do weryfikacji danych dokumentów tożsamości w rejestrze PESEL. Dla standardowej jednoosobowej działalności gospodarczej (usługi B2B, e-commerce) zmiana ta nie niesie bezpośrednich skutków finansowych ani nowych obowiązków rozliczeniowych.",
+            "what_to_do": [
+              "Brak konieczności podejmowania jakichkolwiek działań przez przedsiębiorcę w związku z rozszerzeniem uprawnień zakładów ubezpieczeń do rejestru PESEL."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-08",
+                "description": "III czytanie na posiedzeniu Sejmu"
+              },
+              {
+                "date": "2026-11-06",
+                "description": "Stanowisko Senatu"
+              },
+              {
+                "date": "2026-11-18",
+                "description": "Praca w komisjach nad stanowiskiem Senatu oraz data wpływu do Sejmu i data dokumentu"
+              },
+              {
+                "date": "2026-11-19",
+                "description": "Rozpatrywanie na forum Sejmu stanowiska Senatu"
+              }
+            ],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3379",
+              "published": "2026-11-18"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "gov-4a8cac9cc376",
+          "headline": "Jesienne prognozy KE: PKB i inflacja w latach 2026-2028",
+          "summary": "Komisja Europejska opublikowała jesienne prognozy gospodarcze (Autumn Forecast 2026) dla Polski na lata 2026-2028. Wzrost realnego PKB Polski wyniesie 3,5% w 2026 r. i spadnie do 2,7% w latach 2027-2028, przy inflacji HICP na poziomie 3,3% w 2026 r., 4,4% w 2027 r. i 3,9% w 2028 r.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja ma charakter makroekonomiczny i statystyczny, nie wprowadzając bezpośrednich zmian w obowiązkach podatkowych lub składkowych JDG."
+          },
+          "details": {
+            "what_happened": "Komisja Europejska opublikowała prognozy makroekonomiczne (Autumn Forecast 2026) oparte na podejściu no-policy change. Wzrost realnego PKB Polski zmieni się z 3,5% w 2026 r. na 2,7% w latach 2027-2028. Dynamika inwestycji wyniesie 6,5% w 2026 r., 3,9% w 2027 r. oraz 3,8% w 2028 r. Inflacja HICP ukształtuje się na poziomie 3,3% (2026 r.), 4,4% (2027 r.) i 3,9% (2028 r.), a koszty pracy na jednego pracownika w ujęciu nominalnym wzrosną o 6,7% w 2026 r., 6,4% w 2027 r. i 6,3% w 2028 r.",
+            "background": "Publikacja stanowi jesienne prognozy gospodarcze Komisji Europejskiej dla państw członkowskich, obejmujące m.in. wzrost PKB, inwestycje, konsumpcję, inflację, rynek pracy oraz deficyt i dług sektora instytucji rządowych i samorządowych, który w 2028 r. ma wynieść 73,5% PKB.",
+            "what_it_means_for_business": "Opublikowane wskaźniki makroekonomiczne i prognozy kosztów pracy mogą wpłynąć na długoterminowe planowanie budżetowe, politykę cenową w e-commerce oraz koszty prowadzenia działalności B2B, jednak nie zmieniają bezpośrednio przepisów podatkowych ani zasad rozliczeń.",
+            "what_to_do": [
+              "Uwzględnić prognozowane wskaźniki inflacji i wzrostu kosztów pracy przy planowaniu budżetu firmy na lata 2026-2028"
+            ],
+            "deadlines": [
+              {
+                "date": "koniec marca tego roku",
+                "description": "wdrożenie działań polityki fiskalnej (pakiet CPN)"
+              },
+              {
+                "date": "2028 r.",
+                "description": "zakładane wdrażanie pakietu ETS2 oraz perspektywa osiągnięcia długu sektora instytucji rządowych i samorządowych na poziomie 73,5% PKB"
+              }
+            ],
+            "caveats": "Prognoza KE oparta jest na standardowo stosowanym podejściu no-policy change i nie uwzględnia zmian w polityce rządu, które nie były wystarczająco doprecyzowane ani przyjęte przez parlament w momencie zamknięcia prognozy. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Ministerstwo Finansów (gov.pl)",
+              "url": "https://www.gov.pl/web/finanse/komentarz-do-prognoz-komisji-europejskiej-autumn-forecast-2026",
+              "published": "2026-11-17"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-7b1d9c0b80f2",
+          "headline": "Przejęcie InPostu przez konsorcjum",
+          "summary": "Konsorcjum w składzie Advent, FedEx, A&R Investments oraz PPF Group zakończyło przejęcie spółki InPost. Rafał Brzoska pozostaje prezesem, a centrala firmy oraz struktura zarządzania nadal będą w Polsce.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o transakcji kapitałowej na rynku logistycznym nie wpływa bezpośrednio na rozliczenia podatkowe ani operacyjne JDG."
+          },
+          "details": {
+            "what_happened": "Konsorcjum w składzie Advent, FedEx, A&R Investments oraz PPF Group oficjalnie zakończyło przejęcie spółki InPost. Struktura udziałów w konsorcjum wynosi: Advent 37 proc., FedEx 37 proc., A&R 16 proc. oraz PPF Group 10 proc. Rafał Brzoska pozostaje prezesem (CEO) spółki, a centrala i struktura zarządzania pozostają w Polsce. Inwestorzy zapowiedzieli przyspieszenie ekspansji na rynkach europejskich oraz rozwój sieci out-of-home.",
+            "background": "Transakcja obejmuje współpracę handlową łączącą możliwości B2C InPostu na ostatniej mili z globalną siecią FedEx. A&R zwiększył swoje udziały w spółce, a PPF reinwestowało część środków ze sprzedaży akcji jako członek konsorcjum.",
+            "what_it_means_for_business": "Zmiany własnościowe w InPoście nie zmieniają bezpośrednio bieżących warunków rozliczeń podatkowych jednoosobowej działalności gospodarczej, ale mogą wpłynąć na rozwój usług logistycznych i kurierskich wykorzystywanych w e-commerce.",
+            "what_to_do": [
+              "Brak konkretnych czynności wymaganych od przedsiębiorcy w związku z tą transakcją."
+            ],
+            "deadlines": [],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/biznes/stalo-sie-inpost-oficjalnie-przejety-co-dalej-z-rafalem-brzoska-7352958683486240a.html",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-d1dcc692f4fa",
+          "headline": "Nowe obowiązki cyberbezpieczeństwa KSC i NIS2 dla firm",
+          "summary": "Nowelizacja ustawy o KSC nałożyła na przedsiębiorcy z kilkunastu branż obowiązek samoidentyfikacji oraz wpisu do Wykazu KSC. Firmy spełniające kryteria w dniu wejścia przepisów miały czas na wpis do 3 października, a podmioty rozszerzające działalność mają na to sześć miesięcy.",
+          "tags": [
+            "Ustawy",
+            "Technologie"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Dotyczy firm z określonych sektorów gospodarki, w tym e-commerce i usług B2B, które mogą podlegać pod kryteria ustawy o KSC."
+          },
+          "details": {
+            "what_happened": "Weszła w życie nowelizacja ustawy o Krajowym Systemie Cyberbezpieczeństwa (KSC) wdrażająca dyrektywę NIS2. Przedsiębiorcy z kilkunastu branż zostali zakwalifikowani jako podmioty kluczowe lub ważne. Wprowadzono bezwzględny wymóg przeprowadzenia samoidentyfikacji oraz wpisu do Wykazu KSC, a firmy rozszerzające działalność w przyszłości zyskują sześć miesięcy na złożenie wniosku o wpis od momentu spełnienia kryteriów.",
+            "background": "Celem nowelizacji ustawy o KSC oraz dyrektywy NIS2 jest podniesienie poziomu cyberbezpieczeństwa w sektorach istotnych dla funkcjonowania państwa i gospodarki. Przepisy nakładają na organizacje nowe obowiązki organizacyjne i rejestrowe na podstawie kryteriów takich jak sektor, wielkość oraz rodzaj świadczonych usług.",
+            "what_it_means_for_business": "Przedsiębiorca musi ustalić, czy jego działalność w obszarze e-commerce lub usług B2B kwalifikuje go jako podmiot kluczowy lub ważny w rozumieniu ustawy o KSC. Brak pewności co do podlegania przepisom wiąże się z koniecznością weryfikacji statusu firmy, aby uniknąć ryzyka zaniechania ustawowych obowiązków rejestrowych.",
+            "what_to_do": [
+              "Przeprowadzić samoidentyfikację w celu ustalenia, czy firma podlega przepisom ustawy o KSC jako podmiot kluczowy lub ważny.",
+              "Skorzystać z bezpłatnej usługi Pre-weryfikacji zgodności z zaleceniami NIS2 na portalu Biznes.gov.pl w przypadku braku pewności co do statusu firmy.",
+              "Złożyć wniosek o wpis do Wykazu KSC w ciągu sześciu miesięcy, jeśli firma rozszerza działalność i zacznie spełniać kryteria w przyszłości."
+            ],
+            "deadlines": [
+              {
+                "date": "3 kwietnia",
+                "description": "wejście w życie nowelizacji ustawy o Krajowym Systemie Cyberbezpieczeństwa (KSC)"
+              },
+              {
+                "date": "3 października",
+                "description": "upłynął czas na samodzielny wpis do Wykazu KSC dla podmiotów, które spełniały ustawowe kryteria w dniu wejścia ustawy w życie"
+              },
+              {
+                "date": "w ciągu sześciu miesięcy",
+                "description": "czas na złożenie wniosku o wpis do Wykazu KSC przez przedsiębiorstwo, które rozszerza działalność i zacznie spełniać kryteria w przyszłości"
+              }
+            ],
+            "caveats": "Przedsiębiorcy, którzy nie mają pewności, czy podlegają nowym przepisom, mogą skorzystać z bezpłatnej usługi Pre-weryfikacji zgodności z zaleceniami NIS2, dostępnej na portalu Biznes.gov.pl. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Nowe-obowiazki-dla-firm-wynikajace-z-ustawy-o-KSC-Czym-teraz-musza-sie-zajac-9231886.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-954467b6e911",
+          "headline": "Kryzys w branży transportowej: ponad 1200 firm zakończyło działalność",
+          "summary": "Polska branża transportu międzynarodowego mierzy się z drastycznym spadkiem opłacalności i trudnymi warunkami konkurencyjnymi. W pierwszym kwartale działalność zakończyło ponad 1200 firm transportowych, co dorównuje wynikom z całego 2025 roku.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy sektora transportu międzynarodowego i nie ma bezpośredniego wpływu na rozliczenia podatkowe JDG prowadzącej usługi B2B i e-commerce."
+          },
+          "details": {
+            "what_happened": "Ponad 1200 firm transportowych zakończyło działalność w pierwszym kwartale roku, co stanowi niemal tyle samo, ile w całym 2025 r. Polska branża transportu międzynarodowego mierzy się z pogarszającą się kondycją, malejącą opłacalnością oraz trudnymi warunkami konkurencyjnymi na europejskim rynku.",
+            "background": "Sytuacja wynika z trudnych warunków konkurencyjnych na europejskim rynku przewozów po stworzeniu przez UE po 2022 r. szczególnych warunków dostępu dla ukraińskich przewoźników. Dodatkowymi czynnikami są forsowana przez urzędników UE transformacja energetyczna przy braku infrastruktury, niedobór kierowców zawodowych oraz wzrost kosztów pracy, paliwa i energii.",
+            "what_it_means_for_business": "Zjawisko to wpływa ogólnie na wzrost kosztów usług logistycznych i transportowych w gospodarce, co może przekładać się na ceny usług i produktów w handlu detalicznym oraz e-commerce.",
+            "what_to_do": [
+              "Monitorować koszty i dostępność usług transportowych w łańcuchu dostaw e-commerce"
+            ],
+            "deadlines": [
+              {
+                "date": "pierwszym kwartale tego roku",
+                "description": "ponad 1200 firm transportowych zakończyło działalność"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Transport-na-zakrecie-Ponad-1200-firm-zakonczylo-dzialalnosc-w-trzy-miesiace-9231993.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-faa0e1db2b34",
+          "headline": "mBank wydłuża wiek kredytobiorcy do 75 lat i zmienia oferty hipotek",
+          "summary": "mBank podniósł maksymalny wiek kredytobiorcy w dniu spłaty ostatniej raty z 67 do 75 lat oraz zwiększył maksymalny okres kredytowania dla 50-latków z 17 do 25 lat. Zmianom towarzyszy zwiększenie finansowanych metraży dla domów do 500 m kw. i działek do 5000 m kw.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy rynku kredytów hipotecznych osób fizycznych i nie wpływa bezpośrednio na rozliczenia podatkowe ani operacyjne JDG."
+          },
+          "details": {
+            "what_happened": "mBank zmodyfikował parametry udzielania kredytów hipotecznych na podstawie danych z lat 2022–2026. Zmiany obejmują podniesienie maksymalnego wieku kredytobiorcy w dniu spłaty ostatniej raty ze 67 do 75 lat oraz wydłużenie maksymalnego okresu kredytowania dla 50-latka z 17 do 25 lat. Ponadto zwiększono maksymalne metraże finansowanych nieruchomości do 500 m kw. dla domów i do 5000 m kw. dla działek.",
+            "background": "Analiza wniosków o kredyt hipoteczny z lat 2022–2026 wykazała, że klienci często kupują mieszkania więcej niż raz w życiu, a osoby po czterdziestce (mediana wieku 42 lata) powracają na rynek po mniejsze mieszkania w miastach o medianie powierzchni 46 m kw. Zmiany wprowadzono w celu dostosowania oferty banku do klientów biorących hipotekę w późniejszym wieku.",
+            "what_it_means_for_business": "Informacja ma charakter rynkowy i informacyjny dla sektora bankowego oraz klientów indywidualnych. Nie przekłada się bezpośrednio na obowiązki podatkowe, składkowe ani bieżącą działalność operacyjną jednoosobowej działalności gospodarczej.",
+            "what_to_do": [
+              "Uwzględnić zmianę parametrów rynkowych w przypadku planowania prywatnych inwestycji lub finansowania mieszkaniowego"
+            ],
+            "deadlines": [],
+            "caveats": "Limit wieku dotyczy wieku w dniu spłaty ostatniej raty, czyli sumy wieku i okresu kredytowania. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Po-czterdziestce-przychodzi-czas-na-mniejsze-mieszkanie-Zaskakujace-dane-mBanku-9231752.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-4573da4c3d09",
+          "headline": "USA ujawniają koszt wojny z Iranem. Ponad 48 mld dolarów i to nie koniec",
+          "summary": "Tytuł: USA ujawniają koszt wojny z Iranem. Ponad 48 mld dolarów i to nie koniec\nŹródło: Bankier.pl Biznes\nData publikacji: 2026-11-20\nOpis z kanału RSS: Wojna z Iranem kosztowała Stany Zjednoczone jak dotąd ponad 48 mld dolarów - poinformował w czwartek zastępca kontrolera finansowego Pentagonu Arthur Miller podczas pr",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
+          },
+          "details": {
+            "what_happened": "Tytuł: USA ujawniają koszt wojny z Iranem.\nPonad 48 mld dolarów i to nie koniec\nŹródło: Bankier.pl Biznes\nData publikacji: 2026-11-20\nOpis z kanału RSS: Wojna z Iranem kosztowała Stany Zjednoczone jak dotąd ponad 48 mld dolarów - poinformował w czwartek zastępca kontrolera finansowego Pentagonu Arthur Miller podczas przesłuchania w Kongresie.\nTreść artykułu:\nWojna z Iranem kosztowała Stany Zjednoczone jak dotąd ponad 48 mld dolarów - poinformował w czwartek zastępca kontrolera finansowego Pentagonu Arthur Miller podczas przesłuchania w Kongresie.\nMiller powiedział, że według stanu na 13 listopada wydatki związane z konfliktem wyniosły 48,3 mld dolarów.",
+            "background": "Materiał pochodzi z publikacji: Bankier.pl Biznes.",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
+            "what_to_do": [
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
+            ],
+            "deadlines": [],
+            "caveats": "Etap B AI nie przeszedł weryfikacji; zastosowano bezpieczny opis ze źródła."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/USA-ujawniaja-koszt-wojny-z-Iranem-Ponad-48-mld-dolarow-i-to-nie-koniec-9232088.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 28,
+    "estimated_tokens": 87431,
+    "rejected_count": 1,
+    "low_confidence_count": 1,
+    "sources_status": {
+      "weather": "ok",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "ok",
+      "economy_world": "partial"
+    },
+    "run_mode": "production"
+  }
+}
