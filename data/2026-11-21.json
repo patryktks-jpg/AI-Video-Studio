@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:58:25+01:00",
+  "weather": {
+    "city": "Brzesko",
+    "postal_code": "32-800",
+    "status": "unavailable",
+    "condition": "Źródło chwilowo niedostępne",
+    "practical_tip": "Nie udało się pobrać prognozy pogody.",
+    "hourly_forecast": [],
+    "error": "<urlopen error _ssl.c:1001: The handshake operation timed out>"
+  },
+  "markets": {
+    "status": "ok",
+    "table_no": "226/A/NBP/2026",
+    "effective_date": "2026-11-20",
+    "rates": [
+      {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.4559
+      },
+      {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "mid": 4.0613
+      },
+      {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.8282
+      },
+      {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.3214
+      }
+    ],
+    "reference_rate": {
+      "name": "Stopa referencyjna",
+      "value_pct": 3.75,
+      "effective_from": "2026-03-05"
+    },
+    "source_url": "https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/"
+  },
+  "deadlines": [
+    {
+      "id": "vat-jpk-v7m-2026-11-25",
+      "date": "2026-11-25",
+      "original_day": 25,
+      "shifted": false,
+      "days_remaining": 4,
+      "title": "JPK_V7M / JPK_V7K oraz zapłata podatku VAT",
+      "description": "Złożenie jednolitego pliku kontrolnego VAT (JPK_V7M, część ewidencyjna JPK_V7K) oraz zapłata podatku VAT za miesiąc poprzedni. Termin dotyczy również informacji podsumowującej VAT-UE.",
+      "tags": [
+        "VAT",
+        "JPK"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "interpretacje",
+      "title": "Interpretacje podatkowe (KIS)",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "kis-720394",
+          "headline": "Commercial invoice a KSeF: interpretacja Dyrektora KIS",
+          "summary": "Dyrektor KIS potwierdził, że faktura handlowa (commercial invoice) stosowana do odpraw celnych nie stanowi faktury w rozumieniu ustawy o VAT. Dokument ten nie podlega obowiązkowi wystawiania, przesyłania ani faktur przy użyciu Krajowego Systemu e-Faktur (KSeF).",
+          "tags": [
+            "VAT",
+            "KSeF"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Dotyczy handlu międzynarodowego i KSeF, co jest kluczowe dla firm prowadzących eksport towarów i korzystających z odpraw celnych."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS rozstrzygnął, że faktura handlowa (commercial invoice) wystawiana równolegle z fakturą VAT na potrzeby odpraw celnych przy eksporcie towarów nie jest fakturą w rozumieniu ustawy o VAT z dnia 11 marca 2004 r. W konsekwencji dokument ten nie jest objęty obowiązkiem generowania w KSeF, przesyłania do systemu ani stosowania wzoru faktury ustrukturyzowanej. Faktura handlowa nie rodzi również skutków w podatku VAT, w tym obowiązku zapłaty podatku na podstawie art. 108 ust. 1 ustawy.",
+            "background": "Wnioskodawca będący czynnym podatnikiem VAT i VAT UE realizującym eksport towarów (stawka 0% VAT) wystawiał obok faktury VAT dokumentującej dostawę również commercial invoice jako załącznik do zgłoszenia celnego potwierdzający wartość celną. Wnioskodawca zapytał, czy commercial invoice jest fakturą w rozumieniu ustawy o VAT i czy wymaga wystawienia w KSeF. Organ uznał stanowisko wnioskodawcy za w pełni prawidłowe.",
+            "what_it_means_for_business": "Przedsiębiorcy prowadzący eksport towarów mogą bez przeszkód stosować równolegle fakturę VAT (wystawianą m.in. w KSeF od 1 kwietnia 2026 r.) oraz fakturę handlową (commercial invoice) przeznaczoną wyłącznie do celów celnych. Faktura handlowa służąca odprawie celnej nie wymaga procedowania w Krajowym Systemie e-Faktur i nie wywołuje skutków podatkowych w VAT.",
+            "what_to_do": [
+              "Weryfikuj, czy dokumenty typu commercial invoice sporządzane do celów celnych są rozdzielone od fakturowania podatkowego VAT.",
+              "Pamiętaj, że faktury dokumentujące eksportową dostawę towarów na potrzeby rozliczenia VAT podlegają zasadom ogólnym (w tym KSeF od 1 kwietnia 2026 r.), natomiast commercial invoice do zgłoszeń celnych nie trafia do KSeF."
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "wniesienie skargi do Wojewódzkiego Sądu Administracyjnego za pośrednictwem Dyrektora KIS"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja dotyczy stanu faktycznego przedstawionego we wniosku i stanu prawnego obowiązującego w dacie zaistnienia zdarzenia. Funkcja ochronna nie stosuje się w przypadku zastosowania art. 119a (nadużycie prawa). Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720394",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-720365",
+          "headline": "Pełne odliczenie VAT przy zakupie śmigłowca",
+          "summary": "Dyrektor KIS potwierdził, że czynny podatnik VAT ma prawo do odliczenia 100% VAT z faktury za zakup śmigłowca oraz wydatki eksploatacyjne. Warunkiem jest wykazanie związku przyczynowo-skutkowego z prowadzoną działalnością gospodarczą i wykorzystywanie maszyny do celów służbowych oraz komercyjnych.",
+          "tags": [
+            "VAT"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Interpretacja dotyczy zasad odliczenia VAT od środków trwałych o wysokiej wartości, co ma znaczenie przy rozwoju działalności usługowej i handlowej."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS uznał stanowisko wnioskodawcy za prawidłowe w zakresie pełnego odliczenia podatku VAT naliczonego z tytułu zakupu i eksploatacji używanego śmigłowca. Maszyna ma służyć do nadzoru floty, spotkań biznesowych, podróży służbowych oraz odpłatnego wynajmu i lotów technicznych, a spółka prowadzi wewnętrzną ewidencję sposobu użytkowania.",
+            "background": "Spółka z o.o. będąca czynnym podatnikiem VAT planowała zakup lekkiego śmigłowca o wysokiej wartości początkowej i wydłużonym horyzoncie amortyzacji. Wnioskodawca zapytał, czy przysługuje mu prawo do obniżenia kwoty podatku VAT należnego o całą kwotę VAT naliczonego z faktury zakupowej i kosztów eksploatacyjnych, co organ potwierdził na podstawie art. 86 ust. 1 ustawy o VAT.",
+            "what_it_means_for_business": "Przedsiębiorca zachowuje prawo do pełnego odliczenia VAT od wydatków inwestycyjnych i eksploatacyjnych na kosztowne środki trwałe, pod warunkiem udowodnienia ich ekonomicznego uzasadnienia i ścisłego związku z prowadzoną działalnością opodatkowaną VAT, niezależnie od dłuższej stopy zwrotu i wysokiej wartości początkowej.",
+            "what_to_do": [
+              "Zapewnić ścisły związek przyczynowo-skutkowy między zakupem a prowadzoną działalnością gospodarczą",
+              "Prowadzić wewnętrzną ewidencję dokumentującą sposób użytkowania środka trwałego"
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "wniesienie skargi do Sądu"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja dotyczy zdarzenia przyszłego i stanu prawnego obowiązującego w dniu jej wydania oraz traci aktualność w przypadku zmiany opisu sprawy. Przepisów art. 14k-14n nie stosuje się w przypadkach określonych w art. 14na § 1 i § 2 Ordynacji podatkowej. Ostrzeżenie weryfikacji automatycznej: Wartość '100 %' nie została znaleziona w tekście źródłowym. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720365",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "low"
+        },
+        {
+          "id": "kis-719812",
+          "headline": "Ryczałt 8,5% dla usług zarządzania projektami PKWiU 70.22.20.0",
+          "summary": "Dyrektor KIS potwierdził, że usługi people managera i koordynacji projektów artystycznych (PKWiU 70.22.20.0) mogą być opodatkowane ryczałtem 8,5% na podstawie art. 12 ust. 1 pkt 5 lit. a ustawy o ryczałcie. Warunkiem jest brak doradztwa związanego z zarządzaniem oraz spełnienie ogólnych wymogów ustawowych.",
+          "tags": [
+            "PIT"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "high",
+            "reason": "Dotyczy formy opodatkowania (ryczałt) oraz specyfiki usług B2B wykonywanych przez JDG."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS rozstrzygnął w interpretacji o sygnaturze 0112-KDSL1-2.4011.700.2026.2.BR, że przychody z usług zarządzania projektami (PKWiU 70.22.20.0) podlegają opodatkowaniu stawką 8,5% ryczałtu od przychodów ewidencjonowanych. Organ uznał stanowisko wnioskodawczyni za prawidłowe, wskazując art. 12 ust. 1 pkt 5 lit. a ustawy o ryczałcie. Warunkiem zastosowania stawki jest to, aby czynności miały charakter wykonawczy, organizacyjny, koordynacyjny i nadzorczy, a nie stanowiły usług doradztwa związanego z zarządzaniem.",
+            "background": "Wnioskodawczyni prowadząca JDG, opodatkowana ryczałtem od 1 stycznia 2026 r., świadczy usługi na rzecz spółki komandytowej jako people manager rozproszonego zespołu oraz koordynator projektów artystyczno-produkcyjnych. Zadała pytanie, czy przychody te mogą być objęte stawką 8,5%. Organ potwierdził to stanowisko, opierając się na braku cech doradztwa w opisanych czynnościach.",
+            "what_it_means_for_business": "Przedsiębiorca świadczący usługi zarządzania projektami bez elementów doradczych może bezpiecznie stosować 8,5% stawkę ryczałtu. Daje to wymierne korzyści podatkowe w porównaniu do wyższych stawek, o ile faktyczny zakres wykonywanych czynności pokrywa się z opisem w interpretacji i prawidłową klasyfikacją PKWiU.",
+            "what_to_do": [
+              "Zweryfikować, czy świadczone usługi zarządzania projektami są prawidłowo sklasyfikowane pod symbolem PKWiU 70.22.20.0.",
+              "Upewnić się, że wykonywane czynności nie zawierają elementów doradztwa związanego z zarządzaniem lub prowadzeniem działalności gospodarczej.",
+              "Sprawdzić, czy działalność spełnia definicję działalności usługowej w rozumieniu art. 4 ust. 1 pkt 1 ustawy o ryczałcie i nie jest wykonywana w ramach wolnego zawodu."
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego za pośrednictwem Dyrektora KIS"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja została wydana przy założeniu, że Wnioskodawczyni poprawnie zakwalifikowała świadczone usługi do odpowiedniego grupowania PKWiU i nie rozstrzyga o prawidłowości tej klasyfikacji. W przypadku zmiany któregokolwiek elementu opisu sprawy, interpretacja traci swoją aktualność. Funkcja ochronna nie stosuje się w przypadkach określonych w art. 14na Ordynacji podatkowej. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/719812",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "kis-720447",
+          "headline": "KID: Wydatki na pozyskanie inwestora dla spółki powiązanej to nie KUP",
+          "summary": "Dyrektor KIS uznał, że spółka nie może zaliczyć do kosztów uzyskania przychodów wydatków na doradztwo i koszty dodatkowe związane z pozyskaniem inwestora dla innego podmiotu (spółki powiązanej z USA). Organ podkreślił zakaz rozliczania cudzych wydatków służących generowaniu przychodów przez podmioty powiązane.",
+          "tags": [
+            "CIT",
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy podatku CIT oraz rozliczeń Podatkowych Grup Kapitałowych i spółek kapitałowych, podczas gdy profil to JDG na skali podatkowej lub ryczałcie."
+          },
+          "details": {
+            "what_happened": "Dyrektor KIS rozstrzygnął, że wydatki na wynagrodzenia z tytułu usług doradczych przy pozyskiwaniu inwestora oraz koszty dodatkowe poniesione przez spółkę dominującą B. na rzecz powiązanej Spółki USA nie stanowią kosztów uzyskania przychodów w rozumieniu art. 15 ust. 1 ustawy o CIT. Przed rozstrzygnięciem wnioskodawca twierdził, że wydatki te są KUP, jednak organ uznał to stanowisko za nieprawidłowe, wskazując na zakaz zaliczania do kosztów wydatków poniesionych w celu generowania przychodów przez inny podmiot.",
+            "background": "Spółka B. S.A. należąca do Podatkowej Grupy Kapitałowej utworzyła spółkę akcyjną w USA i poniosła wydatki na doradztwo w celu pozyskania nowego inwestora dla tej zagranicznej spółki. Wnioskodawca zapytał, czy wydatki te stanowią koszty uzyskania przychodów B. Organ wyjaśnił, że niedopuszczalne jest odliczanie 'cudzych' wydatków poniesionych na rzecz spółki powiązanej.",
+            "what_it_means_for_business": "Rozstrzygnięcie potwierdza rygorystyczne podejście organów podatkowych do zasady bezpośredniego związku kosztu z przychodem własnym podatnika. Wydatki na rzecz spółek powiązanych (np. zagranicznych spółłek córek) ponoszone przez macierzysty podmiot nie mogą być swobodnie zaliczane do kosztów podatkowych, jeśli służą dokapitalizowaniu lub rozwojowi innego podmiotu.",
+            "what_to_do": [
+              "Zweryfikować w strukturze powiązań kapitałowych, kto faktycznie ponosi koszty doradztwa i pozyskiwania inwestorów.",
+              "Pilnować, aby koszty uzyskania przychodów były bezpośrednio powiązane z generowaniem przychodów przez podmiot ponoszący wydatek."
+            ],
+            "deadlines": [
+              {
+                "date": "w terminie trzydziestu dni od dnia doręczenia interpretacji indywidualnej",
+                "description": "Wniesienie skargi do Wojewódzkiego Sądu Administracyjnego za pośrednictwem Dyrektora KIS"
+              }
+            ],
+            "caveats": "Interpretacja indywidualna wiąże formalnie wyłącznie wnioskodawcę w jego indywidualnej sprawie, a dla pozostałych przedsiębiorców stanowi wskazówkę interpretacyjną pokazującą, jak organ rozumie przepisy. Interpretacja dotyczy przedstawionego stanu faktycznego i stanu prawnego obowiązującego w dacie zaistnienia zdarzenia. Przepisów art. 14k-14n nie stosuje się w przypadkach określonych w art. 14na § 1 i § 2 Ordynacji podatkowej. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "EUREKA MF (KIS)",
+              "url": "https://eureka.mf.gov.pl/informacje/podglad/720447",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "podatki_zus",
+      "title": "Zmiany w podatkach, ZUS i legislacji",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "sejm-druk-10-3289",
+          "headline": "Druk sejmowy nr 3289: Sprawozdanie Komisji Finansów Publicznych o uchwale Senatu w spra...",
+          "summary": "Druk sejmowy nr 3289 (Kadencja 10)\nTytuł projektu/dokumentu: Rządowy projekt ustawy o zmianie ustawy o podatku dochodowym od osób fizycznych, ustawy o podatku dochodowym od osób prawnych oraz ustawy o zryczałtowanym podatku dochodowym od niektórych przychodów osiąganych przez osoby fizyczne\nSzczegółowy dokument (druk):",
+          "tags": [
+            "PIT",
+            "Ustawy"
+          ],
+          "importance": "high",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
+          },
+          "details": {
+            "what_happened": "Druk sejmowy nr 3289 (Kadencja 10)\nTytuł projektu/dokumentu: Rządowy projekt ustawy o zmianie ustawy o podatku dochodowym od osób fizycznych, ustawy o podatku dochodowym od osób prawnych oraz ustawy o zryczałtowanym podatku dochodowym od niektórych przychodów osiąganych przez osoby fizyczne\nSzczegółowy dokument (druk): Sprawozdanie Komisji Finansów Publicznych o uchwale Senatu w sprawie ustawy o zmianie ustawy o podatku dochodowym od osób fizycznych, ustawy o podatku dochodowym od osób prawnych oraz ustawy o zryczałtowanym podatku dochodowym od niektórych przychodów osiąganych przez osoby fizyczne.\nData wpływu do Sejmu: 2026-11-05\nData dokumentu: 2026-11-05\nStatus procesu: Uchwalony\nCo projekt zmienia (opis merytoryczny Sejmu): projekt dotyczy ujednolicenia m.in.\nzasad opodatkowania świadczeń na zaspokojenie potrzeb rodziny, rozszerzenia zwolnienia podatkowego dla organizacji pozarządowy",
+            "background": "Materiał pochodzi z publikacji: Sejm RP (API).",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
+            "what_to_do": [
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
+            ],
+            "deadlines": [],
+            "caveats": "Etap B AI nie przeszedł weryfikacji; zastosowano bezpieczny opis ze źródła."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3289",
+              "published": "2026-11-05"
+            }
+          ],
+          "confidence": "low"
+        },
+        {
+          "id": "sejm-druk-10-3287",
+          "headline": "Uchwalono ustawę upraszczającą raportowanie ESG dla firm (Druk 3287)",
+          "summary": "Sejm uchwalił projekt ustawy (Druk nr 3287) zmieniający ustawę o rachunkowości. Zmiany wprowadzają uproszczenia w zasadach raportowania zrównoważonego rozwoju (ESG), czyli informacji o wpływie działalności na środowisko.",
+          "tags": [
+            "Ustawy"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Regulacje dotyczące sprawozdawczości ESG (Druk 3287) nie dotyczą bezpośrednio jednoosobowej działalności gospodarczej bez pracowników."
+          },
+          "details": {
+            "what_happened": "Komisja Finansów Publicznych przygotowała sprawozdanie do rządowego projektu ustawy (Druk sejmowy nr 3287) zmieniającego ustawę o rachunkowości oraz niektóre inne ustawy. Status procesu legislacyjnego to 'Uchwalono'. Projekt przewiduje uproszczenie zasad raportowania zrównoważonego rozwoju (ESG) przez przedsiębiorstwa.",
+            "background": "Prace w Sejmie objęły skierowanie do I czytania w komisjach (2026-10-22), pracę w komisjach (2026-11-04), II czytanie (2026-11-05) oraz III czytanie na posiedzeniu Sejmu (2026-11-06). Celem regulacji jest dostosowanie i uproszczenie obowiązków dotyczących ujawniania informacji o wpływie działalności przedsiębiorstw na środowisko.",
+            "what_it_means_for_business": "Dla jednoosobowej działalności gospodarczej bez pracowników nowe przepisy nie generują bezpośrednich obowiązków sprawozdawczych w zakresie ESG. Zmiany stanowią uproszczenie przepisów ustawy o rachunkowości dla podmiotów objętych tym obowiązkiem.",
+            "what_to_do": [
+              "Brak wymagalnych działań dla profilu jednoosobowej działalności gospodarczej."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-10-22",
+                "description": "Skierowano do I czytania w komisjach"
+              },
+              {
+                "date": "2026-11-04",
+                "description": "Praca w komisjach po I czytaniu"
+              },
+              {
+                "date": "2026-11-05",
+                "description": "II czytanie na posiedzeniu Sejmu / Data wpływu do Sejmu / Data dokumentu"
+              },
+              {
+                "date": "2026-11-06",
+                "description": "III czytanie na posiedzeniu Sejmu"
+              }
+            ],
+            "caveats": "brak danych Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Sejm RP (API)",
+              "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3287",
+              "published": "2026-11-05"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "gov-022afbcb3491",
+          "headline": "MF partnerem HackNation: zadanie z kryptowalut i stoisko e-Urzędu",
+          "summary": "Ministerstwo Finansów i KAS zostały partnerem strategicznym II edycji HackNation w Bydgoszczy, organizowanego w dniach 21-22 listopada 2026 r. Resort zgłosił zadanie konkursowe z obszaru kryptowalut pt. „Osintowy łapacz cyfrowych śladów” oraz zaprezentował stoisko eUrzędu Skarbowego.",
+          "tags": [
+            "Technologie"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o udziale Ministerstwa Finansów w hackatonie programistycznym nie ma bezpośredniego wpływu na bieżące rozliczenia podatkowe ani obowiązki prowadzonej jednoosobowej działalności gospodarczej."
+          },
+          "details": {
+            "what_happened": "Ministerstwo Finansów, KAS, CIRF i AKMF wzięły udział jako partner strategiczny w II edycji HackNation w Bydgoszczy w dniach 21-22 listopada 2026 r. Wydarzenie skierowane było do osób od 18 roku życia (indywidualnie lub w zespołach do max 6 osób), które miały 24 godziny na kodowanie. Resort zgłosił zadanie z obszaru kryptowalut pt. „Osintowy łapacz cyfrowych śladów” oraz wystawił stoisko prezentujące eUrząd Skarbowy i mobilny skaner bagażu.",
+            "background": "Celem udziału resortu w maratonie programistycznym dla administracji publicznej było zaangażowanie specjalistów w rozwiązywanie wyzwań technologicznych z obszaru kryptowalut oraz promocja usług cyfrowych administracji skarbowej.",
+            "what_it_means_for_business": "Wydarzenie o charakterze wizerunkowym i rekrutacyjno-technologicznym nie zmienia przepisów podatkowych ani procedur rozliczeniowych dla przedsiębiorców, stanowiąc jedynie inicjatywę informacyjną i technologiczną.",
+            "what_to_do": [
+              "Brak konkretnych czynności lub zmian w procesach księgowo-podatkowych wymaganych w firmie na skutek opisywanego wydarzenia."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-21 10:30",
+                "description": "Rozpoczęcie HackNation"
+              },
+              {
+                "date": "2026-11-22 ok. 17:15",
+                "description": "Zakończenie HackNation"
+              },
+              {
+                "date": "24 godziny",
+                "description": "Czas przeznaczony na samo kodowanie"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Ministerstwo Finansów (gov.pl)",
+              "url": "https://www.gov.pl/web/finanse/resort-finansow-partnerem-strategicznym-ii-edycji-hacknation-w-bydgoszczy",
+              "published": "2026-11-16"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "gospodarka_swiat",
+      "title": "Wydarzenia ze świata i gospodarki",
+      "status": "ok",
+      "status_message": "",
+      "items": [
+        {
+          "id": "eco-55e5da2ab883",
+          "headline": "Wyprzedaż na Wall Street i głęboka korekta głównych indeksów",
+          "summary": "Główne indeksy Wall Street, w tym S&P 500 i Dow Jones, spadły o ponad 10 proc. poniżej historycznych szczytów, wchodząc w fazę korekty. Presję wywołały m.in. spadki kursów producentów chipów oraz śledztwo SEC ws. Nvidii.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja o globalnych rynkach finansowych i giełdzie w USA nie ma bezpośredniego wpływu na rozliczenia podatkowe ani operacje jednoosobowej działalności gospodarczej w Polsce."
+          },
+          "details": {
+            "what_happened": "Doszło do wyprzedaży na Wall Street, w wyniku której indeksy S&P 500 i Dow Jones Industrial Average spadły o ponad 10 proc. poniżej historycznych szczytów. Na zamknięciu Dow Jones spadł o 1,93 proc. do 48.147,33 pkt., S&P 500 stracił 3,7 proc. do 6.910,39 pkt., a Nasdaq Composite zniżkował o 5,28 proc. do 22.617,73 pkt.",
+            "background": "Presję na sektor sztucznej inteligencji wywarła oferta publiczna (IPO) firmy Anthropic oraz spadki kursów producentów chipów, takich jak AMD (spadek o 13,3 proc.), Nvidia (spadek o 13,8 proc.) i Micron Technology (spadek o 13,9 proc.). Dodatkowo amerykańska Komisja Papierów Wartościowych i Giełd (SEC) wszczęła badania dotyczące potencjalnych nieprawidłowości księgowych w spółce Nvidia, a ze stanowiska prezesa odszedł Jensen Huang.",
+            "what_it_means_for_business": "Wydarzenia te stanowią informację makroekonomiczną dotyczącą amerykańskiego rynku kapitałowego i sektora technologicznego. Nie wprowadzają bezpośrednich zmian w polskich przepisach podatkowych, składkach ZUS ani w obowiązkach rozliczeniowych jednoosobowej działalności gospodarczej.",
+            "what_to_do": [
+              "Brak konkretnych czynności lub zmian w procesach podatkowo-księgowych wymaganych w firmie w związku z tymi wydarzeniami."
+            ],
+            "deadlines": [],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/Na-Wall-Street-dalsza-wyprzedaz-S-P-500-i-DJI-w-strefie-korekty-9232919.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-73f91677bb41",
+          "headline": "GTA 6 bije rekordy, giełdy dostają zadyszki. Złoto tonie, bitcoin drży, a miliardy płyn...",
+          "summary": "Tytuł: GTA 6 bije rekordy, giełdy dostają zadyszki. Złoto tonie, bitcoin drży, a miliardy płyną do AI\nŹródło: Bankier.pl Biznes\nData publikacji: 2026-11-21\nOpis z kanału RSS: Dzień dobry, tutaj Inwestor Wojtek.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "medium",
+          "relevance_for_profile": {
+            "level": "medium",
+            "reason": "Ocena wstępna na podstawie kategorii źródła (wymaga sprawdzenia szczegółów w linku)."
+          },
+          "details": {
+            "what_happened": "Tytuł: GTA 6 bije rekordy, giełdy dostają zadyszki.\nZłoto tonie, bitcoin drży, a miliardy płyną do AI\nŹródło: Bankier.pl Biznes\nData publikacji: 2026-11-21\nOpis z kanału RSS: Dzień dobry, tutaj Inwestor Wojtek.\nW tym tygodniu rynki finansowe wchodzą w okres podwyższonej niepewności.\nMocniejszy dolar spycha złoto i srebro do najniższych poziomów od wielu miesięcy, bitcoin zmaga się z presją sprzedających, a inwestorzy coraz uważniej przyglądają się wycenom spółek surowcowych.",
+            "background": "Materiał pochodzi z publikacji: Bankier.pl Biznes.",
+            "what_it_means_for_business": "Zweryfikuj treść dokumentu źródłowego pod kątem zastosowania w Twojej działalności.",
+            "what_to_do": [
+              "Zapoznaj się z pełną treścią materiału w źródle poniżej."
+            ],
+            "deadlines": [],
+            "caveats": "Etap A ekstrakcji AI nie zwrócił poprawnego JSON; użyto streszczenia bazowego."
+          },
+          "sources": [
+            {
+              "name": "Bankier.pl Biznes",
+              "url": "https://www.bankier.pl/wiadomosc/GTA-6-bije-rekordy-gieldy-dostaja-zadyszki-Zloto-tonie-bitcoin-drzy-a-miliardy-plyna-do-AI-9232342.html?utm_source=RSS&utm_medium=RSS&utm_campaign=Wiadomosci",
+              "published": "2026-11-21"
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "eco-180163f3fa66",
+          "headline": "Debiut giełdowy Anthropic na Wall Street i wahania cen akcji",
+          "summary": "Firma Anthropic zadebiutowała na Wall Street z ceną IPO na poziomie 83 dol., notując wzrost o 17,1 proc. na zamknięciu pierwszego dnia oraz późniejsze wahania i spadki o ok. 10 proc. w kolejnym dniu handlu. Oferta obejmowała 980 mln akcji, a spółka planuje dalszą sprzedaż walorów dużym inwestorom za łączną kwotę 26 mld dol.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy globalnego rynku kapitałowego i debiutu giełdowego podmiotu zagranicznego, nie wpływając bezpośrednio na bieżące rozliczenia podatkowe polskiej JDG."
+          },
+          "details": {
+            "what_happened": "Anthropic zadebiutował na giełdzie z ceną IPO ustaloną na 83 dol. za akcję, wobec wcześniejszego przedziału 70–78 dol. Kurs na starcie czwartkowej sesji wyniósł 111,50 dol., a na zamknięciu 97,17 dol. W piątek akcje traciły na wartości około 10 proc., oscylując w okolicach 87 dolarów. Spółka sprzedała 980 mln akcji i planuje kolejną transzę dla dużych inwestorów za 26 mld dol.",
+            "background": "Debiut Anthropic nastąpił w otoczeniu obaw inwestorów co do perspektyw sektora AI na giełdach. Spadek cen akcji w piątek mógł wiązać się z wykonaniem opcji sprzedaży akcji (over-allotment option) przez banki prowadzące emisję, a indeks S&P500 zmierza do zakończenia listopada z najgorszym wynikiem od kwietnia 2025 r.",
+            "what_it_means_for_business": "Wydarzenie ma charakter informacyjny o sytuacji na globalnych rynkach finansowych i w sektorze sztucznej inteligencji. Nie powoduje bezpośrednich skutków podatkowych ani operacyjnych dla polskiego jednoosobowego przedsiębiorcy prowadzącego usługi B2B i e-commerce.",
+            "what_to_do": [
+              "Brak konkretnych czynności operacyjnych lub podatkowych do wykonania w firmie w związku z tym wydarzeniem."
+            ],
+            "deadlines": [
+              {
+                "date": "2026-11-20",
+                "description": "Piątek, pierwszy pełny dzień handlu akcjami Anthropic na Wall Street i drugi dzień na giełdzie"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/gielda/drugi-dzien-anthropic-na-gieldzie-oto-co-sie-dzieje-z-akcjami-7353153257691168a.html",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-d89512fc2fe3",
+          "headline": "Nowy portal UFG.pl i e-usługi ułatwiające weryfikację OC pojazdów",
+          "summary": "Ubezpieczeniowy Fundusz Gwarancyjny uruchomił nową odsłonę portalu UFG.pl z cyfrowymi narzędziami dla kierowców. Umożliwiono m.in. weryfikację OC za pomocą zdjęcia tablicy rejestracyjnej lub wyszukiwania głosowego bez konieczności logowania.",
+          "tags": [
+            "Rynki",
+            "Technologie"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja dotyczy narzędzi dla kierowców i weryfikacji polis OC, nie mając bezpośredniego wpływu na podatki czy rozliczenia JDG."
+          },
+          "details": {
+            "what_happened": "UFG uruchomił nową odsłonę portalu UFG.PL w ramach projektu Platforma eUFG. Wprowadzono nowe e-usługi ułatwiające sprawdzanie ubezpieczenia OC pojazdu oraz pobieranie historii ubezpieczenia i szkód. Przedsiębiorcy i kierowcy mogą korzystać z nowych funkcji, takich jak weryfikacja OC przez zdjęcie tablicy rejestracyjnej smartfonem, wyszukiwanie głosowe numeru rejestracyjnego oraz sprawdzanie OC po numerze rejestracyjnym, VIN lub numerze polisy bez logowania i instalowania aplikacji.",
+            "background": "Zmiany wdrożono w celu usprawnienia weryfikacji ubezpieczenia OC pojazdów i pobierania historii ubezpieczenia oraz szkód. Dodatkowo uruchomiono dostępność usługi sprawdzenia OC w aplikacji mObywatel dzięki współpracy UFG z Ministerstwem Cyfryzacji i Centralnym Ośrodkiem Informatyki.",
+            "what_it_means_for_business": "Zmiana ułatwia szybkie sprawdzanie ważności ubezpieczenia OC pojazdów firmowych lub prywatnych bezpośrednio w przeglądarce mobilnej lub aplikacji mObywatel. Nie wpływa bezpośrednio na obowiązki podatkowe, składkowe czy fakturowanie w działalności gospodarczej.",
+            "what_to_do": [
+              "Wykorzystać w razie potrzeby nowe funkcje portalu UFG.pl lub aplikacji mObywatel do szybkiego sprawdzenia OC pojazdów"
+            ],
+            "deadlines": [],
+            "caveats": "Dane o zawartych umowach ubezpieczenia OC mogą się zmienić, jeśli zostaną zaktualizowane. Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/ubezpieczenia/nowe-e-uslugi-dla-kierowcow-od-ufg-dzieki-nim-szybko-sprawdzisz-oc-pojazdu-7351681604048928a.html",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "eco-5185a6a1b51b",
+          "headline": "Andrzej Domański wicepremierem, gospodarka priorytetem rządu",
+          "summary": "Prezydent Karol Nawrocki powołał ministra finansów i gospodarki Andrzeja Domańskiego na funkcję czwartego wicepremiera w rządzie Donalda Tuska. Nowy wicepremier wskazał gospodarkę, transformację energetyczną i cyfrową oraz wydatki na bezpieczeństwo jako absolutne priorytety.",
+          "tags": [
+            "Rynki"
+          ],
+          "importance": "low",
+          "relevance_for_profile": {
+            "level": "low",
+            "reason": "Informacja polityczno-gospodarcza o zmianach w rządzie nie wpływa bezpośrednio na bieżące rozliczenia podatkowe JDG."
+          },
+          "details": {
+            "what_happened": "Prezydent Karol Nawrocki powołał dotychczasowego ministra finansów i gospodarki Andrzeja Domańskiego na stanowisko czwartego wicepremiera w rządzie Donalda Tuska. Wicepremier Domański przedstawił kluczowe kierunki polityki gospodarczej państwa, w tym transformację cyfrową i energetyczną. Zapowiedziano m.in. wydatki w wysokości 200 miliardów złotych rocznie na bezpieczeństwo.",
+            "background": "Zmiana na stanowiskach rządowych wiąże się z decyzją Prezydenta o nominacji Andrzeja Domańskiego na wicepremiera. Po objęciu funkcji wygłoszono oświadczenie dotyczące kondycji finansów publicznych i celów strategicznych.",
+            "what_it_means_for_business": "Nominacja i zapowiedzi strategiczne nie zmieniają bezpośrednio przepisów podatkowych ani obowiązków rozliczeniowych jednoosobowych działalności gospodarczych. Stanowią ogólny kierunek polityki gospodarczej rządu, w tym zapowiedź nacisku na transformację cyfrową.",
+            "what_to_do": [
+              "Brak konkretnych czynności operacyjnych lub podatkowych wymaganych od przedsiębiorcy w związku z tą nominacją."
+            ],
+            "deadlines": [
+              {
+                "date": "styczeń",
+                "description": "szczyt liderów AI, przedsiębiorców, naukowców, polityków w Warszawie"
+              }
+            ],
+            "caveats": "brak dodatkowych zastrzeżeń w źródle Materiał ma charakter wyłącznie informacyjny i nie stanowi porady prawnej ani podatkowej."
+          },
+          "sources": [
+            {
+              "name": "Money.pl Wiadomości",
+              "url": "https://www.money.pl/gospodarka/domanski-nowym-wicepremierem-wskazal-priorytet-rzadu-tuska-7353040801777696a.html",
+              "published": "2026-11-20"
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "ai_model": "gemini-3.5-flash-lite",
+    "ai_calls": 25,
+    "estimated_tokens": 83485,
+    "rejected_count": 1,
+    "low_confidence_count": 2,
+    "sources_status": {
+      "weather": "unavailable",
+      "markets": "ok",
+      "eureka_kis": "ok",
+      "legislation": "ok",
+      "zus_gov": "partial",
+      "economy_world": "partial"
+    },
+    "run_mode": "production"
+  }
+}
